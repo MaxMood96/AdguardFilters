@@ -2469,6 +2469,8 @@ mtvuutiset.fi##.leaderboard
 !---------------------------------------------------------------------
 ! NOTE: Georgian
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/185650
+myhome.ge##div[class*="md\:flex h-\[100px\] md\:h-\[90px\]"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151672
 ||sab.fast.ge^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146807
@@ -3785,6 +3787,8 @@ indiatimes.com##.last8brdiv > div.sponsor_block
 176.119.30.88###tv-play
 176.119.30.88##.footer1
 duniaku.idntimes.com##amp-script[script="parallax-script"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/185298
+maid.my.id##.iniiklan
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182103
 idlixofficialx.*,idlixplus.*#%#//scriptlet('trusted-set-constant', 'dtGonza.playeradstime', '"-1"')
 idlixofficialx.*,idlixplus.*#%#//scriptlet('abort-on-stack-trace', 'DOMTokenList.prototype.contains', 'manageBodyClasses')
@@ -4467,6 +4471,11 @@ smellyfisher.com##.providers
 bestmovie.it,treccani.it##.gmp
 forum.fibra.click##.FibraClickAds-fake-poststream-item
 open.online##a[rel="sponsored"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/185324
+unionesarda.it#%#//scriptlet('trusted-set-constant', 'videojs', '{"log":{}}')
+unionesarda.it#%#//scriptlet('set-constant', 'videojs.log.level', 'noopFunc')
+!+ NOT_PLATFORM(windows, mac, android)
+@@||googleads.github.io/videojs-ima/node_modules/video.js/dist/video.min.js$domain=unionesarda.it
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182782
 torrinomedica.it##.entry-content > .code-block:has(> .adsbygoogle)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181367
@@ -6190,6 +6199,13 @@ gospodarkamorska.pl##.Home_categories_box > div.polecamy-slider > div[class*="po
 instalki.pl##center > a.gofollow > img
 onet.pl##a[href^="https://milionymonet.onet.pl/"]
 pograne.eu###custom_html-8
+! https://github.com/AdguardTeam/AdguardFilters/issues/185789
+fashionbiznes.pl##.cmpgn_adslot.slot_art_half > *
+fashionbiznes.pl##.cmpgn_adslot:not(.slot_art_half)
+fashionbiznes.pl#$#.cmpgn_adslot.slot_art_half { height: 0 !important; }
+! https://github.com/AdguardTeam/AdguardFilters/issues/185791
+infosecurity24.pl##.page-builder > section.block:has(> .ad-banner)
+infosecurity24.pl##div[siteservice]:has(> a[target="_blank"] > span > figure > div > div > img[alt="Reklama"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/185454
 mojagazetka.com##div[data-testid="AdsWrapper"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/185127
@@ -11005,6 +11021,9 @@ vatantat.ru##a[href="https://pobeda.onf.ru/"]
 !---------------------------------------------------------------------
 ! NOTE: Thai
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/185735
+i-loadzone.com##div[id^="custom_html-"][class^="widget_text widget"]
+i-loadzone.com###i-loadzone_com_678x280_main_top_responsive
 ! https://github.com/AdguardTeam/AdguardFilters/issues/184653
 pali.media##.l-cooperation
 ||img.pali.media/palithai_img/

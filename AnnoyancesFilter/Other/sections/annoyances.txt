@@ -29,6 +29,12 @@ instagram.com##._aagw:empty
 ! End: Instagram.com
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/185581
+luciferdonghua.in##.wrapper > div.announ:contains(No one like ads)
+! https://github.com/AdguardTeam/AdguardFilters/issues/185502
+cyberleninka.ru###content > div.viewer-similars
+! https://github.com/AdguardTeam/AdguardFilters/issues/184333
+kakuchopurei.com##.live-news-widget
 ! https://github.com/AdguardTeam/AdguardFilters/issues/184763
 rockpapershotgun.com##.poll_wrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182947
@@ -1160,8 +1166,6 @@ rosbalt.ru##.rkngov
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91421
 thesimpledollar.com##.compare-quotes-widget--sidebar
-! https://github.com/AdguardTeam/AdguardFilters/issues/91542
-themoscowtimes.com##.contribute-bar
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91728
 techtarget.com#?#.resources-bar-header:contains(Sponsored News)
 techtarget.com##.sponsored-news
@@ -2708,8 +2712,6 @@ gismeteo.ru###soft-promo
 ! https://forum.adguard.com/index.php?threads/13087/
 ctc.ru##.widget.special-block[data-trackable]
 ||mts.ctc.ru/?nowrap=
-! kinokong.net - полоса с популярными фильмами
-kinokong.net###hotnewsline
 ! https://forum.adguard.com/index.php?threads/13001/
 grammarly.com#%#(function() { try { if ("undefined" != typeof localStorage) { localStorage.setItem("ch:overlay.closed.time", "5000000000000") } } catch (ex) {} })();
 ! focus.ua - плавающее окно с соц. ссылками
@@ -2908,6 +2910,7 @@ yasir252.com#%#AG_onLoad(function(){setTimeout(function(){var a=document.querySe
 ||trimay.ru/?
 !
 !
+tverigrad.ru##.soc_giant
 ||php.co.jp/image/sns_tw.jpg
 inkorr.com##.content--main div.sub-tg-wrapper
 krymr.com###GR-1872-nar

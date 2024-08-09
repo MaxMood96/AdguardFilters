@@ -13,6 +13,14 @@
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/185373
+ocre-project.eu#@##cookieBox
+ocre-project.eu#@##cookiePopup
+! https://github.com/AdguardTeam/AdguardFilters/issues/185736
+@@||cdn.privacy-mgmt.com/mms/v2/get_site_data?$domain=discover.hubpages.com
+@@||cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$domain=discover.hubpages.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/185626
+@@||b.delivery.consentmanager.net/delivery/cmp.php$domain=siemens-home.bsh-group.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/185376
 myloview.*#@#.cookiesInfo
 ! https://github.com/AdguardTeam/AdguardFilters/issues/185473
@@ -4193,7 +4201,6 @@ security.nl#@#.cookie_consent:not(body):not(html)
 hm.com#@#.cookie-notification
 ! https://github.com/AdguardTeam/AdguardFilters/issues/2408
 @@||dixons.nl/catalog/view/theme/dixons/assets/js/vendor/*/cookieconsent.min.js
-
 ! https://forum.adguard.com/index.php?threads/11105/
 tvgids.nl#@#.cookie-notice:not(body):not(html)
 tvgids.nl#@#.cookie-notice-container

@@ -21,6 +21,15 @@ turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-
 temu.com#?#div[role="main"] div[style] > div[style]:has(> div[style] div[js-selector="mobile-download-ui"])
 !
 !
+copilot.microsoft.com##.cib-serp-main + #sac3p_popup_window
+moscowtimes.eu,moscowtimes.news,moscowtimes.ru##.button--app
+comic-walker.com##div[class^="AppPromotionSection_"]
+mynet.com##.mynet-kesfet-banner-box
+teller.jp##div[style*="/install-app-pc-banner/"]
+vaughn.live##.vs_mobileapp_promo
+medyascope.tv##.elementor-element-5bded82f
+thehindu.com##.read-in-app-floating-btn
+2gis.ru##._pzh6x0:has(> div > div[style*="d-assets.2gis.ru/images/daf4560904bc6dc14f90.png"])
 potreningu.pl##.mobile-popup-window
 donanimhaber.com##.open-with-app-popup
 testbook.com##.continue-app-btn
@@ -2281,7 +2290,7 @@ jmty.jp##.p-app-induction-link
 jmty.jp###header > .js_header_induction
 sanspo.com##.sanspoApp
 j-cast.com##.services-app
-donanimhaber.com##.uygulamayi-indir
+donanimhaber.com#$#.uygulamayi-indir { visibility: hidden !important; height: 0 !important; }
 donanimhaber.com##div[class="sosyal-ag boya-6"]
 news.yahoo.co.jp#?#.newsFeed_item-normal:has(> a[href^="https://app.adjust.com/"])
 news.yahoo.co.jp#?##PrimeCover-hide + aside[class^="sc-"]:has(> a[href*="adj.st/"])
@@ -2864,9 +2873,7 @@ ecvip.pchome.com.tw,24h.m.pchome.com.tw#$##smartbanner[class*="shown"] + #WRAPPE
 9gag.com#$#body { overflow: auto !important; }
 adidas.ru#$#.mobile_app_baner_container { display: none!important; }
 adidas.ru#$#body > .sticky-wrapper { height: 61px!important; }
-aminoapps.com#$#.get-app { display: none!important; }
-aminoapps.com#$#.overlay { display: none!important; }
-aminoapps.com#$?#html:has(> body) { overflow: visible!important; }
+aminoapps.com#%#//scriptlet('trusted-set-cookie', 'call2action_closed', '1')
 atresplayer.com#?#div[class^="style__StyledGlobalWrapper-"] > div[class^="style__StyledGenericModal-"]:has(> a[title="Descargar la app"])
 bigbasket.com#$#.smart-banner .mdl-layout__drawer-button { top: 0!important; }
 bigbasket.com#$#smart-banner { display: none!important; }
@@ -3280,6 +3287,10 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+teller.jp##a[href^="https://tellernovel.onelink.me/sLTh?"]
+hokuohkurashi.com##div[id^="mobile_app_link_"]
+st.benesse.ne.jp#$#.app_download_banner { display: none !important; }
+st.benesse.ne.jp#$#.app_download_banner ~ header[style^="margin-top:"] { margin-top: 0 !important; }
 rawstory.com##div[role="dialog"]:has(> iframe[title="Download Android App"])
 rawstory.com###mobile-inline-rs-signup-offer
 news.audee.jp###ApriInner
