@@ -17,6 +17,8 @@ capital.fr#@#.plainAd
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/188979
+sekai.one###adblock-modal
 ! https://github.com/AdguardTeam/AdguardFilters/issues/186309
 ||statics.liberation.fr/newsite/js/cmp/gtm.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/185935
@@ -144,8 +146,10 @@ ebookdz.com#%#//scriptlet('prevent-xhr', 'pagead2.googlesyndication.com')
 monumentum.fr#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'Blocking Ads')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179837
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147842
-japscan.lol#%#//scriptlet('remove-node-text', 'script', 'imgGood')
-japscan.lol#$#.navbar-nav > li.nav-item > a[href^="https://www.origoclick.com"] { visibility: hidden !important; }
+japscan.lol#%#//scriptlet('prevent-element-src-loading', 'script', 'acscdn.com')
+japscan.lol#%#//scriptlet('remove-node-text', 'script', ';}else{if(typeof ')
+japscan.lol#$#.navbar-nav > li#navpromo2.nav-item > a[href^="https://www.origoclick.com"] { text-indent: -5000px !important; }
+japscan.lol#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', '(e)=>')
 $script,xmlhttprequest,redirect-rule=noopjs,domain=japscan.lol
 @@$image,domain=japscan.lol
 @@||japscan.lol^$image,xmlhttprequest,script,~third-party
@@ -154,6 +158,7 @@ japscan.lol#@#[class^="copine"]
 @@||japscan.lol^$generichide
 japscan.lol#%#(()=>{const n={construct:(n,o,t)=>{const e=o[0];if(e&&e.includes("return typeof"))throw new ReferenceError;return Reflect.construct(n,o,t)}};window.Function=new Proxy(window.Function,n)})();
 japscan.lol#%#!function(){const t={apply:(t,n,o)=>{if(n&&n.match?.(/_\$_|DklzSoz|_adbn_/))throw Error();return Reflect.apply(t,n,o)}};window.String.prototype.split=new Proxy(window.String.prototype.split,t)}();
+@@||googletagmanager.com/gtag/js$domain=japscan.lol
 @@||githack.com^$script,domain=japscan.lol
 @@||statically.io^$script,domain=japscan.lol
 @@||netlify.app^$script,domain=japscan.lol
@@ -211,11 +216,12 @@ radio.fr$$script[tag-content="Flags."][min-length="20000"][max-length="300000"]
 !+ PLATFORM(ios, ext_android_cb)
 @@||radio.fr^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/125261
-animationdigitalnetwork.fr#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=animationdigitalnetwork.fr
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=animationdigitalnetwork.fr
-!+ PLATFORM(ios, ext_android_cb)
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=animationdigitalnetwork.fr
+animationdigitalnetwork.com,animationdigitalnetwork.fr#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=animationdigitalnetwork.fr|animationdigitalnetwork.com
+!#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb)
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=animationdigitalnetwork.fr|animationdigitalnetwork.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=animationdigitalnetwork.fr|animationdigitalnetwork.com
+!#endif
 ! pianoweb.fr
 pianoweb.fr#%#//scriptlet('set-cookie', 'warnadb', '1')
 pianoweb.fr#%#//scriptlet('set-constant', 'noPub', '1')

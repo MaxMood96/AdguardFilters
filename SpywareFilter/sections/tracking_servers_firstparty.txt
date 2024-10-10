@@ -28,6 +28,27 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||collect.dolap.com^
+||b.ranking.apis.sankei-digital.co.jp^
+||is-log.furunavi.jp^
+||eventrecorder.cm.bloomberg.com^
+||heatmap-events-collector.instapage.com^
+||atom.warnermedia.com^
+||zion.api.cnn.io^
+||t.blog.livedoor.jp^
+||l.ouest-france.fr^
+||ana.3751chat.com^
+||ana.chat.shalove.net^
+||ana.luvul.net^
+||ana.skypemeet.net^
+||counter.best-hit.tv^
+||analytics-op.streak.ninja^
+||track.streak.ninja^
+||panorama.wixapps.net^
+||msite.baidu.com^
+||analitik.pendik.bel.tr^
+||analytics-api.sconto.cz^
+||log-ana.h3z.jp^
 ||ivstat.indavideo.hu^
 ||stat.indidata.com^
 ||plausible.paimon.moe^
@@ -475,7 +496,6 @@
 ||analytics.cocolog-nifty.com^
 ||stats.totalav.com^
 ||analytics.clubic.com^
-||logs.netflix.com^
 ||analytics.innologica.com^
 ||track.wattpad.com^
 ||analytics.keepstreams.com^

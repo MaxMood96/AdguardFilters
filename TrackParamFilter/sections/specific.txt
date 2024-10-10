@@ -6,6 +6,37 @@
 ! Bad: ||example.org^$xmlhttprequest,redirect=noopvast-3.0 (for instance, should be in specific.txt)
 !
 !
+! kickstarter.com
+||kickstarter.com$removeparam=ref
+||kickstarter.com/projects$removeparam=event
+||kickstarter.com/projects$removeparam=term
+||kickstarter.com/projects$removeparam=total_hits
+! https://github.com/brave/adblock-lists/pull/2073
+||washingtonpost.com^$removeparam=itid
+! https://github.com/AdguardTeam/AdguardFilters/issues/189858
+||tezfiles.com$removeparam=site
+! https://github.com/AdguardTeam/AdguardFilters/issues/190134
+||calciomatome.net$removeparam=seesaa_related
+! https://github.com/AdguardTeam/AdguardFilters/issues/189843
+||smocca.jp^$removeparam=cb_ref_code
+! https://github.com/AdguardTeam/AdguardFilters/issues/189871
+||rtrp.jp^$removeparam=p_s
+! https://lidea.today/campaign/kireikirei_wchance_eraberupaycp2409/index?from=top_promotion02_kireikirei_wchance_eraberupaycp2409
+||lidea.today^$removeparam=from
+! change.org
+||change.org^$removeparam=source_location
+||change.org^$removeparam=user_flow
+! https://github.com/AdguardTeam/AdguardFilters/issues/189164
+||rbc.ru^$removeparam=from
+! https://github.com/AdguardTeam/AdguardFilters/issues/189086
+||fontanka.ru^$removeparam=from
+! LiveIntent
+||p.liadm.com/click?s=$removeparam=i6
+||p.liadm.com/click?s=$removeparam=_lc2_fpi
+||p.liadm.com/click?s=$removeparam=stpe
+||p.liadm.com/click?s=$removeparam=li
+! Bing
+||bing.com^$document,removeparam=cvid
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188889
 $removeparam=sub_rt,domain=comemo.nikkei.com|diehardtales.com|greenplanet.kaneka.co.jp|j-yokatsu2.edu.city.uruma.okinawa.jp|labo.rheos.jp|note-harumi.sbfoods.co.jp|note.basicinc.jp|note.bcnretail.com|note.calbee.jp|note.com|note.gallery.intage.com|note.kogakuin.ac.jp|note.jp|note.minne.com|note.montblanc.design|note.nhkso.or.jp|note.pokkasapporo-fb.jp|note.roxx.co.jp|note.smartnews-ads.com|note.universal-music.co.jp|note.yamap.com|note.zochang.com|refalover-note.mainichi.jp|shanaiho.itandi.co.jp|uragawa-note.jpn.panasonic.com|webtripper.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188662
@@ -390,6 +421,14 @@ $removeparam=from,domain=doujinnomori.com|shinshi-manga.net|echiman.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167273
 ||game-i.daa.jp/?cmd=ad_mode$removeparam=cmd
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167051
+||slickdeals.net^$removeparam=attr_track
+||slickdeals.net^$removeparam=trd
+||slickdeals.net^$removeparam=pv
+||slickdeals.net^$removeparam=au
+||slickdeals.net^$removeparam=prop
+||slickdeals.net^$removeparam=sdtrk
+||slickdeals.net^$removeparam=attrsrc
+||slickdeals.net^$removeparam=src
 ||slickdeals.net/?adobeRef=$removeparam=adobeRef
 ||slickdeals.net/*&sdtid=$removeparam=sdtid
 ||slickdeals.net/*&sdpid=$removeparam=sdpid
@@ -415,6 +454,8 @@ $removeparam=from,domain=doujinnomori.com|shinshi-manga.net|echiman.com
 ||gillian-guide.github.io^$removeparam=ref
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166436
 ||pcmag.com^$removeparam=taid
+!
+! VK Group
 ! VKontakte
 $removeparam=trackcode,domain=vk.com|vk.ru
 $removeparam=recom,domain=vk.com|vk.ru
@@ -424,6 +465,7 @@ $removeparam=recom,domain=vk.com|vk.ru
 ||vkplay.ru^$removeparam=mt_adset
 ||vkplay.ru^$removeparam=mt_sub1
 ||vkplay.ru^$removeparam=mt_sub2
+!
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166050
 ||incogni.com^$removeparam=transaction_id
 ||incogni.com^$removeparam=offer_id
@@ -899,6 +941,7 @@ $removeparam=ici,domain=shein.co.uk|shein.com
 ||glami.cz^$removeparam=/ga[ct]id/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/143625
 ||open.spotify.com^$removeparam=referral
+||open.spotify.com^$removeparam=si
 ! SK Telecom (skt.sh domain used as their own URL shortening service )
 ||skt.sh/common/share/bridge?$removeparam=referer
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-4966523
@@ -1047,10 +1090,14 @@ $removeparam=afid,domain=123chat.jp|kanochat.jp|live.fc2.com
 ||vercel.com^$removeparam=sfmc_asset_id
 ||vercel.com^$removeparam=sfmc_activityid
 ! https://github.com/AdguardTeam/AdguardFilters/issues/133961
+! https://github.com/AdguardTeam/AdguardFilters/issues/190214
 ||getir.com^$removeparam=is_retargeting
 ||getir.com^$removeparam=shortlink
 ||getir.com^$removeparam=deep_link_value
 ||getir.com^$removeparam=c
+||getir.com^$removeparam=source_caller
+||getir.com^$removeparam=pid
+||getir.com^$removeparam=af_reengagement_window
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134281
 ||imdb.com^$removeparam=pf_rd_m
 ||imdb.com^$removeparam=pf_rd_p
@@ -1079,6 +1126,7 @@ $removeparam=stm_medium,domain=shopee.ph|shopee.co.th|shopee.co.id
 $removeparam=stm_source,domain=shopee.ph|shopee.co.th|shopee.co.id
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131093
 ||adguard.$removeparam=clid
+||adguard-vpn.$removeparam=clid
 ! Cognativex
 ||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=history_postids
 ||campaigns-serving.cognativex.com^$xmlhttprequest,removeparam=device_code
@@ -1863,7 +1911,8 @@ $removeparam=asc_source,domain=aboutamazon.com|amazon.*|amzn.to
 ||cam4.com^$removeparam=suid
 ||cam4.com^$removeparam=showSignupPopup
 ! Tracks source site
-$removeparam=ocid,domain=bbc.com|bbc.co.uk|msn.com
+$removeparam=ocid,document,domain=msn.com
+$removeparam=ocid,domain=bbc.com|bbc.co.uk
 $removeparam=ns_mchannel,domain=bbc.com|bbc.co.uk
 $removeparam=ns_source,domain=bbc.com|bbc.co.uk
 $removeparam=ns_campaign,domain=bbc.com|bbc.co.uk
@@ -1982,7 +2031,6 @@ $removeparam=epi,domain=microsoft.com|xbox.com
 ||bilibili.com^$removeparam=share_from
 ||bilibili.com^$removeparam=spmid
 ||bilibili.com^$removeparam=plat_id
-||bilibili.com^$removeparam=mid
 ||bilibili.com^$removeparam=buvid
 ||bilibili.com^$removeparam=up_id
 ||bilibili.com^$removeparam=seid
@@ -1997,6 +2045,8 @@ $removeparam=epi,domain=microsoft.com|xbox.com
 ||bilibili.com^$removeparam=unique_k
 ||search.bilibili.com^$removeparam=from_source
 ||bilibili.com^$removeparam=vd_source
+! https://github.com/AdguardTeam/AdguardFilters/issues/188783#issuecomment-2359649738
+! ||bilibili.com^$removeparam=mid
 ! Weibo
 ||weibo.*^$removeparam=weibo_id
 ||weibo.*^$removeparam=dt_dapp

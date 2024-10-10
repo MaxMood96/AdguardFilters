@@ -26,6 +26,8 @@ spletnik.ru#%#//scriptlet('set-local-storage-item', '/^_ym/', '$remove$')
 spletnik.ru#%#//scriptlet('set-local-storage-item', 'adrcid', '$remove$')
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/189259
+webviewer.interstuhlnet.de#%#//scriptlet('set-constant', 'WURFL', 'emptyObj')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188967
 qpp.caq.org.cn#%#//scriptlet('prevent-element-src-loading', 'script', 'hm.baidu.com/hm.js')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/185857
@@ -131,10 +133,6 @@ futura-sciences.com#%#//scriptlet('set-constant', 'pa', 'emptyObj')
 futura-sciences.com#%#//scriptlet('set-constant', 'pa.privacy', 'emptyObj')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157140
 perlego.com#%#(()=>{const t={getExperimentStates:function(){return[]}};window.optimizely={get:function(){return t}}})();
-! https://github.com/AdguardTeam/AdguardFilters/issues/158318
-! https://github.com/AdguardTeam/AdguardFilters/issues/157248
-northerntool.com#%#//scriptlet('prevent-xhr', 'configure.rapid.js')
-northerntool.com#%#AG_onLoad((function(){"function"===typeof window.Yo?.rum?.initialize&&Yo.rum.initialize()}));
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147282
 clickhole.com,lifehacker.com,splinternews.com,avclub.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,qz.com,theinventory.com,theonion.com,theroot.com,thetakeout.com#%#//scriptlet('set-constant', 'ga', 'noopFunc')
 ! https://github.com/uBlockOrigin/uAssets/issues/16512#issuecomment-1639236636
@@ -228,6 +226,7 @@ reuters.com#%#//scriptlet('set-local-storage-item', 'ajs_anonymous_id', 'null')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81513
 ! https://listauthorschat.slack.com/archives/C010N14G4TF/p1686743998780969
 ! https://www.reddit.com/r/uBlockOrigin/comments/1495nei/please_provide_advice_on_this_filter/
+!+ NOT_OPTIMIZED
 m.dcinside.com,upload.dcinside.com#%#//scriptlet('set-cookie-reload', '_ga', 'OK')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136436
 cbssports.com#%#(()=>{window.admiral=function(d,a,b){if("function"==typeof b)try{b({})}catch(a){}}})();
@@ -412,18 +411,19 @@ accountkiller.com#%#window.ga = function(){var a = arguments[5];a&&a.hitCallback
 ! Suppressing both Google's Topics API and Topics API using Permissions policy
 ! AGLint temporarily disabled for this rule due to https://github.com/AdguardTeam/AGLint/issues/191
 ! TODO: Enable it back when AGLint is fixed.
+! TODO: remove document modifier when this issue is fixed - https://github.com/AdguardTeam/AdguardBrowserExtension/issues/2954
 ! aglint-disable-next-line
-/.*/$permissions=join-ad-interest-group=()
+/.*/$permissions=join-ad-interest-group=(),document
 ! aglint-disable-next-line
-/.*/$permissions=run-ad-auction=()
+/.*/$permissions=run-ad-auction=(),document
 ! aglint-disable-next-line
-/.*/$permissions=browsing-topics=()
+/.*/$permissions=browsing-topics=(),document
 !
 ! Suppressing Private State Token API
 ! aglint-disable-next-line
-/.*/$permissions=private-state-token-issuance=()
+/.*/$permissions=private-state-token-issuance=(),document
 ! aglint-disable-next-line
-/.*/$permissions=private-state-token-redemption=()
+/.*/$permissions=private-state-token-redemption=(),document
 !#endif
 !
 ! End: Rules for Google "Privacy" Sandbox

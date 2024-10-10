@@ -106,6 +106,7 @@ $app=com.miui.analytics
 ||analytics.qoqa.com^
 !
 ! Appsflyer
+-attr.appsflyersdk.com
 register.appsflyersdk.com^
 conversions.appsflyersdk.com^
 gcdsdk.appsflyersdk.com^
@@ -176,6 +177,10 @@ inapps.appsflyersdk.com^
 !
 ! NOTE: Regular rules
 !
+||xplosion.de^
+||theadex.com^
+||adui.tg.meitu.com^
+||meitustat.com^
 ||analysis.vesync.com^
 ||log16-normal-useast5.tiktokv.us^
 ||insights.zennioptical.com^

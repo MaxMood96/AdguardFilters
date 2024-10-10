@@ -36,6 +36,30 @@
 !@@||mc.yandex.ru/metrika/watch.js$domain=
 !#endif
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/190359
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=homeleisuredirect.com
+!+ PLATFORM(ios, ext_safari, ext_android_cb)
+@@||googletagmanager.com/gtm.js$domain=homeleisuredirect.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/190020
+||googletagmanager.com/gtag/js$script,redirect=googletagmanager-gtm,domain=ncsoft.jp
+! https://github.com/AdguardTeam/AdguardFilters/issues/190012
+@@||googletagmanager.com/gtm.js$domain=wowma.jp
+! https://github.com/uBlockOrigin/uAssets/discussions/25444
+@@||js.datadome.co/tags.js$domain=monster.ca
+! https://github.com/uBlockOrigin/uAssets/issues/25456
+@@||google-analytics.com/mp/collect?$domain=startse.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/189622
+@@||cdn.clerk.io/clerk.js$domain=panzerglass.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/189259
+!+ PLATFORM(ios, ext_safari, ext_android_cb)
+@@||wurfl.io/wurfl.js$domain=webviewer.interstuhlnet.de
+! https://github.com/AdguardTeam/AdguardFilters/issues/189134
+@@||rat.rakuten.co.jp^$app=jp.co.rakuten.pay
+! https://github.com/AdguardTeam/AdguardFilters/issues/188799
+@@||googletagmanager.com/gtm.js$domain=playactivate.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/189016
+@@||online.rshb.ru/rshb-mbfl/lib/snowplow/
+@@||online.rshb.ru/rshb-mbfl/plugins/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188967
 ||hm.baidu.com/hm.js$script,redirect=noopjs,domain=qpp.caq.org.cn
 !+ PLATFORM(ios, ext_safari, ext_android_cb)
@@ -115,8 +139,6 @@ mustar.meitetsu.co.jp#$#body[style="opacity: 0;"] { opacity: 1 !important; }
 @@||cdn.sophi.io/assets/demeter/*/stable/*.js$domain=nationalpost.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/185135
 @@||mailingtechnology.com/tracking/tracking_$~third-party
-! https://github.com/AdguardTeam/AdguardFilters/issues/184980
-@@||cdn.pubnub.com/pubnub-3.14.5.min.js$domain=my.pltw.org
 ! https://github.com/AdguardTeam/AdguardFilters/issues/185038
 @@||googletagmanager.com/gtm.js$domain=empireonline.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/185020
@@ -690,8 +712,6 @@ reuters.com#%#//scriptlet('set-constant', 'analytics', 'undefined')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158318
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157248
 ||cdn.yottaa.com/rapid.security.min.*.js$script,redirect=noopjs,domain=northerntool.com
-||qoe-*.yottaa.net/*/configure.rapid.js$xmlhttprequest,redirect=nooptext,domain=northerntool.com
-!+ PLATFORM(ios, ext_safari, ext_android_cb)
 @@||qoe-*.yottaa.net/*/configure.rapid.js$domain=northerntool.com
 ! fix recomendations
 @@||googletagmanager.com/gtm.js$domain=elcomercio.es|eldiariomontanes.es|elcorreo.com|lasprovincias.es|hoy.es
@@ -1116,8 +1136,6 @@ goodwillfinds.com#%#//scriptlet("set-constant", "_etmc", "emptyArr")
 @@||googletagmanager.com/gtm.js$domain=rtl.de
 ! https://github.com/easylist/easylist/pull/14208
 ||login.eki-net.com^$badfilter
-! https://github.com/uBlockOrigin/uAssets/issues/15730
-@@||googletagmanager.com/gtm.js$domain=www.nicovideo.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/133738
 @@||googletagmanager.com/gtm.js$domain=rocketnews24.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135015
@@ -1565,6 +1583,8 @@ extrahop.com#%#//scriptlet('prevent-setTimeout', 'ad blocker')
 @@||tagger.opecloud.com/mediaconsortium/*/tagger.js$domain=zakzak.co.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112503
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager-gtm,domain=lodgecastiron.com
+!+ PLATFORM(ios, ext_safari)
+@@||googleoptimize.com/optimize.js$domain=lodgecastiron.com
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||googletagmanager.com/gtm.js$domain=lodgecastiron.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/112228
@@ -2265,7 +2285,8 @@ demae-can.com#%#//scriptlet('remove-attr', 'data-trm-action|data-trm-category|da
 @@||google-analytics.com/plugins/ua/ec.js$domain=store.line.me
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136093
-@@||st.top100.ru/top100/top100.js$domain=rambler.ru|m.gazeta.ru
+! https://github.com/AdguardTeam/AdguardFilters/issues/189257
+@@||st.top100.ru/top100/top100.js$domain=rambler.ru|m.gazeta.ru|motor.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71980
 @@||media.kaspersky.com/tracking/omniture/s_code_single_suite.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71941

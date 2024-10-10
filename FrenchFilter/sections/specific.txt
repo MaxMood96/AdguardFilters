@@ -9,9 +9,16 @@
 /^(?!.*(authkong.com|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|imgsmail.ru|cloudflare.net|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=scan-fr.cc
 ! Similar to regexp above, but using the denyallow modifier
 $script,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|x.com,_____,domain=extreme-down.moe|dl-protect.link|tirexo.ink
+! Similar to regexp above, but using the denyallow modifier and for xmlhttprequest
+$xmlhttprequest,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|polyfill.io|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|x.com,_____,domain=zone-telechargement.*
 !
 !
 !
+lexpress.mu#?#p.text-right:contains(/^Publicité$/)
+lexpress.mu#?#.place-items-center:has(> div:only-child:not([class],[id]) > p.text-right:contains(/^Publicité$/))
+lexpress.mu##.place-items-center:has(> div:only-child:not([class], [id]) > p.text-right ~ script[src^="https://adserve."])
+orange.fr##div[class^="media-advert"]
+orange.fr##.tag-rm
 cuisineaz.com##.banniere-haute-wrapper
 cuisineaz.com###bottomArticle
 nicematin.com##aside > .desktop-right-col-sticky > .sticky-multi-level-container:has(> .sticky-content > .ad-slot-container)
@@ -64,8 +71,11 @@ cookomix.com##.AdMB
 h2-mobile.fr#?##main-container .blog__content:has(> .title-wrap--pr > h3:contains(Annonces))
 h2-mobile.fr###main-container .blog__content:has(> .col-md-4 > div[id^="optidigital-adslot-"])
 cosmopolitan.fr##.External
+||japscan.lol^$csp=sandbox allow-forms allow-same-origin allow-scripts allow-modals allow-orientation-lock allow-pointer-lock allow-presentation allow-top-navigation
+japscan.lol##body > .sticky-top + .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > .text-center > a.donate[href^="http"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
+japscan.lol##body > style + .container:first-of-type > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > a.aikoi.donate[href^="http"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
+japscan.lol##body > style + .container:first-of-type > .row > #main.col-md-9 > .card > #chapters.tab-content > .row.justify-content-center.align-items-center > a.image-box.donate[href^="http"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
 japscan.lol##body > .container.text-center > div.mt-3[style="margin: 0px auto; display: block;"] > a.Aikoi.donate[target="_blank"][href^="https://www."][href*="/?utm_source=manga&utm_"]:not([href^="https://www.google"]):not([href^="https://www.japscan"]):not([href^="https://www.example"]) > img.img-fluid[src^="/imgs/onc/"]
-[$path=/^\/$/]japscan.lol##body > style + .container:first-of-type > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > a.aikoi.donate[href^="http"][href*="/?utm_source=index&utm_medium=extra_large&"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
 femina.fr##.p-aside
 femina.fr##.p-inread
 femina.fr##.p-pave
@@ -230,6 +240,7 @@ rustica.fr###stickMe
 youwatch-serie.com##.buttonO
 youwatch-serie.com##.buttonrm
 youwatch-serie.com##body > #card
+empire-streaming.*##iframe[src="/banner_ads"]
 empire-streamz.fr,empire-stream.net,empire-streaming.*##.hide-ads
 cosmopolitan.fr##.Gallery-top-external
 lhebdoduvendredi.com##.b-lazy-ads

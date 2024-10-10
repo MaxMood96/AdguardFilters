@@ -11,6 +11,13 @@
 !#######################################################
 ! SECTION: Cookies - General element hiding
 !
+##.cookie-popup-overlay
+###consent-banner-main
+##.luxar_disclaimer_container
+##.cookiePolicy-Modal
+##.ck-cookie-w
+##.gdpr_cookie_popup
+###aviso-cookies
 ##.glue-cookie-notification-bar
 ##.amdb-lgpd-consent
 ##.cb01-cookie-bar
@@ -102,7 +109,6 @@
 ##.cookie-police-bar
 ###cookiesck
 ###spicookiebanner
-###cm-cookie-policy
 ##.cookie-bg
 ##.thb-cookie-bar
 ##.kvkkpop
@@ -1615,6 +1621,8 @@
 ##.wsa-cookielaw
 ##body > #ckch
 !+ NOT_OPTIMIZED
+###cm-cookie-policy
+!+ NOT_OPTIMIZED
 ###idxrcookies
 !+ NOT_OPTIMIZED
 ##.cookie-popup:not(body):not(html)
@@ -1643,6 +1651,7 @@
 !
 ! SECTION: Cookies - General URL
 !
+||complydog.com^$third-party
 ||modeto.com^$third-party
 ||kvksis.com^$third-party
 ||cloudlog.ch/cloudlog/cookie/public/app.js

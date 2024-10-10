@@ -22,6 +22,42 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/190422
+@@||betaplayer.site/embed/$stealth=referrer
+! https://github.com/AdguardTeam/AdguardFilters/issues/190625
+@@||kapsamaharitasi.turktelekom.com.tr^$stealth=ip
+! https://github.com/AdguardTeam/AdguardFilters/issues/190267
+@@||strimov.site/embed$stealth=referrer
+@@||capo4play.com/capo.php?player=$stealth=referrer
+! https://github.com/AdguardTeam/AdguardFilters/issues/190397
+@@||realtek.com/Download/SubmitDownloadRequest?downloadItemid=$stealth=ip
+! https://github.com/AdguardTeam/AdguardFilters/issues/190422
+@@||canliplayer.com/fireplayer/$stealth=referrer
+! https://github.com/AdguardTeam/AdguardFilters/issues/189770
+@@||img.reimg2.org/images/$stealth=referrer
+! https://github.com/AdguardTeam/AdguardFilters/issues/190072
+@@||cdn.skycdp.com/100e/Content/HLS_$stealth=ip
+! https://github.com/AdguardTeam/AdguardFilters/issues/189207
+@@||video.matchtv.ru/iframe/$stealth=referrer
+! https://github.com/AdguardTeam/AdguardFilters/issues/189263
+@@||doraflix.fluxcedene.net/api/$stealth=referrer
+! https://github.com/AdguardTeam/AdguardFilters/issues/189966
+@@||xbox.com/*/play/$stealth=webrtc
+! Ad-Shield stealth mode issues
+@@||css-load.com^$stealth=referrer
+@@||07c225f3.online^$stealth=referrer
+@@||html-load.com^$stealth=referrer
+! https://github.com/AdguardTeam/AdguardFilters/issues/189281
+@@||tnmr.org/hls$stealth=useragent
+@@||luluvdo.com^$stealth=useragent
+! https://github.com/AdguardTeam/AdguardFilters/issues/189168
+@@||img.soutula.com^$stealth=referrer,domain=fabiaoqing.com
+! merkur.de - broken comments
+@@||engagently.com/graphql$stealth=3p-auth,xmlhttprequest
+! https://github.com/AdguardTeam/AdguardFilters/issues/188785
+@@||*.php?id=$subdocument,stealth=referrer,domain=dubznetwork.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/188784
+@@hls/player$stealth=referrer,xmlhttprequest,domain=sportshub.to
 ! dizipal*.com - frequently changed domains
 ! https://x.com/dizipalSx
 ! aglint-disable-next-line invalid-modifiers
@@ -462,7 +498,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177915
 ! vipbox - broken player [Stealth Mode - Referrer]
 @@/sd0embed/*$subdocument,stealth=referrer,domain=vipbox.lc
-! sportsurge/totalsportek.pro - player not working [Stealth Mode - Referrer]
+! sportsurge/totalsportek.pro/dubznetwork.com - player not working [Stealth Mode - Referrer]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/180250
 @@||kenitv.me/*embed$stealth=referrer
 @@||walletkeyslocker.me/?scode=*&stream=$stealth=referrer
@@ -474,7 +510,7 @@
 @@/channel/*$subdocument,stealth=referrer,domain=redditsoccerstream.online
 @@.ru/mylivetv/stream-*.php$stealth=referrer
 @@/premium*/tracks-*.html$xmlhttprequest,stealth=referrer
-@@/tracks-v1a1/*$xmlhttprequest,stealth=referrer,domain=olalivehdplay.ru|topembed.pw|poscishd.online
+@@/tracks-v1a1/*$xmlhttprequest,stealth=referrer,domain=olalivehdplay.ru|topembed.pw|poscishd.online|pkpakiplay.xyz
 @@/index.m3u8$xmlhttprequest,stealth=referrer,domain=poscishd.online
 @@/premium*/tracks-*/*$xmlhttprequest,stealth=referrer,domain=lewblivehdplay.ru
 @@/premium*/*.php$subdocument,stealth=referrer,domain=worldstreams.lol|stronstream.shop|dailytechs.shop|sportzlive.shop
@@ -486,7 +522,7 @@
 @@/scripts/*js|$xmlhttprequest,stealth=referrer,domain=methstreamer.com|crackstreamer.net|thestreameast.ai|1stream.eu|1stream.soccer|streameast.app|thecrackstreams.live|meth-streams.ai|buffstreams.app
 @@/playlist/*caxi.m3u8$xmlhttprequest,stealth=referrer,domain=methstreamer.com|crackstreamer.net|thestreameast.ai|1stream.soccer|streameast.app|1stream.eu|buffstreams.app|meth-streams.ai
 @@playlist/*/load-playlist$xmlhttprequest,stealth=referrer,domain=methstreamer.com|crackstreamer.net|thestreameast.ai|1stream.eu|1stream.soccer|streameast.app|thecrackstreams.live|meth-streams.ai|buffstreams.app
-@@/chunklist/*.m3u8$xmlhttprequest,stealth=referrer,domain=usgate.xyz|hdfungamezz.xyz|chrisellisonllc.xyz|arcasiangrocer.store
+@@/chunklist/*.m3u8$xmlhttprequest,stealth=referrer,domain=decmelfot.xyz|usgate.xyz|hdfungamezz.xyz|chrisellisonllc.xyz|arcasiangrocer.store
 @@/hls*/*.m3u8$stealth=referrer,domain=homesports.net|techclips.net|b4ucast.com|thegentleclass.com
 @@/hls*/*.js$xmlhttprequest,stealth=referrer,domain=homesports.net
 @@/hls/*.ts$stealth=referrer,domain=techclips.net|abolishstand.net|planetfastidious.net|thegentleclass.com
@@ -910,8 +946,8 @@
 @@||api.hostemb.ws^$stealth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/137636
 @@||ov-chipkaart.nl^$stealth
-! https://github.com/AdguardTeam/AdguardFilters/issues/137570 [Stealth Mode - Hide search queries, Referrer]
-@@||yandex.ru/user-id$stealth
+! https://github.com/AdguardTeam/AdguardFilters/issues/137570
+@@yandex.*/user-id?$stealth=referrer|searchqueries
 ! https://github.com/AdguardTeam/AdguardFilters/issues/137134 [Stealth Mode - Referrer]
 @@||myyouporn.org/wp-content/uploads/$media,stealth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/137132 [Stealth Mode - WebRTC]
@@ -2528,6 +2564,12 @@
 ! https://github.com/AdguardTeam/CoreLibs/issues/1645 [Stealth Mode - Protect from DPI]
 !#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
 !
+@@||convergeict.com^$stealth=dpi
+@@||vandenborre.be^$stealth=dpi
+@@||evkur.com.tr^$stealth=dpi
+@@||civilservicejobs.service.gov.uk^$stealth=dpi
+@@||pttcell.com.tr^$stealth=dpi
+@@||turktelekom.com.tr^$stealth=dpi
 @@||desu.shikimori.one^$stealth=dpi
 @@||mvz.hufeland.de^$stealth=dpi
 @@||aquarium.co.jp^$stealth=dpi

@@ -13,6 +13,57 @@
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/190554
+bueromoebel-experte.de#@#.cookie-notice:not(body):not(html)
+bueromoebel-experte.de#@#.cookie-overlay:not(html):not(body)
+! https://github.com/AdguardTeam/AdguardFilters/issues/190495
+liveabout.com#@##onetrust-consent-sdk
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=liveabout.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/190355
+lasexta.com#@##didomi-notice
+@@||sdk.privacy-center.org^$domain=lasexta.com
+! rlptoday.de - broken embeds
+@@||delivery.consentmanager.net/delivery/cmp.php$domain=rlptoday.de
+! https://github.com/AdguardTeam/AdguardFilters/issues/189748
+legalteam.hu#@##cookieModal
+! order.apexhotels.co.uk - broken page
+order.apexhotels.co.uk#@#.cookie-container
+order.apexhotels.co.uk#@#.cookie-content
+! https://github.com/AdguardTeam/AdguardFilters/issues/190110
+hiperpharm.pl#@#.cookies-popup
+hiperpharm.pl#@#.cookies-info:not(html):not(body)
+! https://github.com/AdguardTeam/AdguardFilters/issues/190108
+@@||cookielaw.org^$domain=dacia.pl
+@@||onetrust.com^$domain=dacia.pl
+dacia.pl#@##onetrust-consent-sdk
+! https://github.com/AdguardTeam/AdguardFilters/issues/190124
+wir.wody.gov.pl#@#.accept-cookies
+! https://github.com/AdguardTeam/AdguardFilters/issues/189989
+razer.com#@##onetrust-consent-sdk
+! https://github.com/AdguardTeam/AdguardFilters/issues/189993
+@@||gunb.gov.pl/sites/all/modules/eu_cookie_compliance/js/jquery.cookie-*.min.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/189906
+@@||consent.trustarc.com/notice$domain=concur.de
+@@||consent.trustarc.com/asset/notice.js/$domain=concur.de
+! https://github.com/uBlockOrigin/uAssets/issues/25450
+saal-digital.*#@##onetrust-consent-sdk
+@@||cookie-cdn.cookiepro.com/consent/$domain=saal-digital.*
+@@||cookie-cdn.cookiepro.com/scripttemplates/*/$domain=saal-digital.*
+@@||cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js$domain=saal-digital.*
+! https://github.com/AdguardTeam/AdguardFilters/issues/189371
+rezervesdalas24.lv#@#.cookies-popup
+! https://github.com/AdguardTeam/AdguardFilters/issues/189329
+dhbbank.com#@#.cookie-bar:not(body)
+dhbbank.com#@#.js-cookie-bar
+netbanking.dhbbank.com#@##cookie-warning
+netbanking.dhbbank.com#@#.cookie-modal
+! https://github.com/uBlockOrigin/uAssets/issues/25365
+@@||sdk.privacy-center.org^$domain=24sata.hr
+! https://github.com/AdguardTeam/AdguardFilters/issues/188709
+linternasport.es,sportlampa.at,sportlampa.si,sportlampa.sk,sportlampa.hu,sportlampa.com,sportlampa.cz#@#.cookie-alert
+! https://github.com/AdguardTeam/AdguardFilters/issues/188916
+ejot.*#@##cookieLayer
+ejot.*#@#.cookie-popup:not(body):not(html)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188931
 muzyka.sklep.pl#@#.cookie-modal
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188823
@@ -1013,8 +1064,6 @@ ioi.dk#@##CookieConsent
 @@||ifabrik.de/typo3conf/ext/ifab_cookie_consent/Resources/Public/JavaScript/Frontend/sc-cookie.min.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162132
 support.enpass.io#@##cookie-status-widget-holder
-! https://github.com/AdguardTeam/AdguardFilters/issues/162099
-moneycontrol.com#@#.cookie-concern-wrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/162049
 @@||app.usercentrics.eu^$domain=rsi.ch
 @@||api.usercentrics.eu^$domain=rsi.ch
@@ -1554,7 +1603,9 @@ xn--bafg-7qa.de#@#.cookiebanner:not(body)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/144199
 starmoney.de#@#.tx-om-cookie-consent
 ! observatornews.ro - fixes video player
+!+ NOT_OPTIMIZED
 observatornews.ro#@##onetrust-consent-sdk
+!+ NOT_OPTIMIZED
 @@||cookie-cdn.cookiepro.com^$domain=observatornews.ro
 ! https://github.com/AdguardTeam/AdguardFilters/issues/143641
 seb.lv#@##cookiesMessage
@@ -3683,6 +3734,7 @@ marmaray.gov.tr#@##cookie-law-info-bar
 @@||app.usercentrics.eu/latest/main.js$domain=wetter.com|joyn.de|stromseite.de
 @@||app.usercentrics.eu/latest/bundle.js$domain=wetter.com|joyn.de|stromseite.de
 @@||api.usercentrics.eu/settings/*/latest/*.json$domain=wetter.com|joyn.de|stromseite.de
+@@||api.usercentrics.eu/gvl/*.json$domain=joyn.de
 @@||api.usercentrics.eu/consent-templates/*$domain=wetter.com
 @@||graphql.usercentrics.eu/graphql$xmlhttprequest,domain=wetter.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56704

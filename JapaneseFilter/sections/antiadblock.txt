@@ -9,14 +9,39 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/190534
+in-jpn.com##.sk-popup-window
+! https://github.com/AdguardTeam/AdguardFilters/issues/190202
+||yourfones.net/js/adsb.js
+yourfones.net#%#//scriptlet('spoof-css', 'ins.adsbygoogle', 'display', 'block')
+! https://github.com/AdguardTeam/AdguardFilters/issues/190195
+mytry.jp#@#.ad_box
+mytry.jp#$#body > #container { display: block !important; }
+! anti-adb
+wiki.yjsnpi.nu#$#.mw-file-element, .lazy-image-placeholder { visibility: visible !important; }
+@@||wiki.yjsnpi.nu^$image,xmlhttprequest,~third-party
+@@||wiki.yjsnpi.nu^$generichide
+! https://github.com/AdguardTeam/AdguardFilters/issues/190069
+gunauc.net#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+!+ PLATFORM(ios, ext_android_cb)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=gunauc.net
+! https://github.com/AdguardTeam/AdguardFilters/issues/167434
+@@||b1.best-hit.tv^$generichide
+@@||h178.com^$generichide
+@@||j-baseball.club^$generichide
+@@||j-basketball.club^$generichide
+j-basketball.club##ins.adsbygoogle[data-ad-slot]
+h178.com,j-baseball.club,j-basketball.club###gStickyAd
+! https://github.com/AdguardTeam/AdguardFilters/issues/189208
+0115765.com#%#//scriptlet('set-constant', 'use', 'false')
+@@||0115765.com/assets/ads/main.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188965
 ||kuji.xth.jp/ad-x-check.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183252
-exploader.net#%#//scriptlet('spoof-css', 'article > div[style="margin-left: -63px;width: 1120px;height: 450px;margin-bottom: 5px;display: flex;align-items: center;"] > div', 'left', 'auto')
-exploader.net#$#article > div[style="margin-left: -63px;width: 1120px;height: 450px;margin-bottom: 5px;display: flex;align-items: center;"] { position: absolute !important; left: -3000px !important; }
+exploader.net#$?#article > div[style="margin-left: -63px;width: 1120px;height: 450px;margin-bottom: 5px;display: flex;align-items: center;"] { remove: true; }
 @@||daotag.com/tag/$script,domain=exploader.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181591
-iwb.jp#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'getComputedStyle(a).height')
+iwb.jp#%#//scriptlet('prevent-setTimeout', 'getComputedStyle(a).height')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/179614
 kotobank.jp#%#//scriptlet('prevent-setTimeout', 'return')
 !#if (adguard_app_ios || adguard_ext_android_cb)
@@ -49,8 +74,8 @@ success-corp.co.jp#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com
 nieru.net#@#.ad-space
 nieru.net#@#.adWidget
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171258
-jprime.jp#$?#.js-reward-modal  { remove: true; }
-jprime.jp#$?#.js-reward-gallery-modal  { remove: true; }
+jprime.jp#$?#.js-reward-modal { remove: true; }
+jprime.jp#$?#.js-reward-gallery-modal { remove: true; }
 jprime.jp#$#.image-area { opacity: 1 !important; pointer-events: auto !imortant; filter: none !important; }
 jprime.jp#$#.js-article-wrap .article-body { opacity: 1 !important; pointer-events: auto !imortant; filter: none !important; }
 ! classic anti-adb on some blog.2nt.com sites
@@ -79,7 +104,7 @@ qa.crefan.jp#%#//scriptlet('abort-current-inline-script', 'onload', 'google_esf'
 !+ PLATFORM(ios, ext_android_cb)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=qa.crefan.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155441
-tters.jp#$#.ad-section { height: 10px !important; position: absolute !important; left: -3000px !important; }
+tters.jp#$##check-ad { height: 10px !important; position: absolute !important; left: -3000px !important; }
 tters.jp#@#ins.adsbygoogle[data-ad-client]
 tters.jp#@#ins.adsbygoogle[data-ad-slot]
 tters.jp#@#.ad-section
@@ -167,11 +192,12 @@ logworker.net#@#ins.adsbygoogle[data-ad-slot]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/137316
 o-dan.net#%#//scriptlet('remove-class', 'visited', '#oRslt li a.visited', 'stay')
 o-dan.net#%#//scriptlet('prevent-setTimeout', 'oAdChk')
-! musmus.main.jp anti-adb
+! https://github.com/AdguardTeam/AdguardFilters/issues/189963
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=musmus.main.jp
 musmus.main.jp#@#ins.adsbygoogle[data-ad-client]
 musmus.main.jp#@#ins.adsbygoogle[data-ad-slot]
-musmus.main.jp#$#div[class*="ad_"] {  height: 1px !important; width: 1px !important; min-height: 1px !important; padding: 0 !important; margin: 0 !important; overflow: hidden !important; }
-musmus.main.jp#$#div[id^="sub_ad"] {  height: 1px !important; width: 1px !important; min-height: 1px !important; padding: 0 !important; margin: 0 !important; overflow: hidden !important; }
+musmus.main.jp#$#div[class*="ad_"] {  height: 1px !important; min-height: 1px !important; visibility: hidden !important; }
+musmus.main.jp#$#div[id^="sub_ad"] {  height: 1px !important; min-height: 1px !important; visibility: hidden !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/133621
 snrec.jp#$#.tp-backdrop { display: none!important; }
 snrec.jp#$#.tp-modal { display: none!important; }
@@ -438,12 +464,6 @@ fp1-siken.com,fp2-siken.com,fp3-siken.com,ap-siken.com,db-siken.com,fe-siken.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/49430
 applion.jp#@#.ads-ad
 applion.jp#$##adcheck.ads-ad { display: block!important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/48715
-gigaho.com#$##unblk { display: none!important; }
-gigaho.com#$#.entry-content { display: block!important; }
-gigaho.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textAd.text_ad.text_ads.text-ads.text-ad-links { display:block!important; }
-gigaho.com#%#AG_onLoad(function() { var el=document.querySelector('ins.adsbygoogle'); var ce=document.createElement('iframe'); ce.style = 'width: 0px !important; border: none !important;'; if(el) { el.appendChild(ce); } });
-gigaho.com$$script[wildcard="*window.onload*document.getElementsByClassName*adsbygoogle*"][min-length="600"][max-length="1200"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/35721
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||teachios.com^$generichide

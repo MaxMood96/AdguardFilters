@@ -29,6 +29,27 @@ instagram.com##._aagw:empty
 ! End: Instagram.com
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/190601
+no-one-no.net##iframe[width="560"][height="315"][src^="https://www.youtube.com/embed/"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/189853
+opennet.ru,opennet.me##body > div[style$="width:100%; height: 62px;"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/189851
+thenewstack.io##.tns-trending-stories-block.inline
+! https://github.com/AdguardTeam/AdguardFilters/issues/189656
+bipblog.com##iframe[src="https://www.youtube.com/embed/tagjNNdaD8o?si=J-LfNQ9hsKrVRUnA"]
+! tracking empty placeholder
+zzz.gamers-luck.com###fix_sidebar
+! Baidu
+! https://github.com/AdguardTeam/AdguardFilters/issues/189502
+wap.baidu.com##.tab_news
+! search - hot results
+! https://github.com/AdguardTeam/AdguardFilters/issues/189327#issue-2541929185
+baidu.com##.s-hotsearch-wrapper
+! Google search - trending results (Italian mobile version)
+! https://github.com/AdguardTeam/AdguardFilters/issues/188923#issuecomment-2366913755
+google.*###main > div[jscontroller="OPwjEf"]
+google.*##.OBMEnb:has(> .ynRric)
+google.*##.ftihzf:has(> .ynRric)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188884
 lasestrellas.tv###video-players-container > .fixed.bottom-0
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188673
@@ -71,9 +92,13 @@ gamesindustry.biz##.jobs-widget
 vogue.co.th##section.daily_right_player
 vogue.co.th##div.vdo-show-only-mobile-size
 ! winfuture.de - annoying user engagement text at end of article
+!+ NOT_OPTIMIZED
 winfuture.de#?#.content_wrap > #news_content > br + b:contains(?)
+!+ NOT_OPTIMIZED
 winfuture.de#?#.content_wrap > #news_content > br + i > b:contains(?)
+!+ NOT_OPTIMIZED
 m.winfuture.de#?##articleBody > br + i > b:contains(?)
+!+ NOT_OPTIMIZED
 m.winfuture.de#?##articleBody > br + b:contains(?)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/182678
 utaten.com###philippines_banner
@@ -367,8 +392,6 @@ snabi.jp##img[src^="/assets/appeal_consulting_banner_"] ~ div[class^="css-"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/158341
 ||1prof.by/wp-content/uploads/*/igry-sng-na-banner.gif
 1prof.by##img[width="854"][height="480"]
-! https://github.com/AdguardTeam/AdguardFilters/issues/157828
-thebell.io#?#.post_content > p:contains(ПРОИЗВЕДЕН И РАСПРОСТРАНЕН ИНОСТРАННЫМ АГЕНТОМ)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/157553
 road.cc##.full__sponsor-box
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156919
@@ -450,7 +473,6 @@ k2s.cc,tezfiles.com,fboom.me##.banner-firefox-warning
 k2s.cc,tezfiles.com,fboom.me#%#//scriptlet('set-constant', 'document.hasStorageAccess', 'undefined')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150190
 netprizyvu.ru##.ebala
-netprizyvu.ru#?#.currentnews__subtitle > noindex:has(> span:contains(РАСПРОСТРАНЕН ИНОСТРАННЫМ АГЕНТОМ))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149774
 forklog.com##.post_bottom_socials
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149832
@@ -715,8 +737,6 @@ tomshardware.com##.read-more-container
 cinemablend.com,livescience.com,gamesradar.com,tomshardware.com,pcgamer.com,windowscentral.com,laptopmag.com,techradar.com##.related-articles-block
 ! https://github.com/AdguardTeam/AdguardFilters/issues/133305
 sia.ru###right_fixed_block
-! floating video
-||player.ivideosmart.com^$domain=myjitsu.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/143850
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131669
 softpedia.com##iframe[src^="/zds.php"]
@@ -1182,11 +1202,15 @@ blog.hubspot.com##.blog-card-cta
 digitalvidya.com###text-13
 digitalvidya.com###text-8
 digitalvidya.com###text-21
-! "Foreign agents"
+! "Foreign agents" / "Иностранные агенты"
+kavkaz-uzel.eu#?#.articles-body_contents > p:contains(ИНОСТРАННЫМ АГЕНТОМ)
+thebell.io#?#.post_content > p:contains(ПРОИЗВЕДЕН И РАСПРОСТРАНЕН ИНОСТРАННЫМ АГЕНТОМ)
+netprizyvu.ru#?#.currentnews__subtitle > noindex:has(> span:contains(РАСПРОСТРАНЕН ИНОСТРАННЫМ АГЕНТОМ))
 novayagazeta.ru#?##article-body #materialBlock_0 > div:has(> div > p:contains(НАПРАВЛЕН ИНОСТРАННЫМ АГЕНТОМ))
 thebell.io##app-inoagent-banner
 thebell.io##.arena-cut-grey
 rosbalt.ru##.rkngov
+vtimes.io##.article__fa-disclaimer
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91421
 thesimpledollar.com##.compare-quotes-widget--sidebar
@@ -1325,8 +1349,6 @@ lankasri.com##.lsb-blurb-header
 republika.id###ltumat
 ! wowgame.jp - annoying widget
 wowgame.jp###tubiaWalkthroughNotification
-! vtimes.io - уведомление про иностранных агентов
-vtimes.io##.article__fa-disclaimer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84268
 hackspirit.com##.hacks-affiliate-disclosure-before-content
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84259
@@ -1576,9 +1598,6 @@ codestudyblog.com###divshow3
 kinoafisha.info##.article_channels
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70130
 elle.pl##.flyMoviPlayer
-! https://github.com/AdguardTeam/AdguardFilters/issues/69642
-ganc-chas.by##.telegramim_button
-ganc-chas.by##a[href^="https://invite.viber.com/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/69207
 vesti.uz###telegram
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70195
@@ -2903,8 +2922,8 @@ animaunt.tv##.icon-bar > .fl-fl
 cracxpro.com,techsini.com##.onp-sl-overlap-box
 psdfreebies.com#$#.onp-locker-call { display: block!important; }
 rbc.ua##.telegram-link
-hackstore.net,activationkeys.co,bicfic.com,boxcracked.com,androidride.com,chserialkey.com,cracksmod.com,cracxsoftwares.com,creativefabrica.com,downloadmockup.com,f4freesoftware.com,freeappstorepc.com,fullpcsoftz.com,hentairon.net,latestcracked.com,megawarez.org,procrackerz.org,profullcrack.com,psdfreebies.com,serialkeypro.com,shehrozpc.com,warezcrack.net,workingkeys.org#$#.onp-sl-content { display: block !important; }
-hackstore.net,activationkeys.co,bicfic.com,boxcracked.com,androidride.com,chserialkey.com,cracksmod.com,cracxsoftwares.com,creativefabrica.com,downloadmockup.com,f4freesoftware.com,freeappstorepc.com,fullpcsoftz.com,hentairon.net,latestcracked.com,megawarez.org,procrackerz.org,profullcrack.com,psdfreebies.com,serialkeypro.com,shehrozpc.com,warezcrack.net,workingkeys.org#$#.onp-sl-social-locker { display: none !important; }
+hackstore.net,activationkeys.co,bicfic.com,boxcracked.com,androidride.com,chserialkey.com,cracksmod.com,creativefabrica.com,downloadmockup.com,f4freesoftware.com,freeappstorepc.com,fullpcsoftz.com,hentairon.net,latestcracked.com,megawarez.org,procrackerz.org,profullcrack.com,psdfreebies.com,serialkeypro.com,shehrozpc.com,warezcrack.net,workingkeys.org#$#.onp-sl-content { display: block !important; }
+hackstore.net,activationkeys.co,bicfic.com,boxcracked.com,androidride.com,chserialkey.com,cracksmod.com,creativefabrica.com,downloadmockup.com,f4freesoftware.com,freeappstorepc.com,fullpcsoftz.com,hentairon.net,latestcracked.com,megawarez.org,procrackerz.org,profullcrack.com,psdfreebies.com,serialkeypro.com,shehrozpc.com,warezcrack.net,workingkeys.org#$#.onp-sl-social-locker { display: none !important; }
 latestcracked.com#$#.onp-sl-signin-locker { display: none!important; }
 warezcrack.net#$#.onp-sl-content > [data-lock-id^="onpLock"] { display: block!important; }
 !
@@ -2924,6 +2943,12 @@ yasir252.com#%#AG_onLoad(function(){setTimeout(function(){var a=document.querySe
 ||trimay.ru/?
 !
 !
+onefootball.com##div[class^="EmbeddedVideoPlayer_"]
+onefootball.com##div[class^="EmbeddedVideoPlayer_"] + hr
+fontanka.ru##section[class]:has(> div[class^="links_"] > a[href="https://vk.com/fontanka?from=news_share"])
+zoom.earth##.notifications
+milliyet.com.tr##.news-content > div.section-container-content
+marketwatch.com##div[type="wtrn_cxense"][class^="css-"]
 reminder.media###app > a[href="https://t.me/justakindreminder"]
 tverigrad.ru##.soc_giant
 ||php.co.jp/image/sns_tw.jpg

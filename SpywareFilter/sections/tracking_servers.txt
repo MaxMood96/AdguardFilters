@@ -17,6 +17,7 @@
 !
 ! The list of bug-tracker services(Sentry, etc.)
 ! Add as commented rules. Will be used in additional list and/or strict DNS
+! ||cdn.pubnub.com^
 ! ||data.debugbear.com^
 ! ||js.cdn.applicationinsights.io^
 ! ||eastus-*.applicationinsights.azure.com^
@@ -65,6 +66,19 @@
 !
 !
 !
+||pa-cd.com^$third-party
+||covatic.io^
+||cdn.gpmdata.ru^$third-party
+||petametrics.com^
+||ultraimpression.jp^
+||brwsrfrm.com^
+||adtrace.ai^$third-party
+||mato.clanto.cloud^
+||matomo.clanto.cloud^
+||client-log.karte.io^
+||replaybird.com^$third-party
+||analytics.spearly.com^
+||google-analytics.bi.owox.com^
 ||api.sail-personalize.com^$third-party
 ||events.baselime.io^
 ||trackdesk.com^$third-party
@@ -142,7 +156,6 @@
 ||tjk-njk.com^
 ||reitingi.lv^$third-party
 ||tracker.insurads.com^
-||cdn.pubnub.com^
 ||ziwelatum.com^
 ||houston.advgo.net^
 ||merchant-center-analytics.goog^

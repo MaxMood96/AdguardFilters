@@ -17,7 +17,7 @@
 !
 ! Tealium
 ! The site should be carefully checked when you add this rule
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com|hulu.com|qvc.jp
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=yousee.dk|sibreal.org
 !
 !
@@ -70,6 +70,56 @@ $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 /prod/dfm/g2i.min.js$redirect=nooptext,important,domain=dailycamera.com
 /prod/dfm/t8y9347t.min.js$redirect=nooptext,important,domain=dailycamera.com
 !
+||apay-us.amazon.com/cs/uedata|$domain=litter-robot.com
+||litter-robot.com/tag/events/
+||scholar.google.com^$ping
+||cdn.zg-api.com/a/z/js/v1/analytics.js
+||metro.tokyo.lg.jp/shared/js/gtag.js
+||metro.tokyo.lg.jp/shared/js/g_tag.js
+||wealthfront.com/event
+||wealthfront.com/track_next?p=
+||gg.asuracomic.net/api/views/collect
+||probance.jp/webtrax/public/probance_tracker.js
+/firebase-analytics.js$domain=furunavi.jp
+||static.site24x7rum.jp/beacon/
+||api.actagtracker.jp/tag|
+||shop.post.japanpost.jp/js/analytics_cookie.js
+||static.rtrp.jp/static/js/googletagmanager.*.js
+||radar.cloudflare.com/api/analytics
+||assets.bwbx.io/s3/foundation/event-recorder-client/1.0/event-recorder-client.min.js
+||api.weglot.com/pageviews?api_key
+||makeship.com/_vercel/insights/script.js
+||makeship.com/ingest/static/recorder-v2.js
+||makeship.com/ingest/*?compression=
+||hellomagazine.com/_vercel/*insights/*.js
+||qvc.jp/*/adobeanalytics.min.*.js
+||masutabe.info/js/access.js
+||statics.impresa.pt/js/analytics/
+||tanweb.net/wordpress/?rest_route=/sng/v1/page-count
+||game8.jp/logs^
+||anilibria.top/api/v1/ads/
+||baitoru.com/*/adobe_send_tracking.js
+||charmmy-api.line.me/api/*/bars/tracking
+||receptions.smart-bdash.com/receptions/action/click
+||kojima.net/excludes/KPC/js/kjm_gtm.js
+||korewaeroi.com/fukugan_$subdocument
+||shopch.jp/com/js/analytics.js
+||cdn.shopify.com/extensions/*/tiktok-pixel-for-adtrace-*/tiktok-pixel.js
+||services.meteored.com/web/usr/v1/check/
+||logbase.io/metrics
+||google.com/pagead/1p-conversion/
+||change.org/*/xhr/b/s/beacon
+||px-cloud.net/api/v2/collector
+||market-click2.yandex.ru/safeclick/json|
+||static.cdn-cian.ru/frontend/frontend-sdk/system-logger/global-system-logger*.js
+||tetori-colorme.com/share/js/tracking.js
+||appront.net/click.js
+||api.qub.ca/anonymous-id/lib
+||api.qub.ca/collector-service/
+||javedit.com/e/public/ViewClick/
+onefootball.com##section[class^="XpaTaboolaPlaceholder_"]
+arstechnica.com###story-recommendations
+||assets.rfdcontent.com/*/analytics/
 ||sprinklr.com/api/livechat/prompt/browse/event|
 ||assets.thdstatic.com/analytics/core/*/appMeasure$domain=homedepot.com
 ||canarytokens.com/*/*/*.$all
@@ -804,7 +854,6 @@ president.jp##.recommend
 ||carmazoon24-pu01.ihre-webseite.it/js/logger
 ||tracemyip.org/vLg/lgUrl.php
 ||minorasu.basf.co.jp/shared/scripts/vendor/google-analysis/
-||minkou.jp/js/tracking.js
 ||cdn.aimtell.com/trackpush/trackpush.min.js
 ||researchgate.net/track/
 ||pc.assets-cosme.net/js/ga.js
@@ -2808,7 +2857,6 @@ continentseven.com##.gaoop
 ||practicequiz.com/responsive/js/ga.js
 ||omt.shinobi.jp/pv^
 ||omt.shinobi.jp/tsumugi?location=
-||t.blog.livedoor.jp/u.js
 ||youku.com/compvlog?
 ||tinypass.com^*/track?
 ||e-kuzbass.ru/rank$third-party
@@ -3332,7 +3380,7 @@ computerbild.de##.articleAdditional > .mehrthema
 ||dmx.sync.yume.com/tracker/
 m.lenta.ru##.b-footer_counters
 ||openculture.com/wp-admin/admin-ajax.php*^action=rxn_
-||googletagservices.com/tag/js/gpt.js$domain=sinoptik.ua|gutefrage.net|dt.ua|ngs.ru|unian.net|easybib.com|bohenon.com|linuxtopia.org|newsroom.kh.ua|hclips.com|noticierodigital.com|northumberlandgazette.co.uk|mywebtimes.com|watchuseek.com|telekritika.ua|fontanka.ru|vesti.ua|bhub.com.ua|guhoyas.com|rst.ua|hh.ru|buhgalter.com.ua|unocero.com|autonews.com|metropoles.com|okezone.com|m.yeniakit.com.tr|kanalukraina.tv|day.az|knuddels.de
+||googletagservices.com/tag/js/gpt.js$domain=sinoptik.ua|gutefrage.net|dt.ua|ngs.ru|unian.net|easybib.com|bohenon.com|linuxtopia.org|newsroom.kh.ua|hclips.com|noticierodigital.com|northumberlandgazette.co.uk|mywebtimes.com|watchuseek.com|telekritika.ua|fontanka.ru|bhub.com.ua|guhoyas.com|rst.ua|hh.ru|buhgalter.com.ua|unocero.com|autonews.com|metropoles.com|okezone.com|m.yeniakit.com.tr|kanalukraina.tv|day.az|knuddels.de
 ||imagecrest.com/asset/view/stats.php
 ||success.trendmicro.com/jslibrary/*/NetworkTracking.js
 ||fonts.net/t/trackingCode.js
@@ -4086,6 +4134,8 @@ link.gmapp*.net$image
 ! it's problematic that due to how Gmail proxy work, these domains aren't even exposed on the network level
 ! fortunately, extensions can see them (Gmail puts the real URL in the location.hash part of the src)
 !
+! melonbooks.co.jp
+cl.melonbooks.co.jp$image
 ! mailgun.org
 click.contact.kamalaharris.com$image
 email.win.donaldjtrump.com$image
