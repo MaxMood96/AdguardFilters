@@ -21,14 +21,115 @@
 !
 ! https://github.com/AdguardTeam/AdguardBrowserExtension/issues/2992 09-10-2024
 ! TODO: remove it when the issue is fixed
-://ads.$~image,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.business.bell.ca|~ads.cafebazaar.ir|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.finance|~ads.google.cn|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.luarmor.net|~ads.magalu.com|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.mojagazetka.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.pinterest.com|~ads.red|~ads.rohlik.cz|~ads.rohlik.group|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~ads.x.com|~ads.yandex|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com,badfilter
+://ads.$~image,~xmlhttprequest,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.business.bell.ca|~ads.cafebazaar.ir|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.finance|~ads.google.cn|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.luarmor.net|~ads.magalu.com|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.mojagazetka.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.pinterest.com|~ads.red|~ads.rohlik.cz|~ads.rohlik.group|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~ads.x.com|~ads.yandex|~badassembly.com|~caravansforsale.co.uk|~fusac.fr|~memo2.nl|~reempresa.org|~satmetrix.com|~seriouswheels.com,badfilter
+! https://github.com/AdguardTeam/AdguardBrowserExtension/issues/2992
+||livejasmin.com^$popup,third-party,badfilter
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/191519 24-10-2024
+petitfute.com###adup_bigContentAd
+||cdn.jokerly.com/scripts/LPF_abChoice.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/191497 24-10-2024
+computherm.hu#@#.cookie-alert
+! https://github.com/AdguardTeam/AdguardFilters/issues/191237 24-10-2024
+thepiratebay.zone,pirateproxylive.org##.download > a[target="_blank"]:not([href*="magnet:"], [href*="tpb.party"], [href*="pirateproxylive.org"])
+! https://github.com/AdguardTeam/AdguardFilters/issues/191243 24-10-2024
+ersincaki.net#%#//scriptlet("set-constant", "tie.ad_blocker_detector", "")
+! https://github.com/AdguardTeam/AdguardFilters/issues/191501 24-10-2024
+lulustream.com#%#//scriptlet('abort-on-property-read', 'showADBOverlay')
+! https://github.com/AdguardTeam/AdguardFilters/issues/191500 24-10-2024
+hegra.cam##div[id^="fixedban"]
+hegra.cam##.visible-block
+hegra.cam##div[class^="adbn"][class*="wrap"]
+hegra.cam##div[class^="rts"][class*="-urts"]
+hegra.cam##div[class^="dr"][class*="-udr"]
+hegra.cam##body > div[class^="content"][class*="-block"]
+hegra.cam##center > a[target="_blank"] > button[onclick="hideButton()"]
+hegra.cam#%#//scriptlet('prevent-addEventListener', 'click', 'window.open(_0x')
+hegra.cam#%#//scriptlet('abort-on-property-write', 'openPopUnder')
+hegra.cam#%#//scriptlet('prevent-element-src-loading', 'script', '/profitsence\.com|pagead2\.googlesyndication\.com|doubleclick\.net|headerbidding\.ai/')
+hegra.cam#%#//scriptlet('prevent-fetch', 'method:HEAD')
+hegra.cam#%#//scriptlet('prevent-setTimeout', '/new Request[\s\S]*?Promise\.all[\s\S]*?\.status|function _0x|\.onerror|\.style\.display|=== .none./')
+! https://github.com/AdguardTeam/AdguardFilters/issues/191201
+bio-hoflieferant.de#@##cookie_modal
+! https://github.com/AdguardTeam/AdguardFilters/issues/191478 23-10-2024
+@@||cmp.inmobi.com/choice/*/choice.js$domain=ilgiornale.it
+@@||cmp.inmobi.com/tcfv2/*.js$domain=ilgiornale.it
+@@||cmp.inmobi.com/*/vendor-list-*.json$domain=ilgiornale.it
+ilgiornale.it#@#.qc-cmp2-container
+! https://github.com/AdguardTeam/AdguardFilters/issues/191206 23-10-2024
+eztvx.to##.episode_middle_column a[href] > img[alt*="Anonymous"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/190766 23-10-2024
+||mesh.if.iqiyi.com/portal/*/recommend?$xmlhttprequest,removeparam=ad
+||mesh.if.iqiyi.com/portal/*/recommend?$xmlhttprequest,removeparam=adExt
+||mesh.if.iqiyi.com/portal/lw/search/$xmlhttprequest,removeparam=ad
+||mesh.if.iqiyi.com/portal/lw/search/$xmlhttprequest,removeparam=adExt
+iqiyi.com###middle_banner_ad_bk
+iqiyi.com##.search-item-box:has(> a > div > div[class^="ad_adContent"])
+iqiyi.com##div[class^="list_list__"] > div[style*="margin-bottom:"] > div[style*="margin-right:"]:has(> div > div[style*="background-image:"] div > div[class^="video-list-item_"] > div[class^="video-list-item_"] > a[href*="&creative_id="][href*="&impress_id="])
+iqiyi.com##div[class^="list_list__"] > div[style*="margin-bottom:"] > div[style*="margin-right:"]:has(> div > div[style*="background-image:"] div > div[class^="video-list-item_"] > div[class^="video-list-item_"] > a > div[class^="video-list-item_"] > div[class*="video-list-item_"] > img[src*="/ADS/"])
+iqiyi.com#%#//scriptlet('json-prune', 'data.template.tabs.*.blocks.*.data.data.videos.*.ad')
+iqiyi.com#%#(()=>{let e=!1;window.qyMesh=window.qyMesh||{},window.qyMesh=new Proxy(window.qyMesh,{get:function(a,t,d){return!e&&a?.preload?.Page_recommend_1?.response?.items&&(a.preload.Page_recommend_1.response.items.forEach((e=>{e.extData?.dataExtAd&&(e.extData.dataExtAd={}),e.video&&e.video.forEach((e=>{e.adverts&&(e.adverts=[]),e.data&&(e.data=e.data.filter((e=>!e.ad)))}))})),e=!0),Reflect.get(a,t,d)}})})();
+! https://github.com/AdguardTeam/AdguardFilters/issues/191451 23-10-2024
+seznamzpravy.cz##div[data-e2e="ogm-branding"] > div:has(> div > div > div[data-e2e="mol-advert"])
+! https://github.com/AdguardTeam/AdguardFilters/issues/191199 23-10-2024
+f95zone.to##.p-nav-list a[target="_blank"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/191416 23-10-2024
+@@||app.usercentrics.eu/browser-ui/*.js$domain=filialen.santander.de
+@@||api.usercentrics.eu/settings/*/latest/*.json$domain=filialen.santander.de
+filialen.santander.de#%#!function(){const t=setInterval((function(){var e=document.getElementById("usercentrics-root");if(e&&e.shadowRoot){var o=e.shadowRoot.querySelector('button[data-testid="uc-accept-all-button"]');if(!o)return;clearInterval(t),o.click()}}),100);setTimeout((function(){clearInterval(t)}),1e4)}();
+! https://github.com/AdguardTeam/AdguardFilters/issues/191135 23-10-2024
+yts.unblocked.tube##.hidden-xs > a[target="_blank"] > img
+yts.unblocked.tube##div[id][onclick*="window.open"][onclick*="vpn"]
+yts.unblocked.tube##.home-content > div[class*=" "]:has(> div > a[rel])
+yts.unblocked.tube###movie-content > .row[id] > .col-lg-12 > div[class]:has(> a[rel])
+yts.unblocked.tube##div[style*="width: 100%;"][style*="height:"][style*="margin: 0px;"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/191280 23-10-2024
+ge.globo.com##.default-ad
+ge.globo.com###enrichment-tab-escalacao > div[class^="sc-"] > div:not([class], [id]):has(> div[id^="banner_rm"])
+ge.globo.com##.horizon-impression-wrapper > div[class^="sc-"] > ul[class^="sc-"] > li[class^="sc-"]:has(> div:not([class], [id]) > div[id^="banner_"])
+! https://github.com/AdguardTeam/AdguardFilters/issues/191404 23-10-2024
+afaforsakring.se#@##CookieConsent
+afaforsakring.se#@#.cookie-info:not(body):not(html)
+afaforsakring.se#@#.cookie-popup:not(body):not(html)
+! https://github.com/AdguardTeam/AdguardFilters/issues/191178 23-10-2024
+finnader.com,retireally.com,cryptomeloud.com##body > style + div[id][class*=" "]
+finnader.com,retireally.com,cryptomeloud.com#%#//scriptlet('prevent-eval-if', '/fairAdblock|chp_?adblock|adsbygoogle\.js/')
+! https://github.com/AdguardTeam/AdguardFilters/issues/191418 23-10-2024
+new-fmovies.cam##div[id] > .close.ico
+new-fmovies.cam##div[id] > .close.ico + a[href="/user/profile/premium-membership"]
+new-fmovies.cam##a[href="/user/profile/premium-membership"] > img
+new-fmovies.cam##.jw-logo[style^="background-image: url("][style*="/addons/"]
+new-fmovies.cam##.jwplayer > div.afs_ads ~ div[style*="z-index"][style*="position: absolute;"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/191419 23-10-2024
+afdigitale.it##.herald-da > a[target="_blank"] > img
+afdigitale.it##.herald-below-header:has(> a[target="_blank"])
+afdigitale.it##.herald-sidebar .textwidget > a[target="_blank"] > img
+||afdigitale.it/wp-content/uploads/2024/04/BANNER-Goldenear-2.gif
+||afdigitale.it/wp-content/uploads/2024/10/Animazione_Thesis-copia-esec.gif
+! https://github.com/AdguardTeam/AdguardFilters/issues/191427 23-10-2024
+todaseries.cc##.pmovie__rbutton > a[target^="_blank"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/191428 23-10-2024
+! https://github.com/AdguardTeam/AdguardFilters/issues/191426
+onlinegratis.cc,seriesgratis.cloud##.movie-xyz > a[rel]
+! https://github.com/AdguardTeam/AdguardFilters/issues/191425 23-10-2024
+tojimangas.com##.scrollToTop + div[id][class*=" "]
+tojimangas.com#%#//scriptlet('prevent-eval-if', '/fairAdblock|chp_?adblock|adsbygoogle\.js/')
+! https://github.com/AdguardTeam/AdguardFilters/issues/191359 22-10-2024
+edumail.icu#%#//scriptlet('remove-node-text', 'script', 'enable_ad_block_detector')
+! https://github.com/AdguardTeam/AdguardFilters/issues/191361 22-10-2024
+muratordom.pl#@#.promo.main_page.container, .player-block-info
+muratordom.pl#$#.adsbox.doubleclick.ad-placement { display: block !important; }
+muratordom.pl#%#//scriptlet('prevent-setTimeout', '/offsetWidth[\s\S]*?sponsored[\s\S]*?\.parentNode\.removeChild/')
+||idm.hit.gemius.pl/gplayer.js$script,redirect=gemius,domain=muratordom.pl
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=muratordom.pl
+! https://github.com/AdguardTeam/AdguardFilters/issues/191362 22-10-2024
+vibefm.pl##.article__placement
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191337 21-10-2024
-frankenpost.de##div[id^="leaderboard"]
-frankenpost.de##div[id^="rectangle"]
-frankenpost.de##div[data-upscore-zone^="Contentad"]
-frankenpost.de##div[id^="billboard"]
-frankenpost.de##div[id^="mobilebanner"]
+kurier.de,np-coburg.de,frankenpost.de##div[id^="leaderboard"]
+kurier.de,np-coburg.de,frankenpost.de##div[id^="rectangle"]
+kurier.de,np-coburg.de,frankenpost.de##div[data-upscore-zone^="Contentad"]
+kurier.de,np-coburg.de,frankenpost.de##div[id^="billboard"]
+kurier.de,np-coburg.de,frankenpost.de##div[id^="mobilebanner"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191356 21-10-2024
 @@||walmart.com/px/*/captcha
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191342 21-10-2024
@@ -72,8 +173,8 @@ wiki.mbalib.com##div[id^="p-ad-"]
 wiki.mbalib.com##.tool-bar > a[target="_blank"]
 ||img.mbalib.com/common/servicesPicture/prom.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191178 21-10-2024
-finnanced.com,finviewvibes.com,moneysally.com,pikatees.com##body > style + div[id][class*=" "]
-finnanced.com,finviewvibes.com,moneysally.com,pikatees.com#%#//scriptlet('prevent-eval-if', '/fairAdblock|chp_?adblock|adsbygoogle\.js/')
+finveeally.com,finnanced.com,finviewvibes.com,moneysally.com,pikatees.com##body > style + div[id][class*=" "]
+finveeally.com,finnanced.com,finviewvibes.com,moneysally.com,pikatees.com#%#//scriptlet('prevent-eval-if', '/fairAdblock|chp_?adblock|adsbygoogle\.js/')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191168 21-10-2024
 flixseries.org#$##playx { display: none !important; }
 flixseries.org#$##plays { display: block !important; }
@@ -96,12 +197,12 @@ hihihaha1.xyz,playhydrax.com,hydrax.net,filmespi.online,playembedapi.site,stream
 anime-latino.com##a.eael-creative-button[target="_blank"]
 anime-latino.com#%#//scriptlet('adjust-setTimeout', 'w-content', '*', '0.001')
 anime-latino.com#%#//scriptlet('remove-attr', 'href', 'a.elementor-icon[target="_blank"][rel][href]')
-! https://github.com/AdguardTeam/AdguardFilters/issues/190220 21-10-2024
+! https://github.com/AdguardTeam/AdguardFilters/issues/190220 24-10-2024
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190044
 ! filemoon
-moonfile-62es3l9z.com#%#//scriptlet('prevent-window-open')
-moonfile-62es3l9z.com#%#//scriptlet('abort-on-property-read', 'Cuba')
-moonfile-62es3l9z.com#%#//scriptlet('abort-on-property-read', 'popns')
+file-mi11ljwj-embed.com,moonfile-62es3l9z.com#%#//scriptlet('prevent-window-open')
+file-mi11ljwj-embed.com,moonfile-62es3l9z.com#%#//scriptlet('abort-on-property-read', 'Cuba')
+file-mi11ljwj-embed.com,moonfile-62es3l9z.com#%#//scriptlet('abort-on-property-read', 'popns')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191291 21-10-2024
 anichin.co.id###floatcenter
 anichin.co.id#%#//scriptlet('abort-current-inline-script', '$', 'window.open(')
@@ -119,7 +220,7 @@ $script,third-party,denyallow=authkong.com|rsc.cdn77.org|linkvertise.com|fastly.
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190771 21-10-2024
 @@||gecmisi.com.tr^$cookie=/^_ga_/
 gecmisi.com.tr#@%#//scriptlet('trusted-set-cookie', '_ga', 'GA1.1.1908932164.2839771695')
-gecmisi.com.tr#%#(()=>{let a="";const e=`GA1.1.${crypto.getRandomValues(new Uint32Array(1))[0]}.${crypto.getRandomValues(new Uint32Array(1))[0]}`,t=()=>{document.cookie=`_ga_${a}=${e}`};window.dataLayer=window.dataLayer||[],dataLayer.push=new Proxy(window.dataLayer.push,{apply:(e,n,o)=>("config"===o[0][0]&&(a=o[0][1],"complete"===document.readyState?t():window.addEventListener("load",t)),Reflect.apply(e,n,o))})})();
+gecmisi.com.tr#%#(()=>{let e="";const a=`GA1.1.${Math.floor(Date.now()/1e3)}.${Math.floor(Date.now()/1e3)}`;let o=!1;const t=()=>{e=e.replace("G-",""),document.cookie=`_ga_${e}=${a}`};window.dataLayer=window.dataLayer||[],dataLayer.push=new Proxy(window.dataLayer.push,{apply:(a,d,n)=>("config"===n[0][0]&&(e=n[0][1],"complete"===document.readyState?t():o||(window.addEventListener("load",t),o=!0)),Reflect.apply(a,d,n))})})();
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119573 19-10-2024
 ! voe.sx
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=richardstorehalf.com
@@ -183,7 +284,8 @@ cmp.seznam.cz#@%#//scriptlet('trusted-click-element', '.szn-cmp-dialog-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191036 17-10-2024
 ||html-load.com^$script,redirect=noopjs,domain=infinityfree.com,badfilter
 infinityfree.com#$?#iframe[src="about:blank"] { remove: true; }
-dogdrip.net,smsonline.cloud,infinityfree.com#%#(()=>{const t="loader.min.js",e={includes:String.prototype.includes,querySelector:Document.prototype.querySelector},n=()=>(new Error).stack,o={construct:(o,r,c)=>{const i=n();return e.includes.call(i,t)&&e.querySelector.call(document,'link[rel="stylesheet"][href*="/resources"')&&!e.includes.call(r[0]?.toString(),"[native code]")&&!e.includes.call(r[0]?.toString(),"():")&&(r[0]=function(t,e){}),Reflect.construct(o,r,c)}};window.Promise=new Proxy(window.Promise,o),window.Promise.prototype.constructor=new Proxy(window.Promise.prototype.constructor,o);const r={apply:(o,r,c)=>{const i=n();if(e.includes.call(i,t)&&c[0]instanceof HTMLScriptElement&&(e.includes.call(c[0]?.textContent,"[native code]")||e.includes.call(c[0]?.textContent,"loader.min.js"))){const t=c[0].textContent;c[0].setAttribute("data-original-script",t),c[0].textContent=c[0].textContent.replace(/(\(function\(\){)/,'$1document.currentScript.textContent = document.currentScript.getAttribute("data-original-script");document.currentScript.removeAttribute("data-original-script");'),c[0].textContent=c[0].textContent.replace(/if\(typeof .(\[0\])?===.\)/,"if(!1)")}return Reflect.apply(o,r,c)}};Element.prototype.appendChild=new Proxy(Element.prototype.appendChild,r)})();
+! https://github.com/AdguardTeam/AdguardFilters/issues/191036 22-10-2024
+dogdrip.net,smsonline.cloud,infinityfree.com#%#(()=>{const t="loader.min.js",e={includes:String.prototype.includes,querySelector:Document.prototype.querySelector},n=()=>(new Error).stack,o={construct:(o,r,c)=>{const i=n();return e.includes.call(i,t)&&e.querySelector.call(document,'link[rel="stylesheet"][href*="/resources"')&&!e.includes.call(r[0]?.toString(),"[native code]")&&!e.includes.call(r[0]?.toString(),"():")&&(r[0]=function(t,e){}),Reflect.construct(o,r,c)}};window.Promise=new Proxy(window.Promise,o),window.Promise.prototype.constructor=new Proxy(window.Promise.prototype.constructor,o);const r={apply:(o,r,c)=>{const i=n();if(e.includes.call(i,t)&&c[0]instanceof HTMLScriptElement&&(e.includes.call(c[0]?.textContent,"[native code]")||e.includes.call(c[0]?.textContent,"loader.min.js"))){const t=c[0].textContent;c[0].setAttribute("data-original-script",t),c[0].textContent=c[0].textContent.replace(/(\(function\(\){)/,'$1document.currentScript.textContent = document.currentScript.getAttribute("data-original-script");document.currentScript.removeAttribute("data-original-script");'),c[0].textContent=c[0].textContent.replace(/(if\(typeof .(\[0\])?===.\)|(\[0\];)if\(.\(.,.\)\))/,"$3if(!1)")}return Reflect.apply(o,r,c)}};Element.prototype.appendChild=new Proxy(Element.prototype.appendChild,r)})();
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190996 17-10-2024
 elespanol.com###sticky_container:has(> .stickyanuncio)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190772 17-10-2024
@@ -211,11 +313,18 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#%#!f
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190993 17-10-2024
 ||0gomovies-official.site/jss/dectector-2025.js
 fmovies24.watch#%#//scriptlet('set-constant', 'AB_Detector', 'noopFunc')
-! https://github.com/AdguardTeam/AdguardFilters/issues/190943 22-10-2024
-||wiki.yjsnpi.nu^$script
-@@||wiki.yjsnpi.nu/yjsnpi.js$script,~third-party
-@@||wiki.yjsnpi.nu/comments/comments.js$script,~third-party
-@@||wiki.yjsnpi.nu/w/load.php?$script,~third-party
+! https://github.com/AdguardTeam/AdguardFilters/issues/190943 25-10-2024
+wiki.yjsnpi.nu#%#//scriptlet('abort-on-property-read', 'console')
+wiki.yjsnpi.nu#@%#//scriptlet('prevent-setTimeout', '/^\(\)=>\{const .{2000,2500}/')
+wiki.yjsnpi.nu#@%#//scriptlet('prevent-setTimeout', 'document[')
+wiki.yjsnpi.nu#@%#//scriptlet('prevent-setTimeout', '/^\(\)=>\{const .+0x/')
+wiki.yjsnpi.nu#@%#//scriptlet('prevent-setTimeout', '/^\(\)=>\{function .+0x/')
+wiki.yjsnpi.nu#@%#//scriptlet('prevent-setTimeout', '0x')
+wiki.yjsnpi.nu#@$#body img, body .Inmbox, body .lazy-image-placeholder { width: auto !important; height: auto !important; opacity: 1 !important; visibility: visible !important; display: block !important; color: unset !important; background: none !important; }
+wiki.yjsnpi.nu#@%#(()=>{let n;Object.defineProperty(document,"onscroll",{get:function(){return n?function(n){if(n==="mr65a503ae4bbd9e") return "fe6a68fc5f45b308"}:null},set:function(t){n=t}})})();
+wiki.yjsnpi.nu#@%#(()=>{let n;Object.defineProperty(document,"onscroll",{get:function(){return n?function(n){return n}:null},set:function(t){n=t}})})();
+wiki.yjsnpi.nu#@%#(()=>{const n={construct:(n,t,c)=>{const e=t[0],o=e?.toString();return o.includes("0x")&&o.length>50&&!o.includes("['disconnect']()")&&(t[0]=function(){}),Reflect.construct(n,t,c)}};window.MutationObserver=new Proxy(window.MutationObserver,n)})();
+wiki.yjsnpi.nu#@%#(()=>{let n;Object.defineProperty(document,"onscroll",{get:function(){return n?function(n){return n}:null},set:function(t){n=t}})})();
 wiki.yjsnpi.nu#@%#(()=>{const n={construct:(n,t,c)=>{const o=t[0],e=o?.toString();return e.includes("0x")&&!e.includes("['disconnect']()")&&(t[0]=function(){}),Reflect.construct(n,t,c)}};window.MutationObserver=new Proxy(window.MutationObserver,n)})();
 wiki.yjsnpi.nu#@%#//scriptlet('set-constant', 'DOMTokenList.prototype.remove', 'noopFunc')
 wiki.yjsnpi.nu#@%#//scriptlet('set-constant', 'HTMLElement.prototype.remove', 'noopFunc')
@@ -408,17 +517,6 @@ igram.world##.helper-widget
 afisha.yandex.*#@?#.grid__container:has(.grid__inner > div[class]:matches-attr("/[a-z0-9]{6,12}/"="/R-A-[0-9]{6}/"))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190572 10-10-2024
 bbc.co.uk#@$#div[data-testid="test-overlay"][class*="-Overlay"] { display: none !important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/190576 10-10-2024
-migration.cam##div[id^="fixedban"]
-migration.cam##.visible-block
-migration.cam##div[class^="adbn"][class*="wrap"]
-migration.cam##div[class^="rts"][class*="-urts"]
-migration.cam##div[class^="dr"][class*="-udr"]
-migration.cam##body > div[class^="content"][class*="-block"]
-migration.cam#%#//scriptlet('abort-on-property-write', 'openPopUnder')
-migration.cam#%#//scriptlet('prevent-element-src-loading', 'script', '/profitsence\.com|pagead2\.googlesyndication\.com|doubleclick\.net|headerbidding\.ai/')
-migration.cam#%#//scriptlet('prevent-fetch', 'method:HEAD')
-migration.cam#%#//scriptlet('prevent-setTimeout', '/new Request[\s\S]*?Promise\.all[\s\S]*?\.status|function _0x|\.onerror|\.style\.display|=== .none./')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190607 10-10-2024
 infor.pl,forsal.pl#%#//scriptlet('prevent-setTimeout', 'error-report.com')
 infor.pl,forsal.pl#%#//scriptlet('remove-node-text', 'script', 'error-report.com')
@@ -650,15 +748,14 @@ bauhaus.cz##.modal:has(> .modal-container > .cookie-modal)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188771 27-09-2024
 1337x.to#%#//scriptlet('abort-on-property-read', 'Adcash')
 1337x.to#%#//scriptlet('abort-on-stack-trace', 'Element.prototype.hasAttribute', 'isActionAllowedOnElement')
-! https://github.com/AdguardTeam/AdguardFilters/issues/189567 20-10-2024
+! https://github.com/AdguardTeam/AdguardFilters/issues/189567 24-10-2024
 japscan.lol##body > style + .container > .row > #main + #sidebar.col-md-3 > .card.mt-1 > .card[style="margin: 0px auto; display: block;"] > a.aikoi.donate[href^="http"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
 japscan.lol##body > style + .container > .row > #main.col-md-9 > .card > #chapters.tab-content > .row.justify-content-center.align-items-center > a.image-box.donate[href^="http"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
 japscan.lol##body > .container.text-center > .mb-2.mt-2[style="margin: 0px auto; display: block;"] > .text-center > a.donate[href^="http"][target="_blank"][rel="noopener noreferrer nofollow"]:not([href^="http://japscan.lol"]) > img
-japscan.lol#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'nBpB')
-japscan.lol#%#//scriptlet('prevent-setTimeout', 'replaceChildren')
+japscan.lol#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'nCzE')
+japscan.lol#%#//scriptlet('prevent-setTimeout', 'getElementById')
 japscan.lol#%#//scriptlet('prevent-addEventListener', 'load', 'setTimeout')
-japscan.lol#%#//scriptlet('remove-node-text', 'script', '/QioE|return new Re|\/\d{3}\.png/')
-japscan.lol#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', '(e)=>')
+japscan.lol#%#//scriptlet('remove-node-text', 'script', '/\}\);\}\}\}\(\)\)\)\);|\]\(\)\);\}\}\}\(/')
 japscan.lol#%#//scriptlet('prevent-element-src-loading', 'script', 'acscdn.com')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/189504 26-09-2024
 watchadsontape.com,advertisertape.com#@#.google-ad

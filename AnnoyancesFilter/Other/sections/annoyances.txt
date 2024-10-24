@@ -29,6 +29,8 @@ instagram.com##._aagw:empty
 ! End: Instagram.com
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/191550
+player.fm##.sponsored-content
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190980
 store.steampowered.com##div[data-featuretarget="broadcast-embed"]
 ||store.cloudflare.steamstatic.com/public/javascript/applications/store/broadcast.js
@@ -54,11 +56,6 @@ wap.baidu.com##.tab_news
 ! search - hot results
 ! https://github.com/AdguardTeam/AdguardFilters/issues/189327#issue-2541929185
 baidu.com##.s-hotsearch-wrapper
-! Google search - trending results (Italian mobile version)
-! https://github.com/AdguardTeam/AdguardFilters/issues/188923#issuecomment-2366913755
-google.*###main > div[jscontroller="OPwjEf"]
-google.*##.OBMEnb:has(> .ynRric)
-google.*##.ftihzf:has(> .ynRric)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188884
 lasestrellas.tv###video-players-container > .fixed.bottom-0
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188673
@@ -2953,6 +2950,7 @@ yasir252.com#%#AG_onLoad(function(){setTimeout(function(){var a=document.querySe
 ||trimay.ru/?
 !
 !
+nsaneforums.com###cb-nexxe__social__sticky
 infoq.com##.related__group > li:has(> [data-place="BOTTOM"][data-trk-impr])
 onefootball.com##div[class^="EmbeddedVideoPlayer_"]
 onefootball.com##div[class^="EmbeddedVideoPlayer_"] + hr

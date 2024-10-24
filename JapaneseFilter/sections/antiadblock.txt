@@ -9,6 +9,14 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/191181
+bm.best-hit.tv#%#//scriptlet('prevent-addEventListener', 'load', 'delayCheckAB')
+! https://github.com/AdguardTeam/AdguardFilters/issues/191177
+contents-group.work#%#//scriptlet('prevent-element-src-loading', 'script','microad.net/js/compass.js')
+contents-group.work#%#//scriptlet('prevent-element-src-loading', 'script','adingo.jp/p.js')
+contents-group.work#%#//scriptlet('prevent-element-src-loading', 'script','criteo.net/js/ld/publishertag.js')
+contents-group.work#%#//scriptlet('prevent-element-src-loading', 'script','ad-stir.com/js/adstir.js')
+contents-group.work#%#//scriptlet('prevent-element-src-loading', 'script','doubleclick.net/tag/js/gpt.js')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190534
 in-jpn.com##.sk-popup-window
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190202
@@ -18,14 +26,10 @@ yourfones.net#%#//scriptlet('spoof-css', 'ins.adsbygoogle', 'display', 'block')
 mytry.jp#@#.ad_box
 mytry.jp#$#body > #container { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/190943
-||wiki.yjsnpi.nu^$script
-@@||wiki.yjsnpi.nu/yjsnpi.js$script,~third-party
-@@||wiki.yjsnpi.nu/comments/comments.js$script,~third-party
-@@||wiki.yjsnpi.nu/w/load.php?$script,~third-party
+wiki.yjsnpi.nu#%#//scriptlet('abort-on-property-read', 'console')
 $subdocument,redirect-rule=noopframe,domain=wiki.yjsnpi.nu
 !wiki.yjsnpi.nu#%#//scriptlet('set-constant', 'DOMTokenList.prototype.remove', 'noopFunc')
 !wiki.yjsnpi.nu#%#//scriptlet('set-constant', 'HTMLElement.prototype.remove', 'noopFunc')
-wiki.yjsnpi.nu#$#body img, body .Inmbox, body .lazy-image-placeholder { width: auto !important; height: auto !important; opacity: 1 !important; visibility: visible !important; display: block !important; color: unset !important; background: none !important; }
 wiki.yjsnpi.nu#$##comments-loading { display: none !important; }
 @@||wiki.yjsnpi.nu^$image,xmlhttprequest,~third-party
 @@||wiki.yjsnpi.nu^$generichide

@@ -13,6 +13,32 @@
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/191497
+computherm.hu#@#.cookie-alert
+! https://github.com/AdguardTeam/AdguardFilters/issues/191183
+ames-tools.co.uk#@##cliSettingsPopup
+ames-tools.co.uk#@##cookie-law-info-bar
+ames-tools.co.uk#@#.cli-popupbar-overlay
+! https://github.com/AdguardTeam/AdguardFilters/issues/191201
+!+ PLATFORM(ext_android_cb, ios)
+bio-hoflieferant.de#@##cookie_modal
+! https://github.com/AdguardTeam/AdguardFilters/issues/191478
+@@||cmp.inmobi.com/choice/*/choice.js$domain=ilgiornale.it
+@@||cmp.inmobi.com/tcfv2/*.js$domain=ilgiornale.it
+@@||cmp.inmobi.com/*/vendor-list-*.json$domain=ilgiornale.it
+!+ PLATFORM(ext_android_cb, ios)
+ilgiornale.it#@#.qc-cmp2-container
+! https://github.com/AdguardTeam/AdguardFilters/issues/191416
+@@||app.usercentrics.eu/browser-ui/*.js$domain=filialen.santander.de
+@@||api.usercentrics.eu/settings/*/latest/*.json$domain=filialen.santander.de
+! https://github.com/AdguardTeam/AdguardFilters/issues/191404
+afaforsakring.se#@##CookieConsent
+afaforsakring.se#@#.cookie-info:not(body):not(html)
+afaforsakring.se#@#.cookie-popup:not(body):not(html)
+! https://github.com/AdguardTeam/AdguardFilters/issues/190840
+secure.bankofamerica.com#@#.consent-container
+! antenne.de - broken embeds
+@@||usercentrics.eu^$domain=antenne.de
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191267
 developer.nintendo.com#@#.cookie-overlay:not(html):not(body)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191089

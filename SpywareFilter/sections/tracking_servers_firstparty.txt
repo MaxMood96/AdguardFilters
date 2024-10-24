@@ -28,6 +28,14 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||analytics-ingestion-production.tubitv.com^
+||retail-client-events-service.internal.salsify.com^
+||servo-report.keepstreams.*^
+||metrics.imdb.com^
+||global.telemetry.insights.video.a2z.com^
+||ldpsh.fashionnova.com^
+||tag.aftvnews.com^
+||statsjs.klevu.com^
 ||stat.okko.tv^
 ||matomo.datago.ru^
 ||analytics.bigdata.samsung.com^
