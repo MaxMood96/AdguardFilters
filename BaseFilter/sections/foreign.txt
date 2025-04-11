@@ -1395,6 +1395,8 @@ mob.hr##.side_banner
 !
 ! NOTE: Czech and Slovakian
 !
+svetandroida.cz##.bg-center[class*="img/ads.png"]
+svetandroida.cz##.sveta-target[data-sveta-trackid]:has(> .sveta-adlabel)
 metro.cz###r-leaderboardrub
 metro.cz###main > table
 autojournal.cz##body > div:not([class],[id]):has(> .r-main)
@@ -12079,7 +12081,7 @@ thegfporn.com#$#body > #main { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148674
 trueid.net##div[data-testid="adsComponent-div"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142690
-nanamovies.me##a[target="_blank"] > img
+nanamovies.*##a[target="_blank"] > img
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139637
 xxx888porn.com##.adcen
 xxx888porn.com##div[id^="insad"]

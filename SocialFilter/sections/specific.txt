@@ -82,6 +82,11 @@ esquire.com,dotesports.com,mashable.com,pcmag.com,onefootball.com,ign.com,israel
 !
 ! NOTE: Specific rules
 !
+scmp.com##div[data-qa="Share-Container"]
+scmp.com##div[data-qa="HeaderContentShareIcon-StyledIconContainer"]
+androidadult.com##.box.support
+chromewebstore.google.com##.BTQQIf
+xda-developers.com##.btn-share
 wolfmax4k.com##button[data-remote^="/modal/share"]
 militarnyi.com##.news-content-copy > div.line-divider + div.group_np
 militarnyi.com##.news-content-copy > div.line-divider
@@ -1410,6 +1415,7 @@ adme.media#?#div:contains(/^Поделиться этой статьёй$/)
 invivo.ua##.blog__info-share
 artigercek.com##.content-tools > div.loaded
 wegym.ru##.blog-content__socials
+imdb.com#$#button.sharemenu-iconbutton { visibility: hidden !important; }
 imdb.com##div[data-testid="chart-layout-sidebar-title-container"] div:has(> button.sharemenu-iconbutton)
 imdb.com##div[data-testid="hero-subnav-bar-share-button"]
 pathee.com##div[class]:has(> h3:first-child + ul:last-child > li > a[href*="share"])
@@ -2410,7 +2416,7 @@ legrandcontinent.eu##.partager
 m-ja.yna.co.kr##.social-right
 nativecamp.net##.individual_social_wrap
 caly-film.pl##button[data-target="#share_box"]
-netprizyvu.ru##.currentnews__content div.contacts__links
+netprizyvu.ru##main div.contacts__links
 eg.ru##div[onclick^="sh1("]
 popcake.tv##.telegram_banner
 monavista.ru##.fyadzen
@@ -8585,7 +8591,7 @@ click2houston.com,clickondetroit.com,wsls.com##.vf-share-bar-square > ul > li[cl
 cnycentral.com,news3lv.com,upnorthlive.com,wcyb.com,wjactv.com##.sd-news-social-container > .btn:not(.sd-font-size)
 beinsports.com##.social_links_sticky
 yesnetwork.com###clipShare > li:not([id^="btn-share-"])
-2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+alexp.pl,2ality.com,smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
 boston25news.com,wftv.com,wsoctv.com,wpxi.com##.ui-social
 vnexpress.net##.share_tw
 desinhibition.com###share-text
