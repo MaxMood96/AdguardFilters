@@ -18,12 +18,16 @@ alfastrah.ru,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,ra
 !
 !
 !
+nytimes.com###story > div[class^="css-"]:has(> div > div > div > a[href^="https://www.nytimes.com/audio/app?"])
+my-best.com##a[href^="https://mybest.go.link/"]:has(> div > img)
+besamex.de#%#//scriptlet('trusted-set-local-storage-item', 'popup-ad-data', '{"lastClosed":1744899154661}')
 z-library.sk##.android-announce-container:has(> .a-btn > a > img[alt="Download APK"])
 z-library.sk##.desktop-banner-container:has(> .a-message > div[data-name="desktopApp"])
-m.yelp.com##div[data-testid="smart-banner-pitch"]
+yelp.*##div[data-testid="open-app-button"]
+yelp.*##div[data-testid="smart-banner-pitch"]
 tvtropes.org#%#//scriptlet('set-cookie', 'app-announcement-banner-guest', '1')
 maziyabacity.com##.jss151
-haber.mynet.com##.app-link-container
+mynet.com##.app-link-container
 ososedki.com###installContainer
 dailymotion.com##div[class^="HomeRightColumn__promoContainer"] > div[class^="AppPromotion_"]
 royalroad.com###mobile-callout
@@ -287,7 +291,7 @@ savefrom.net##.sf-apk-promo
 ||xn--pckua2a7gp15o89zb.com/bundles/kyujinboxweb/pc/img/top/banner_app.jpg
 xn--pckua2a7gp15o89zb.com##div[class^="p-home_"][class$="p-top_special"]
 sp.manga.nicovideo.jp##div.fixed.bottom-2
-sakurazaka46.com##.app-button
+businessinsider.com,sakurazaka46.com##.app-button
 hangikredi.com##div[class*="bg-bannerLeftGradient"]
 meteum.ai##button[class^="AppPromo_container"]
 theportugalnews.com##header > .p-3 > .mx-auto > .row:has(> .col-8 > a.btn-download)
@@ -956,7 +960,6 @@ vseinstrumenti.ru#?#.main-container > div[data-qa="adfox"]:has(> div > div > a[h
 blockchair.com,www-y2mate.com##.extension
 analyticsindiamag.com#?#.elementor-section-content-middle[data-settings="{\"background_background\":\"classic\"}"]:has(> div > div > div > div > div > a[href^="https://play.google.com/store/apps"])
 plannedparenthood.org##div[data-module-name="Get birth control pills delivered to your door."]
-||ulifestyle.com.hk/*/*app-popup-modal.min.js
 ||ulifestyle.com.hk/*/open-in-modal.js
 wallpaperscraft.com##div[class^="app-new_"]
 yay.space##div[class^="Home__app-download-"]
@@ -3288,6 +3291,9 @@ realty.ya.ru#%#//scriptlet('set-cookie', 'splash_banner_closed', '1')
 uslugi.yandex.ru##.DistributionCard-Container
 uslugi.yandex.ru##.MobAppStoreLinks
 !
+! Yandex.Weather
+[$path=/pogoda]yandex.*##button[class^="AppPromo_"]
+!
 ! auto.ru
 auto.ru##div[class^="AppInstallRoundedBanner"]
 auto.ru#$#.AdminsMarketingSplash { display: none !important; }
@@ -3571,8 +3577,14 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! Suppressing PWA "Add To Home screen" annoyance
 ! Limit it to mobile versions only
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
-~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
+~search.brave.com,~status.im,~lafenice.io,~kurer-sreda.ru,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~mail.ru,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+my-best.com###__next > div.css-1pcjl0n > a[href="https://mybest.go.link/924F7"]
+finance.yahoo.com##.app-banner
+theinformation.com##a[data-testid="download-app"]
+quora.com#?#a[href="https://www.quora.com/"][target="_top"] + div[class] > button:has(> div > div > div:contains(App))
+fantasi.one#?##app > div.background:has(> div:only-child > .close + .content > p:contains(App))
+hepsiburada.com##details[class^="sf-smart-banner"]
 ifunny.co###App > div[class*=" "]:has(> div[class] a[href^="https://ifunny.onelink.me/"])
 okeydostavka.ru###mainHeaderMobileBanner
 tft.op.gg##a[href^="https://apps.apple.com/"][href*="/app/op-gg/id605722237"]

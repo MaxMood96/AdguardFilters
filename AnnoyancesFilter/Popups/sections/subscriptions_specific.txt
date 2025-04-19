@@ -51,6 +51,21 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,n
 !
 ! SECTION: Subscriptions - Regular rules
 !
+jojo-news.com##.wp-block-noptin-email-optin
+journal.citilink.ru##div > div:has(> div > h2 ~ div input[placeholder="Введите почту"])
+mir24.tv##div[class^="Banner_"]:has(> a[href="https://t.me/+TXi6c5FYgYB7yMKl"])
+doityourselfrv.com##.mnp-newsletter-box
+kp.ru##div[data-gtm-el="content-body"] ~ div[class^="sc-"] > div[class^="sc-"]:not([data-name]):has(> div[class^="sc-"] > a[href="https://t.me/+J-YF9mCO3WY2MTBi"])
+genic-web.com#?#.headline-link:has(> h2.headline-link__text:contains(Newsletter))
+genic-web.com##.home-newsletter
+nytimes.com##h3[id^="link-"] + div[class^="css-"]:has(> div button[data-testid="signup-button"])
+theguardian.com##div[id^="thrasher__multi-newsletter-"]
+underhentai.net##.telegram-txt
+gemini.google.com##body > div.cdk-overlay-container:has(> div.cdk-global-overlay-wrapper email-opt-in-discovery-card)
+rsload.net##.telegram-block
+gamefile.news##.newsletter-post > div > div.pencraft:has(> div.pencraft > div.subscribe-widget)
+androidauthority.com##main div[class]:has(> form:only-child)
+olderbest.com##seguno-popup
 trailspace.com#$#.fancybox-newsletter { display: none !important; }
 trailspace.com#$#body.fancybox-active { overflow: auto !important; }
 showbox.media##.follow_us
@@ -2129,7 +2144,7 @@ manga-zip.is#?#.sidebar > div.box1:has(> div.box1text > div.textwidget > div.fol
 thefire.org###block-firesubscribesticky
 x.com,twitter.com#?#div[data-testid="inlinePrompt"]:has(> div > a[href="/i/premium_sign_up"])
 peterburg2.ru##.popover-container
-nutrimuscle.com,asweatlife.com,skratchlabs.com,thenaturehero.com,farmaciasoccavo.it,athleanx.com,worldstar.com##.needsclick[style^="display: flex; z-index: 90000;"]
+globeplants.com,nutrimuscle.com,asweatlife.com,skratchlabs.com,thenaturehero.com,farmaciasoccavo.it,athleanx.com,worldstar.com##.needsclick[style^="display: flex; z-index: 90000;"]
 dictionary.com,thesaurus.com##div[data-type="newsletter-module"]
 dictionary.com,thesaurus.com#?#a[data-linkmodule] ~ p:contains(/^Start each day with the (Word|Synonym)/)
 dictionary.com,thesaurus.com#?#a[data-linkmodule] ~ p:contains(/^Start each day with the (Word|Synonym)/) + form
@@ -5613,7 +5628,7 @@ shopify.com##.article__content > hr + center > form.js-signup-inline
 shopify.com##.footer-signup
 senioren-ratgeber.de#?#.container > div.teaser:has(> div.teaser > a[href="https://www.senioren-ratgeber.de/Newsletter"])
 thetrendspotter.net,datasciencelearner.com##.essb-subscribe-form
-simonandschuster.co.in##.ticker-container
+simonandschuster.com,simonandschuster.co.in##.ticker-container
 simonandschuster.co.in##.sticky-sidebar .signup-background
 digest.myhq.in##.post-content .mc4wp-form
 digest.myhq.in#?#.post-content > p > em > span > b:contains(/^Subscribe to our newsletter and/)
@@ -6327,7 +6342,7 @@ tlz.de##.piano-newsletter-inline
 pga.com##div[data-cy="gdpr-banner"]
 elespanol.com##.md-suscription
 lefigaro.fr,ccm.net,journaldesfemmes.fr,commentcamarche.net##.nl-box
-||cdn.convertbox.com^$third-party,domain=~brasilparalelo.com.br|~genevievegauvin.com
+||app.convertbox.com^$third-party
 ||app.conversiobot.com^$third-party
 correiobraziliense.com.br##.revue-embed
 futurism.com#?##__next > div.antialiased > div > div.text-center:has(> div.mx-auto > div:contains(newsletter))

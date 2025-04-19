@@ -25,6 +25,12 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||kloggyr-service.kyruus.com^
+||geo.justwatch.com^
+||sspnm.emol.com^
+||ssp.emol.com^
+||stats.emol.com^
+||rvv.emol.com^
 ||rma.homedepot.com^
 ||db7q4jg5rkhk8.cloudfront.net^
 ||backend-pixel.zotek.io^
