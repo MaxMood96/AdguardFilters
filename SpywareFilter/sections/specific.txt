@@ -80,6 +80,31 @@ $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 !
 ! NOTE: Specific rules
 !
+||facebook.com/ajax/weblite_load_logging/
+||api.tickpick.com/1.0/tracking/pageLoad
+||i1.vivocha.com/a/*/api/vvct.gif?ev=
+||gamerpay.gg/monitoring?
+||js.gleam.io/*/trk.js
+vnexpress.net#%#//scriptlet('set-local-storage-item', '/^fosp_/', '$remove$')
+vnexpress.net#%#//scriptlet('set-local-storage-item', 'orig_aid', '$remove$')
+||s1.trrsf.com/*/zaz-mod-stalker/
+||notion.so/api/*/etClient|$method=post
+||imdb.com/api/_ajax/metrics/
+||t1.daumcdn.net/brunch/static/prod/*/production/B.CtrChecker.min.js
+||t1.daumcdn.net/brunch/static/prod/*/production/jennifer.min.js
+||t1.daumcdn.net/brunch/static/prod/*/production/tiaraEventHandler.min.js
+||api.brunch.co.kr/v1/front-log
+||cdn.shopify.com/extensions/*/taggrs-server-side-tracking-
+||galaxus.de/*/*/*/*/*/*/*/$script,domain=galaxus.de
+boredpanda.*#%#//scriptlet('set-local-storage-item', 'bp-analytics', '$remove$')
+||pwe.epochbase.com/api/config/tracking?
+||pwe.epochbase.com/libs/mixpanel-
+||nhk.or.jp/mpulse/boomerang/
+||fatosdesconhecidos.com.br/wp-content/cache/*/analytics/tag.js
+||skyscanner.co.kr/g/aps/public/api/v1/pixel/
+||wcs.naver.net/wcslog.js^
+||player.javboys.cam/cdn-cgi/trace
+||skyscanner.co.kr/slipstream/grp/v1/custom/public/falcon/funnel_events/
 ||gateway.us.zip.co/analytics^
 ||wzzm13.com/taboola_
 ||restaurantguru.com/ajax/logAB
@@ -93,9 +118,10 @@ raycast.com#%#//scriptlet('set-local-storage-item', '/ph_phc_/', '$remove$')
 raycast.com#%#//scriptlet('set-session-storage-item', '/ph_phc_/', '$remove$')
 ||paramountplus.com/ping/?
 ||paramountplus.com/*/metrics-*.js
-||paramountplus.com/assets/build/logging-*.js
-||paramountplus.com/assets/build/session_trace-*.min.js
+||paramountplus.com/*/build/logging-*.js
+||paramountplus.com/*/build/session_trace-*.min.js
 ||paramountplus.com/_next/static/chunks/page_view_event-*.js
+||paramountplus.com/*/build/*event*-aggregate*.js
 ||ig-store.ru/site/record-modal-event
 ||marketingplatform.google.com/about/enterprise/$third-party,xmlhttprequest
 ||cdn.jsdelivr.net/npm/@snowplow/
@@ -325,7 +351,6 @@ news.tokimeki-s.com##div[style]:has(> script[src^="https://rranking3.ziyu.net/"]
 ||globalbunjang.com/scripts/*_pixel.js
 ||static.crunchyroll.com/analytics/
 ||prod.danawa.com/info/ajax/getAdSmartProductList.ajax.php
-||comics-art.co.kr/exec/front/eclog/
 ||incognia.com/web/events/
 ||pelisfree.site/cdn-cgi/trace
 ||liquipedia.net/mm.js
@@ -2539,7 +2564,6 @@ fategrandorder.info##.sidebar_acr.side_inline
 ||statcounter.com/counter/*.js
 ||hector.baidu.com/static/h.gif?
 ||twowheeler.policybazaar.com/js/GTMgoogleAnalytics.js
-||re-doing.com/st-manager/pv-monitor/impression/track?
 ||caitlin.top/counter.php
 ||cdn.jsdelivr.net/npm/@adshield/
 ||gizmodo.com/x-kinja-static/assets/*/trackers.
@@ -2872,7 +2896,6 @@ the-ans.jp##.side-reccomend
 ||at.cbsi.com/*/event?
 ||sprocket.bz/trackers/
 ||maillist-manage.com/wa/ActionLogger?
-||softland.co.kr/exec/front/eclog/
 ||softland.co.kr/app/Eclog/js/cid.generate.js
 ||push.soft-com.biz/api/ui/metrics
 ||image.cauly.co.kr/script/caulytracker_async.js

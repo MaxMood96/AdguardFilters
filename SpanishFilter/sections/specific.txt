@@ -22,6 +22,20 @@ c5n.com,t13.cl,solowrestling.mundodeportivo.com,todojujuy.com,mendozapost.com,me
 !
 ! NOTE: Specific rules
 !
+mundoconectado.com.br##div[id^="ad_"]
+hentaiporno.xxx##.ays-pb-modals
+/wp-content/plugins/ays-popup-box/*$domain=hentaiporno.xxx
+bemad.es,cuatro.com,divinity.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es###wrapper-megasuperior
+timesbrasil.com.br##.pubad
+olhardigital.com.br##div[data-snad]
+baixaki.com.br###new-float-ads
+baixaki.com.br##div[class^="styles_ads_placeholder"]
+megacurioso.com.br###banner-video-area
+nationalgeographicbrasil.com##div[id^="gpt--header--"]
+nationalgeographic.pt#$#@media only screen and (min-width: 1080px) { .add990x90 { display: none !important; } }
+nationalgeographic.pt#$#@media only screen and (min-width: 1080px) { .page-content { margin-top: 120px !important; } }
+yelitzonpc.com##center > a[target="_blank"]
+misprogramaspc.com##.vn-green > a[target="_blank"]
 tecmundo.com.br##div[class^="styles_ads_"]
 gamestorrents.app##img[onclick*="click.ggpickaff"]
 muyinteresante.com##.banner
@@ -174,7 +188,7 @@ europapress.es###sc-mpu-top
 kns.cookni.net,twobluescans.com##a[href^="https://www.polybuzz.ai/"]
 kns.cookni.net,twobluescans.com##.c-sidebar:has(> div.container a[href^="https://www.polybuzz.ai/"])
 kns.cookni.net,twobluescans.com##.row > div.widget:has(> div.c-widget-wrap iframe[id^="google_ads"])
-samuraiscan.cookni.net,spanish.visorsmr.com,kns.cookni.net,twobluescans.com##div[id^="ad-container"]
+mewingzone.com,samuraiscan.cookni.net,spanish.visorsmr.com,kns.cookni.net,twobluescans.com##div[id^="ad-container"]
 elsiglodedurango.com.mx##.col-4 > .h-900:has(> .pub)
 estadiodeportes.mx###__next > div.grid:has(> div.content > div.module > header + div.bannercover)
 estadiodeportes.mx##.bannercover
@@ -386,8 +400,12 @@ poder360.com.br##.trust-project-bar
 tycsports.com##.asideAdWrapper
 tycsports.com##.horizontalAdWrapper
 itforum.com.br##body > .container:has(> .row:only-child > div:only-child > div:only-child > div[id^="div-gpt-ad"])
-canaltech.com.br#?#main + div.fixed:has(> div[id^="div-gpt-ad"])
+canaltech.com.br###content-news > div.aspect-video[class*="truvidPos"]
+canaltech.com.br###content-news > div.flex-col[class*="min-h-"]:has(> span[class*=" tracking-"]:only-child)
+canaltech.com.br##main + div.fixed:has(> div[id^="div-gpt-ad"])
 canaltech.com.br#?#main div.justify-center:has(> span:contains(Conteúdo apoiado por))
+canaltech.com.br###truvidPos
+canaltech.com.br###content-news > div[class]:has(> div[data-ad])
 cnnbrasil.com.br##.sidebar__item--ad
 pelismx.lat##.botones-ads
 pelismx.lat###top-menu-movil
@@ -725,8 +743,6 @@ cerisescan.net,sinensisscan.net##a[href="https://receita-fit.com"]
 cerisescan.net,sinensisscan.net#?#.widget_custom_html:has(a[href="https://receita-fit.com"])
 tviplayer.iol.pt##.billboardxlWrapper
 jornalopcao.com.br##.template-part-component-google-ad
-canaltech.com.br###truvidPos
-canaltech.com.br#?##content-news > div[class]:has(> div[data-ad])
 superembeds.com##.pppx
 superembeds.com###adStop
 ||superembeds.com/*.xml
@@ -985,7 +1001,7 @@ putinho.net##.stream-item
 hacertest.com###adssup
 vanitatis.elconfidencial.com##.revUnit
 niusdiario.es###MEGASUPERIOR
-niusdiario.es##div[class^="ads__ad_container-"]
+factoriadeficcion.com,niusdiario.es##div[class^="ads__ad_container-"]
 olhardigital.com.br##.diagonal-strip
 xataka.com,applesfera.com,xatakamovil.com,genbeta.com,espinof.com###stories_container:empty
 computerhoy.com,businessinsider.es##div[class^="ad-slot_"]
@@ -2578,7 +2594,7 @@ goomusica.com###cuerpo > div.derecha
 remusica.biz,musicaeu.com###baNwan
 remusica.biz,musicaeu.com###banIz
 vizer.tv##body > .vizerNewBox.adsByVizer
-bemad.es,cuatro.com,divinity.es,eltiempohoy.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es##.cards__card_ad-3gZy
+bemad.es,cuatro.com,divinity.es,energytv.es,factoriadeficcion.com,mtmad.es,telecinco.es##.cards__card_ad-3gZy
 mitele.es##.ad-wrapper
 tudotv.tv##.Publicidade728
 holadoctor.com##.banner_cubo_space
