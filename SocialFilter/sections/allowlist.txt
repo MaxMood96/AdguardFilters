@@ -5,6 +5,12 @@
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! https://cystore.com/page/tnf6th.aspx
+cystore.com#@#a[href^="https://lin.ee/"]
+! https://github.com/AdguardTeam/AdguardFilters/issues/204919
+hn.cz#@#.article-sharing
+! https://github.com/AdguardTeam/AdguardFilters/issues/204861
+nationalgeographic.pt#@#.socialmedia
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204699
 rkf.online#%#//scriptlet('set-constant', 'Ya', 'emptyObj')
 rkf.online#%#//scriptlet('set-constant', 'Ya.share2', 'noopFunc')
