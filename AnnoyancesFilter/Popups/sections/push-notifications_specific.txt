@@ -14,7 +14,7 @@
 ! Disabling of push-notifications
 !
 ! #%#//scriptlet('set-constant', 'Notification.requestPermission', 'noopFunc')
-lefigaro.fr,banki.ru,a2zapk.io,delfi.lt,ganyancanavari.com,turkcell.com.tr,a101.com.tr,news.mail.ru,realitatea.net,winnipegfreepress.com,tenorshare.com,gzt.com,haber.biz,sakshi.com,shiftdelete.net,community.oneplus.com,lnc.nc,superfilmes.ph,meduza.io,yenisafak.com,offidocs.com,onedio.com,hpplus.jp,fullfilmcibaba1.com,joom.com,nbc.com,maximum.ru,ch3plus.com,dropmefiles.com,rg.ru,reddit.com,life.ru#%#//scriptlet('set-constant', 'Notification.requestPermission', 'noopFunc')
+pibig.info,lefigaro.fr,banki.ru,a2zapk.io,delfi.lt,ganyancanavari.com,turkcell.com.tr,a101.com.tr,news.mail.ru,realitatea.net,winnipegfreepress.com,tenorshare.com,gzt.com,haber.biz,sakshi.com,shiftdelete.net,community.oneplus.com,lnc.nc,superfilmes.ph,meduza.io,yenisafak.com,offidocs.com,onedio.com,hpplus.jp,fullfilmcibaba1.com,joom.com,nbc.com,maximum.ru,ch3plus.com,dropmefiles.com,rg.ru,reddit.com,life.ru#%#//scriptlet('set-constant', 'Notification.requestPermission', 'noopFunc')
 !
 wallstreet-online.de,dni.ru#%#if (window.PushManager) { window.PushManager.prototype.subscribe = function () { return { then: function (func) { } }; }; }
 macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFunc")
@@ -23,6 +23,7 @@ macwelt.de,pcwelt.de#%#//scriptlet("set-constant", "firebase.messaging", "noopFu
 !
 ! SECTION: Push notifications - Regular rules
 !
+imeteo.sk###pushNotificationDialog
 ||cdn.gazetepencere.com/assets/bundle/webpush.js
 ||uol.com.br/mywebpush.js
 buienradar.nl#$#body { overflow: auto !important; }
@@ -503,7 +504,6 @@ dailymail.co.uk#%#//scriptlet("set-constant", "PushManager", "undefined")
 indiatoday.in#%#//scriptlet("abort-on-property-read", "notifyMe")
 ||s3.amazonaws.com/agilecrm/web-rules-static/agile-webrules-min.js$domain=bgasecurity.com
 ||images.hepsiburada.net/serviceworker/*/pushnotification.js
-||hd-streams.org/sw.js
 ||pornyhd.com/sw.js
 ||cbsistatic.com/fly/js/components/urban-airship-
 ||static.farakav.com/v3content/assets/js/push-notification/push-notifications.js
@@ -577,10 +577,10 @@ la-croix.com###batchsdk-ui-alert-container
 autocentrum.pl##.web-push-box
 diets.ru,povarenok.ru###web-push-sub
 travelplanet.pl##.fcx-push-modal
-gamestar.hu,helloworldonline.hu,pcworld.hu###web-push-popup
+gamestar.hu,pcworld.hu###web-push-popup
 meczyki.pl##.notifications-info
 picodi.com###oneSignalBell
-komiklokal.me,migalhas.com.br,tuhentaionline.com,freecourselab.com,picodi.com###onesignal-bell-container
+migalhas.com.br,tuhentaionline.com,picodi.com###onesignal-bell-container
 antyradio.pl,chillizet.pl,radiozet.pl##.btn-notif
 ||123link.pro/push/
 ||maxicep.com/onesignal/OneSignalSDK.js

@@ -262,12 +262,8 @@ $subdocument,third-party,domain=uqload.co,badfilter
 ||fxclub.org^$badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155106
 brollopstorget.se#@#div[data-ad]
-! https://github.com/AdguardTeam/AdguardFilters/issues/153959
-$script,third-party,domain=sbrapid.com,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/153361
 @@||rottentomatoes.com/assets/pizza-pie/images/affiliates/
-! https://github.com/AdguardTeam/AdguardFilters/issues/152736
-$script,third-party,domain=ahvsh.com,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151405
 google.ae,google.be,google.cd,google.cf,google.cg,google.ch,google.cm,google.com,google.dz,google.fr,google.gp,google.gy,google.ht,google.iq,google.jo,google.ma,google.ml,google.mw,google.ne,google.ng,google.om,google.ps,google.qa,google.rw,google.sa,google.sn,google.td,google.tg,google.tn,google.tt#@?##topstuff:-abp-has(.SRfaKe)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151088
@@ -279,8 +275,6 @@ coches.net#@#[data-ad-position]
 coches.net#@#div[data-ad-position]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149835
 @@||pop.iamcdn.net/players/*.js$domain=player-cdn.com|nazarickol.com|redirect-ads.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/149892
-$script,third-party,domain=lvturbo.com,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/148488
 ! https://github.com/AdguardTeam/AdguardFilters/issues/149276
 flashscore.com,flashscore.pl,rezultati.com#@#.mobile_ad
@@ -345,8 +339,6 @@ geo.fr#@#[data-ads-core]
 ikea.cn#@#.pub-text
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142763
 blog.livedoor.jp#@#div[data-ad]
-! Fixes netu video player on mangoporn.net
-||wiztube.xyz^$third-party,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/141336
 @@||myvessel.cn/adas/ads/v1/*/list$~third-party
 ! petbook.de - cookie choice does not stick due to blocked url
@@ -412,15 +404,12 @@ gala.fr#@#[data-ads-core]
 ||ff-01.com^$badfilter
 ||ff-02.com^$badfilter
 ||ff-03.com^$badfilter
-! https://github.com/AdguardTeam/AdguardFilters/issues/120527
-$script,third-party,domain=europixhd.net,badfilter
-$third-party,xmlhttprequest,domain=europixhd.net,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/207064
 ! https://github.com/AdguardTeam/AdguardFilters/issues/134679
 ! https://github.com/AdguardTeam/AdguardFilters/issues/132769
 $popup,domain=adrianmissionminute.com,badfilter
 $popup,domain=videzz.net,badfilter
-$popup,domain=1fichier.com|1movietv.com|1vid1shar.space|3movs.com|3rbup.com|7-up.net|732eg54de642sa.sbs|9xupload.me|abyss.to|abysscdn.com|adblockeronstreamtape.xyz|adblockplustape.com|adblockplustape.xyz|adblockstreamtape.art|adblockstreamtape.site|adblockstrtape.link|adf.ly|adrianmissionminute.com|adshort.co|adultproxy.men|ahvsh.com|akumachi.com|allo-streaming.one|allostreaming.co|allotube.click|allvid.ch|allviid.live|ally.sh|animelek.tv|any.gs|asianplay.pro|aunoptp.site|ay.gy|babblecase.com|babesxworld.com|bc.vc|bigwarp.io|bokracdn.run|bonstreams.net|cigarlessarefy.com|clicknplay.to|clictune.com|clik.pw|clipconverter.cc|clk.sh|cloudvideo.tv|cocogals.com|convert2mp3.net|crictime.com|cybervynx.com|d0000d.com|d000d.com|d0stream.com|dailyuploads.net|daktna.net|darkibox.com|darkino.online|darkino2.top|databasegdriveplayer.co|databasegdriveplayer.xyz|datanodes.to|datoporn.co|dausel.co|ddl.to|ddownload.com|desiupload.co|desiupload.in|devuploads.com|dhmu4p2hkp.sbs|djxmaza.in|do0od.com|do7go.com|dokan.news|dood.la|dood.li|dood.pm|dood.re|dood.sh|dood.so|dood.to|dood.watch|dood.wf|dood.ws|dood.yt|doods.pro|doodstream.co|doodstream.com|doodstream.me|dooodster.com|dooood.com|downet.net|download.replaymod.com|downstory.xyz|draplay.info|drop.download|dropapk.com|drstickyfingers.com|dynamicfantasy.net|e-wok.tv|e4xb5c2xnz.sbs|eb8gfmjn71.sbs|embasic.pro|embedsito.com|embedv.net|etproxy.com|exe-urls.com|exe.io|extremotvplay.com|eztv.tf|eztv.yt|eztvx.to|fastream.to|fc.lc|fdewsdc.sbs|file-up.org|file-upload.com|file-upload.org|filelions.com|filelions.online|filelions.site|filelions.to|filemoon.sx|filescdn.com|filescdn.net|filmeonline.biz|flaswish.com|fmovie.cc|frembed.cc|frembed.live|frembed.lol|fsdcmo.sbs|fusevideo.net|gamecopyworld.eu|gamovideo.com|gdriveplayer.me|gdriveplayer.to|gdriveplayer.us|gdtot.com|gettapeads.com|ghbrisk.com|go4up.com|gomo.to|gomostream.com|goodstream.one|goodstream.uno|gorillavid.com|govad.xyz|goved.org|gowatchseries.tv|guadeloupe-paradise.fr|gum-gum-streaming.com|hdfull.org|hdtvcloud.com|hdvid.tv|hlswish.com|hxfile.co|hydrax.net|iamcdn.net|imagt.online|imgchili.net|indishare.org|j.gs|javgg.net|javlion.xyz|javmoon.me|javturbo.xyz|jawcloud.co|jeansaispasplus.homes|jeniusplay.com|jkanime.net|josephseveralconcern.com|jytechs.in|k2s.cc|kaitect.com|katcr.io|katfile.com|kellywhatcould.com|koora-stream.live|koora.vip|krakenfiles.com|kwik.cx|kwik.si|l1afav.net|laceaccept.net|larati.net|layback.cc|letsupload.co|liiivideo.com|linkbox.to|livestreams.click|lulu.st|lulustream.com|luluvdo.com|luluvdoo.com|lvturbo.com|mangovideo.club|mavplay.com|mavplay.xyz|media.cm|megaline.co|megamax.me|megaup.net|migamex.fyi|miniurls.co|mitly.us|miuiflash.com|mixdrop.ag|mixdrop.bz|mixdrop.co|mixdrop.ps|mixdrop.sb|mixdrop.si|mixdrop.to|moo-teau4c9h-mkay.com|moshahda.net|mp4.center|mp4upload.com|mylink.love|nathanfromsubject.com|nextstream.click|nikaplayerr.com|nitro.download|nitroflare.com|noblocktape.com|notsmutty.com|nudogram.com|oii.la|okprime.site|onestream.click|oneupload.net|oneupload.to|opensubtitles.org|opsktp.com|opvid.co|opvid.net|opvid.org|ovid.tv|parisanime.com|pepperlive.info|picocurl.com|pintient.com|play.playm4u.xyz|player-cdn.com|player.smashy.stream|playerhost.net|playiri.com|powvideo.net|premilkyway.com|q.gs|qqc.co|rabbitstream.net|rapidcdn.cc|rapidgator.net|rd1.gamecopyworld.click|reviewtech.me|rexdlbox.com|richardsignfish.com|roberteachfinal.com|robertordercharacter.com|robertplacespace.com|ryderjet.com|sandratableother.com|sbanh.com|sbfull.com|sblona.com|sbrapid.com|sbthe.com|sdefx.cloud|segavid.com|send.cm|sendit.cloud|sendvid.com|sethniceletter.com|shahidha.net|sharezweb.com|shavetape.cash|short-url.link|short.pe|shrink-service.it|smoothpre.com|smutty.com|so.gd|soccer24hd.com|sportsonline.gl|sportsonline.ps|sportsonline.si|sportzonline.to|srt.am|stapadblockuser.click|stapadblockuser.xyz|stapewithadblock.monster|staticmoly.me|strcloud.club|strcloud.link|stream4free.live|streamadblocker.xyz|streamadblockplus.com|streamadblockplus.xyz|streamcdn.to|streamhg.com|streamhide.to|streamlive.to|streamnoads.com|streamsb.com|streamta.pe|streamtape.cc|streamtape.com|streamtape.net|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamwish.com|streamwish.fun|streamwish.to|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.club|strtapeadblock.me|tapeadsenjoyer.com|tapenoads.com|tapewithadblock.org|thecubexguide.com|ugreen.autos|up-4.net|up-4ever.com|up-4ever.net|up4ever.download|updown.cam|updown.icu|uqload.net|usersdrive.com|vadbam.net|vdesk.live|veev.to|vgfplay.com|vid-guard.com|vidcloud1.com|vidello.net|vidembed.re|videzz.net|vidguard.online|vidguard.to|vidhide.com|vidhide.fun|vidhidefast.com|vidmoly.to|vidply.com|vidsrc.to|vidtube.cam|vidtube.pro|viidshar.com|voe.sx|vtbe.to|vtube.network|vtube.to|vudeo.ws|waaw.to|waaw1.tv|watchadsontape.com|wgstream.sx|wordcounter.icu|xcoic.com|xsportbox.com|xv-cdn.net|ybspw.com|yggtorrent.support|yggtorrents.top|younetu.org,badfilter
+$popup,domain=1fichier.com|1movietv.com|1vid1shar.space|3movs.com|3rbup.com|7-up.net|732eg54de642sa.sbs|9xupload.me|abyss.to|abysscdn.com|adblockeronstreamtape.xyz|adblockplustape.com|adblockplustape.xyz|adblockstreamtape.art|adblockstreamtape.site|adblockstrtape.link|adf.ly|adrianmissionminute.com|adshort.co|adultproxy.men|akumachi.com|allo-streaming.one|allostreaming.co|allotube.click|allvid.ch|allviid.live|animelek.tv|any.gs|asianplay.pro|aunoptp.site|ay.gy|babblecase.com|babesxworld.com|bc.vc|bigwarp.io|bokracdn.run|bonstreams.net|clicknplay.to|clictune.com|clik.pw|clipconverter.cc|clk.sh|cloudvideo.tv|cocogals.com|convert2mp3.net|crictime.com|cybervynx.com|d0000d.com|d000d.com|d0stream.com|dailyuploads.net|daktna.net|darkibox.com|darkino.online|darkino2.top|databasegdriveplayer.co|databasegdriveplayer.xyz|datanodes.to|datoporn.co|dausel.co|ddl.to|ddownload.com|desiupload.co|devuploads.com|dhmu4p2hkp.sbs|djxmaza.in|do0od.com|do7go.com|dokan.news|dood.la|dood.li|dood.pm|dood.re|dood.sh|dood.so|dood.to|dood.watch|dood.wf|dood.ws|dood.yt|doods.pro|doodstream.co|doodstream.com|doodstream.me|dooodster.com|dooood.com|downet.net|download.replaymod.com|downstory.xyz|draplay.info|drop.download|dropapk.com|drstickyfingers.com|dynamicfantasy.net|e-wok.tv|e4xb5c2xnz.sbs|eb8gfmjn71.sbs|embasic.pro|embedv.net|etproxy.com|exe-urls.com|exe.io|extremotvplay.com|eztv.tf|eztv.yt|eztvx.to|fastream.to|fc.lc|fdewsdc.sbs|file-up.org|file-upload.com|file-upload.org|filelions.com|filelions.online|filelions.site|filelions.to|filemoon.sx|filescdn.com|filescdn.net|filmeonline.biz|flaswish.com|fmovie.cc|frembed.cc|frembed.live|frembed.lol|fsdcmo.sbs|fusevideo.net|gamecopyworld.eu|gamovideo.com|gdriveplayer.me|gdriveplayer.to|gdriveplayer.us|gdtot.com|gettapeads.com|ghbrisk.com|gomo.to|gomostream.com|goodstream.one|goodstream.uno|gorillavid.com|govad.xyz|goved.org|gowatchseries.tv|guadeloupe-paradise.fr|gum-gum-streaming.com|hdfull.org|hdtvcloud.com|hdvid.tv|hlswish.com|hxfile.co|hydrax.net|iamcdn.net|imagt.online|imgchili.net|indishare.org|j.gs|javgg.net|javlion.xyz|javmoon.me|javturbo.xyz|jawcloud.co|jeniusplay.com|jkanime.net|josephseveralconcern.com|jytechs.in|k2s.cc|kaitect.com|katcr.io|katfile.com|kellywhatcould.com|koora-stream.live|koora.vip|krakenfiles.com|kwik.cx|kwik.si|l1afav.net|laceaccept.net|larati.net|layback.cc|letsupload.co|liiivideo.com|linkbox.to|livestreams.click|lulu.st|lulustream.com|luluvdo.com|luluvdoo.com|mavplay.com|mavplay.xyz|media.cm|megaline.co|megamax.me|megaup.net|migamex.fyi|miniurls.co|mitly.us|mixdrop.ag|mixdrop.bz|mixdrop.co|mixdrop.ps|mixdrop.sb|mixdrop.si|mixdrop.to|moo-teau4c9h-mkay.com|moshahda.net|mp4.center|mp4upload.com|mylink.love|nathanfromsubject.com|nextstream.click|nikaplayerr.com|nitro.download|nitroflare.com|noblocktape.com|notsmutty.com|nudogram.com|oii.la|okprime.site|onestream.click|oneupload.net|oneupload.to|opensubtitles.org|opsktp.com|opvid.co|opvid.net|opvid.org|ovid.tv|parisanime.com|pepperlive.info|picocurl.com|pintient.com|play.playm4u.xyz|player-cdn.com|player.smashy.stream|playerhost.net|playiri.com|powvideo.net|premilkyway.com|q.gs|qqc.co|rabbitstream.net|rapidcdn.cc|rapidgator.net|rd1.gamecopyworld.click|rexdlbox.com|richardsignfish.com|roberteachfinal.com|robertordercharacter.com|robertplacespace.com|ryderjet.com|sandratableother.com|sdefx.cloud|segavid.com|send.cm|sendit.cloud|sendvid.com|shahidha.net|sharezweb.com|shavetape.cash|short-url.link|short.pe|shrink-service.it|smoothpre.com|smutty.com|so.gd|soccer24hd.com|sportsonline.gl|sportsonline.ps|sportsonline.si|sportzonline.to|srt.am|stapadblockuser.click|stapadblockuser.xyz|stapewithadblock.monster|staticmoly.me|strcloud.club|strcloud.link|stream4free.live|streamadblocker.xyz|streamadblockplus.com|streamadblockplus.xyz|streamcdn.to|streamhg.com|streamlive.to|streamnoads.com|streamsb.com|streamta.pe|streamtape.cc|streamtape.com|streamtape.net|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamwish.com|streamwish.fun|streamwish.to|strtape.cloud|strtape.site|strtape.tech|strtapeadblock.club|strtapeadblock.me|tapeadsenjoyer.com|tapenoads.com|tapewithadblock.org|thecubexguide.com|ugreen.autos|up-4.net|up-4ever.com|up-4ever.net|up4ever.download|updown.cam|updown.icu|uqload.net|usersdrive.com|vadbam.net|vdesk.live|veev.to|vgfplay.com|vid-guard.com|vidcloud1.com|vidello.net|vidembed.re|videzz.net|vidguard.online|vidguard.to|vidhide.com|vidhide.fun|vidhidefast.com|vidmoly.to|vidply.com|vidsrc.to|vidtube.cam|vidtube.pro|viidshar.com|voe.sx|vtbe.to|vtube.network|vtube.to|vudeo.ws|waaw.to|waaw1.tv|watchadsontape.com|wgstream.sx|wordcounter.icu|xcoic.com|xsportbox.com|xv-cdn.net|ybspw.com|yggtorrent.support|yggtorrents.top|younetu.org,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/132750
 rpubs.com#@#.show-pub
 ! https://github.com/AdguardTeam/AdguardFilters/issues/132456
@@ -465,17 +454,12 @@ voici.fr#@#[data-ads-core]
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=voici.fr
 @@||prismamedia-com.videoplayerhub.com/galleryplayer.js$domain=voici.fr
 !#endif
-! https://github.com/AdguardTeam/AdguardFilters/issues/121935
-@@||disqus.com/embed.js
-$third-party,xmlhttprequest,domain=fmovies.to,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121400
 gearjunkie.com#@#.tag-sponsored-content
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120803
 $script,third-party,domain=waaw.tv,badfilter
 ! https://github.com/uBlockOrigin/uAssets/issues/13586
 $script,third-party,domain=gamecopyworld.eu,badfilter
-! https://github.com/AdguardTeam/AdguardFilters/issues/120929
-$script,third-party,domain=ddl-francais.com,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120011
 $script,third-party,domain=vidhd.fun,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/119411
@@ -513,8 +497,6 @@ maxisciences.com,gentside.*,ohmymag.*#@#[data-ads-core]
 @@||cmpv2.berliner-zeitung.de/mms/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118491
 fshd.link#@#div[data-ad]
-! https://github.com/AdguardTeam/AdguardFilters/issues/118013
-@@||raincaptcha.com/*/frame/ad?$domain=raincaptcha.com
 ! yts.mx - fixing video player
 $script,third-party,domain=yts.mx,badfilter
 ||yts.mx/*.gif$badfilter
@@ -623,8 +605,6 @@ twitter.com#@?#[data-testid="tweet"]:-abp-contains(Sponsorisé)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96311
 @@||cache.vidembed.net^$domain=vidembed.*
 @@||vidembed.net/load/hls/$domain=vidembed.*
-@@||vidembed.cc/streaming.php?id=$subdocument
-$subdocument,third-party,domain=vidembed.cc,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95052
 @@||bunnycdn.ru^$xmlhttprequest,domain=fmovies.*
 @@||cdnjs.cloudflare.com/ajax/libs/$xmlhttprequest,domain=fmovies.*
@@ -636,10 +616,7 @@ otomoto.pl#@#div[data-ad-id]
 @@||multiup.org/download
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92325
 @@||dailymotion.com*autoplay=1$third-party
-! https://github.com/AdguardTeam/AdguardFilters/issues/91892
-@@||vudeo.net/embed-$subdocument
 @@||uqload.com/embed-$subdocument
-$subdocument,third-party,domain=zustream.org|vf-film.org|vf-serie.org,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91225
 $subdocument,third-party,domain=cloudvideo.tv,badfilter
 ! zeit.de - unable to accept cookies
@@ -675,8 +652,6 @@ ndtv.com#@#div[data-ad]
 movs4u.*#@##clickfakeplayer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84034
 @@||github.com/sponsors
-! https://github.com/AdguardTeam/AdguardFilters/issues/83435
-@@||ajax.googleapis.com/ajax/libs/*.js$domain=evoload.io
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82977
 finn.no#@#div[data-ad-id]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/82982
@@ -730,8 +705,6 @@ blocket.se#@#a[href*="?ad_id="]
 dubizzle.com#@#div[data-ad-id]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71858
 serieslatinoamerica.tv#@#a[href*="/redirect?tid="]
-! https://github.com/AdguardTeam/AdguardFilters/issues/72051
-@@||s1.bunnycdn.ru/assets/fmovies/*$script,domain=fmovies.to
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71722
 @@||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/mirage2.min.js$domain=extreme-down.tv
 @@||ajax.cloudflare.com/cdn-cgi/scripts/*/cloudflare-static/rocket-loader.min.js$domain=extreme-down.tv
@@ -752,8 +725,6 @@ $subdocument,~third-party,domain=vidsrc.me,badfilter
 taobao.com#@#a[href*="?ad_id="]
 taobao.com#@#a[href*=".taobao.com/"]
 ||taobao.com^$popup,badfilter
-! https://github.com/AdguardTeam/AdguardFilters/issues/69619
-@@||vidlox.me/hls/$xmlhttprequest,media
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71639
 @@/myads.$domain=gumtree.com.au
 ! https://github.com/uBlockOrigin/uAssets/issues/8318
@@ -766,8 +737,6 @@ spark.adobe.com#@#div[id^="PostAd"]
 @@||video.m2o.it/embed/copertina/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65868
 @@||astatic.ccmbg.com/*/js/prebid$domain=linternaute.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/65742
-@@||c.disquscdn.com/next/embed/$domain=gogoanimes.tv
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65616
 @@||assets.alicdn.com/*/source/pages/affiliate.js$domain=aliexpress.com|aliexpress.us|aliexpress.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/65214
@@ -788,9 +757,6 @@ cnet.com#@#a[href*="://www.anrdoezrs.net/"]
 /^(https?|wss?):\/\/([0-9a-z\._-]+)\.(accountant|bid|cf|click|club|com|cricket|date|download|faith|fun|ga|gdn|gq|info|life|link|loan|men|ml|network|online|ovh|party|pro|pw|racing|review|rocks|ru|science|site|space|stream|tk|top|trade|uk|webcam|website|win|xyz|zone)\.\/(.*)/$document,image,popup,script,stylesheet,subdocument,websocket,xmlhttprequest,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63474
 /\/(license|script)\.\d{1,5}\.js/$script,badfilter
-! https://github.com/AdguardTeam/AdguardFilters/issues/62086
-@@||voirseries.co/templates/$script,domain=voirseries.co
-@@||voirseries.co/jscripts/$domain=voirseries.co
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61786
 willhaben.at#@#.adHeading
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61823
@@ -798,9 +764,6 @@ willhaben.at#@#.adHeading
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61623
 ! https://forums.lanik.us/viewtopic.php?f=91&t=45030
 famobi.com#@##fg-root
-! https://github.com/AdguardTeam/AdguardFilters/issues/61160
-$script,third-party,domain=fmovies.to,badfilter
-@@||static*.akacdn.ru/*/assets/fmovies/min/all.js$domain=fmovies.to
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61079
 ||japscan.*/ujs/$badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59830
@@ -964,10 +927,8 @@ don24.ru#@#.pub-container
 kijiji.ca#@#div[data-ad-id]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34266
 @@||hitfile.net/platform/js/lib/jquery.fake.document/foot.js
-! https://github.com/AdguardTeam/AdguardFilters/issues/34283
-aniwatcher.com#@##Videoads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33814
-torrent9.bz,torrent9.cc,torrent9.ec,torrent9.nz,torrent9.ph,torrent9.uno,torrents9.cc,torrents9.org,torrents9.pe,torrents9.tv#@#.download-btn + .download-btn > a
+torrent9.bz,torrent9.cc,torrent9.ec,torrent9.nz,torrent9.ph,torrent9.uno,torrents9.org,torrents9.pe,torrents9.tv#@#.download-btn + .download-btn > a
 ! opensubtitles.org - broken search for Safari; info for other products
 @@||opensubtitles.org/*/search
 ! https://github.com/AdguardTeam/AdguardFilters/issues/31812
@@ -1061,9 +1022,7 @@ trackitonline.ru#@#.liketable
 ! https://github.com/AdguardTeam/AdguardFilters/issues/19260
 @@||fruithosted.net/dl^$media
 ! https://github.com/AdguardTeam/AdguardFilters/issues/18898
-! https://github.com/AdguardTeam/AdguardFilters/issues/19569
-! https://github.com/AdguardTeam/AdguardFilters/issues/19386
-sexboomcams.com,nudogram.com,pornformance.com#@#.is-ad-visible
+nudogram.com#@#.is-ad-visible
 ! https://github.com/AdguardTeam/AdguardFilters/issues/19376
 tnaflix.com#@##hideAd
 ! https://github.com/AdguardTeam/AdguardFilters/issues/18759

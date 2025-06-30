@@ -22,6 +22,8 @@
 !
 ! SECTION: Popups - Regular rules
 !
+wpb.shueisha.co.jp##grajapa-overlay-pc
+mangaraw.*##pwa-install
 clevelandesdc.com##.flpb-float-btn
 aljazeera.com##.user-accounts-tooltip
 urban-media.ru##.feedback-btn
@@ -356,7 +358,7 @@ victoriametrics.com###BlockOffer
 eslite.com##.fixed-banner
 e-mansion.co.jp###ad_modal
 e-mansion.co.jp##.new-building-label
-/wp-content/uploads/pum/*$domain=creativecommons.org|real-vin.com|levashove.ru|linuxbabe.com|devapp.it|livenewsnow.com|av-comparatives.org
+/wp-content/uploads/pum/*$domain=creativecommons.org|real-vin.com|linuxbabe.com|devapp.it|livenewsnow.com|av-comparatives.org
 flcksbr.*###tgWrapper
 flcksbr.*###TopAdMb
 landyzone.co.uk##.u-bottomFixer
@@ -2619,7 +2621,7 @@ jokers.de##div[id^="dytmpl"]
 mojeek.com##.pop-in
 bodyarchi.com###topfloatingBnr
 fonepaw.com##.widget + div[class*="promotion"]
-presearch.org,fmovies.to##.alert[data-notify-position="top-right"]
+presearch.org##.alert[data-notify-position="top-right"]
 spielemax.de#$#body { overflow: auto !important; }
 spielemax.de#$#.popupbuilder-widget { display: none !important; }
 cnbctv18.com##.overlaypop
@@ -2854,9 +2856,6 @@ kaigai-matome.net##.kaiga-popup-and-layer-ads
 mysuki.jp,how-to-inc.com###sp-cta
 cableav.tv#%#//scriptlet('abort-on-property-read', 'Object.prototype.video_player_floating')
 agoda.com##.ModalPortal
-generacodice.com#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
-generacodice.com#$#.modal-backdrop { display: none !important; }
-generacodice.com#$#div[aria-labelledby="registrationModalTitle"] { display: none !important; }
 everplans.com#$##bio_ep_bg { display: none !important; }
 everplans.com#$##bio_ep { display: none !important; }
 everplans.com#$#body { overflow: auto !important; }
@@ -3264,7 +3263,6 @@ sddhelp.ru##.modal--discount
 tgju.org###popup-layer-container
 lifestyle.livemint.com##div[class^="newsletter"]
 reopen.europa.eu##.ecl-language-list
-coursed.co##.ht-notification-section
 online-audio-converter.com,online-video-cutter.com,video-converter.com,convert.io,extract.me,online-voice-recorder.com,audio-joiner.com,pdf.io,webcamera.io,mp3cut.net,123apps.com###allapps-extension-popup
 google.*###google-hats-survey
 trip101.com##.exit-intent
@@ -3359,7 +3357,6 @@ salesforce.com##c-hc-welcome-popup
 activation-service.jp,freelancer.hk###fixed-banner
 tecmint.com##.top-bar
 expres.online###paywall-notification
-cracked.io,nulled.to##.guestbox
 cdotrends.com#%#//scriptlet("prevent-setTimeout", "jQuery.colorbox")
 appgrooves.com##.sticky-signup-section
 bosco.ru##.subscribe-leave__overlay
@@ -4301,9 +4298,6 @@ ivacy.com#$#.limited-time-exitintent.showdiscount-modal  { display: none!importa
 ivacy.com#$#.modal-backdrop  { display: none!important; }
 ivacy.com#$#body.modal-open { overflow: auto!important; }
 podcastnotes.org##.mailing-list-cta-overlay
-get-bitcoin.net#$##myModal { display: none!important; }
-get-bitcoin.net#$#.modal-backdrop { display: none!important; }
-get-bitcoin.net#$#body { overflow: visible!important; }
 vodafone.ua##.location-confirm
 ac-illust.com,searchenginewatch.com###signup-bar
 searchenginewatch.com#$#.modal__newsletter { display: none !important; }
@@ -4579,7 +4573,7 @@ interia.pl##.survey-popup-container
 ||interia.pl/j/*-surveyPopup-*.js
 runtothefinish.com,troypoint.com#$#html { overflow: visible !important; }
 runtothefinish.com,troypoint.com#$#.cp-popup-container { display: none !important; }
-open-minds.it,iptvwire.com,my-stuwe.de,udemydownload.com##.cp-popup-container
+open-minds.it,iptvwire.com,my-stuwe.de##.cp-popup-container
 ibtimes.com,medicaldaily.com,catalea.de,player.one##.grwf2_backdrop
 ibtimes.com,medicaldaily.com,catalea.de,player.one##.grwf2-wrapper
 wowcircle.com,wowcircle.net##.banner-corner
@@ -4622,7 +4616,6 @@ cablegratis.online#$#body { overflow: visible!important; }
 barchart.com##.bc-webinar-card
 fangzhenxiu.com##.newuser-gift-banner
 gamingforecast.com,apps2app.com##.demo-float
-desishoot.fun###chaty-channel-telegram
 kvador.com###fadeinbox
 ||provely.io^$domain=hacktiv8.com
 christianpost.com##iframe[src^="/newsletter/"]
@@ -4724,9 +4717,6 @@ vk.com##.PageBottomBanner--unauth
 kit.co##email-capture-banner
 knowablemagazine.org,thecollegefix.com,vans.ru,lung.org##.newsletter-modal
 lung.org##.modaal-overlay
-tecnomusic-evolution.com#$#html { overflow: auto !important; }
-tecnomusic-evolution.com#$##pum-8891 { display: none !important; }
-tecnomusic-evolution.com#$#html.pum-open body > #page[aria-hidden] { padding-right: 0 !important; }
 br.vaio.com##.fixed-news
 voshod-solnca.ru##.banner-calendar
 favn-pitomnik.ru##div[data="instagram"]
@@ -5220,8 +5210,8 @@ galka.if.ua#$#.modal-backdrop { display: none!important; }
 galka.if.ua#$#body { overflow: visible!important; }
 nashvancouver.com###exit_content.modal
 nashvancouver.com###exit_content.modal ~ div.modal-backdrop
-enerji-dunyasi.com,helpsetup.ru,qumo.ru,glenatbd.com,tesisat.com.tr##.sb-overlay
-enerji-dunyasi.com,helpsetup.ru,qumo.ru,tesisat.com.tr##.subscribe-me
+enerji-dunyasi.com,qumo.ru,glenatbd.com,tesisat.com.tr##.sb-overlay
+enerji-dunyasi.com,qumo.ru,tesisat.com.tr##.subscribe-me
 kibrisgenctv.com#$##modal-ads { display: none!important; }
 kibrisgenctv.com#$#.modal-backdrop { display: none!important; }
 kibrisgenctv.com#$#body { overflow: visible!important; }
@@ -5374,7 +5364,6 @@ frenchweb.fr,e-marineeducation.com#$#body { overflow: visible!important; }
 frenchweb.fr,e-marineeducation.com#$#html { overflow: visible!important; }
 dfm.ru##.yandex-video-bottom-right
 gulte.com###popupWrap
-wstream.video##.alertvpn
 feedough.com#$#.tl-states-root { display: none!important; }
 feedough.com#$#html { overflow: visible!important; }
 feedough.com#$#body { overflow: visible!important; }
@@ -5580,7 +5569,7 @@ chan.sankakucomplex.com#$#body { overflow: visible!important; position: initial!
 svyaznoy.ru##div[class="uxs-wrapper"][style*="cursor: pointer"]
 driveridentifier.com##.black_overlay
 driveridentifier.com##.white_content
-helpsetup.ru,bolshoibelarus.by###popup__toggle
+bolshoibelarus.by###popup__toggle
 pixnet.net,mcdulll.com,maxfoodfun.com##.pixnet-happix-pilot__launcher-bubble
 sutin0831.pixnet.net##.pixnet-happix-pilot__sticky-box[data-link*="/redirect/widgets"]
 ||kinoclub77.ru/lib/overplay/overpic-min.js$domain=pcpro100.info
@@ -5615,7 +5604,7 @@ ccleaner.com#$#.mfp-ready { display: none!important; }
 ccleaner.com#$#html { overflow: visible!important; }
 zarahome.com##itx-newsletter-advice > .nl-advice-container
 vice.com##.up-next
-blog.hubspot.jp,webformyself.com,moydrygpk.ru###slidebox
+blog.hubspot.jp,webformyself.com###slidebox
 simeonpanda.com#$#div[data-section-id="newsletter-popup"] { display: none!important; }
 simeonpanda.com#$#body { overflow: visible !important; }
 simeonpanda.com#$#html { overflow: visible !important; }
@@ -5828,8 +5817,8 @@ newsday.com#$#body.modal-open .modal-scrollable { display: none!important; }
 newsday.com#$#body.modal-open .modal-scrollable + .connext-modal-backdrop { display: none!important; }
 life-reactor.com##.telegram_channel
 filmes-torrent-baixar.blogspot.com###fundopop
-places2visit.pl,filmesonlinex.co##.ArevicoModal
-places2visit.pl,filmesonlinex.co##.ArevicoModal-bg
+places2visit.pl##.ArevicoModal
+places2visit.pl##.ArevicoModal-bg
 ||1cloud.ru/js/subscribe?
 sebweo.com##.fb-modals
 mob-mobile.ru##.interesting-block
@@ -5857,7 +5846,7 @@ satkurier.pl###newsletterMsg
 autoexpress.co.uk,evo.co.uk##.block-dennis-newsletter-popup
 ivi.tv##.service-notification
 caminteresse.fr###nl_popin
-boardingarea.com,online-tech-tips.com,helpdeskgeek.com,noviceguitar.com,omgfoss.com##.et_bloom_popup.et_bloom_optin.et_bloom_auto_popup
+boardingarea.com,online-tech-tips.com,helpdeskgeek.com,noviceguitar.com##.et_bloom_popup.et_bloom_optin.et_bloom_auto_popup
 ||sehrikeyif.com/ajax/bulten-kaydi-getir/
 armedangels.de###newsletterPopupModal
 igdiryasargazetesi.com,kriptom.com,harpers.org##.splash
@@ -6174,7 +6163,7 @@ m.ign.com##div[class^="app-link-"]
 prog.hu###subscribepopuppanelalign
 nosalty.hu##.push-container
 apfellike.com###appful-overlay-banner
-seriesgato.tv,sportstream.tv##body > div[style^="z-index: 99999999; width: 100%; height: 100%;"]
+sportstream.tv##body > div[style^="z-index: 99999999; width: 100%; height: 100%;"]
 yeniisfikirleri.net##.scrollbox-popup
 euroinvision.ru###fancybox-overlay
 euroinvision.ru##.fancybox-desktop[style*="width: 420px; height: auto;"]
@@ -6249,7 +6238,6 @@ rynek-kolejowy.pl##.popupElement
 price.ru##div[data-region="bumerang_email"]
 budsgunshop.com##.popupboxnewoffer
 bandirmasehir.com,tavsanlihaber.com.tr,hurdusun.com,capakcurgazetesi.com.tr,turkiyeaktuel.com,ukraynahayat.com###socialslide
-52av.tv###fwin_popad_7ree
 brainly.co.id,eodev.com##.sg-overlay
 gearpatrol.com##.frame-container.picreel-element
 bitfeed.co###elastic-related-article.modal
@@ -6298,8 +6286,6 @@ tadviser.ru,securitylab.ru###BottomSocial
 ||vote.sibnet.ru^
 animesorion.tv##div[id^="yb_"]
 manyvids.com##.mv-announcement
-getrelax.cc,getrelax.club##.outside-more-articles
-getrelax.club##.loaded-popup-wrapper
 bilshe.com,football-ukraine.com###shadowMedia
 bilshe.com,football-ukraine.com###reachMedia
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###globalContainer > div.fb_content > div > div#mainContainer > div.homeWiderContent > div#headerArea > div[id^="u_0_"][style^="height:"]
@@ -6376,7 +6362,7 @@ femida.az##body > #cboxOverlay
 spravkaru.info##.popup__background
 freedomoutpost.com##.modaal-wrapper
 freedomoutpost.com##.modaal-overlay
-valutaomregner.dk,fotografwdrodze.pl,sachmoi.info,observalgerie.com###exitpopup-modal
+valutaomregner.dk,fotografwdrodze.pl,observalgerie.com###exitpopup-modal
 crankyseven-k.com,cpygames.com##.afc_popup
 edmsauce.com##a[href^="https://my.leadpages.net/leadbox/"]
 timeout.jp,digitalcamerawarehouse.com.au,marketrealist.com,columbiaspectator.com###PopupSignupForm_0
@@ -6429,8 +6415,8 @@ g2crowd.com##.flyin-selector
 gizbot.com##.subscription-popup-overlay
 gizbot.com##.subscription-block
 dailylviv.com###followdaily
-domhouse.it,energienutricao.com.br,922tp.com,itshokunin.cc,omaske.ru,animesrbija.com,adbuff.com###ppsPopupBgOverlay
-domhouse.it,energienutricao.com.br,922tp.com,itshokunin.cc,omaske.ru,animesrbija.com,adbuff.com##.ppsPopupShell
+domhouse.it,energienutricao.com.br,922tp.com,omaske.ru,animesrbija.com,adbuff.com###ppsPopupBgOverlay
+domhouse.it,energienutricao.com.br,922tp.com,omaske.ru,animesrbija.com,adbuff.com##.ppsPopupShell
 livestrong.com##.newsletter_signup_overlay
 groupon.com,groupon.co.uk,groupon.be,groupon.fr###subscribe_modal_container
 groupon.com,groupon.co.uk,groupon.be,groupon.fr###subscribe_modal_container ~ #spotlight
@@ -6481,7 +6467,6 @@ dzone.com##.emailSubscriptionsPopover5
 creativemarket.com##.modal-welcome
 gekkan-fukugyou.jp,creativemarket.com###modal-overlay
 gekkan-fukugyou.jp###modal-content
-connect-trojan.net###fb-fanbox
 gucluanadolugazetesi.com,afyonprestij.com,afyonajans.com##body > div#kodac
 gizmochina.com##.boxzilla-subscribe-boxilla-button
 line.do##facebook-like-box
@@ -6515,7 +6500,7 @@ felomena.com###b-pop_up__ajax_horo_na_zavtra
 lebwa.tv,timeallnews.ru###bg_popup
 expertreviews.co.uk,autoexpress.co.uk,alphr.com,itpro.co.uk###block-dennis-newsletter-newsletter-block
 softpedia.com###bottombubble
-yenikodlar.com,filologikosxoleio.gr,inventiva.co.in,eescobarvip.com,tarotman.ru,siberbulten.com,thedigitalhacker.com,rumaysho.com,latesthdmovies.*,gotravelblogger.com,cozumpark.com,gsminfo.com.ua,tehnotech.com,lafmacun.net,windowsable.com,indirin.co,sosyalmedyapazarlama.com,rockistasyonu.com,hukukbook.com,havadiskibris.com,hukukiblog.com,ciltbilgi.com,iyiyemektarifleri.net,bodrumguncelhaber.com,codewk.com,besttechinfo.com,gamesforpublic.de,filmlinks4u.is,z-news.link###check-also-box
+yenikodlar.com,filologikosxoleio.gr,inventiva.co.in,eescobarvip.com,tarotman.ru,siberbulten.com,thedigitalhacker.com,rumaysho.com,latesthdmovies.*,gotravelblogger.com,cozumpark.com,gsminfo.com.ua,tehnotech.com,lafmacun.net,windowsable.com,indirin.co,sosyalmedyapazarlama.com,rockistasyonu.com,hukukbook.com,havadiskibris.com,hukukiblog.com,ciltbilgi.com,iyiyemektarifleri.net,bodrumguncelhaber.com,codewk.com,besttechinfo.com,gamesforpublic.de,z-news.link###check-also-box
 rumaysho.com###om-lightbox-chalkboard-optin
 fishki.net###chrome_popup
 bilecikhaber.com.tr###cm-social-overlay
@@ -6529,7 +6514,7 @@ ensonxeber.com,floristics.info,radyopop.com,31tv.ru###fancybox-wrap
 ukr-today.com,yts.ac###fb-back
 coco01.net###fbCover
 mcqslearn.com##.fbox-background
-mcqslearn.com,mcqlearn.com,megafilmestorrenthd.net,softwarebeam.com,masterkreatif.com###fbox-background
+mcqslearn.com,mcqlearn.com,softwarebeam.com###fbox-background
 kredivepara.com###ffbp
 kredivepara.com###ffbp-bg
 focus.de###flying_mbox.teaserBlock
@@ -6649,8 +6634,8 @@ korayspor.com##.sp-fancybox-wrap
 nintendosoup.com##.spu-box[data-box-id="5356"]
 naszesprawy.eu##.spu-box[data-nconvert-cookie="spu_conversion_39088"]
 kbcsm.hr##.spu-box[data-box-id="84424"]
-naszesprawy.eu,kbcsm.hr,nintendosoup.com,collive.com,valuewalk.com,ellalanguage.com,spiritualresearchfoundation.org,conference2go.com,animeout.xyz,ludent.ru,askdavetaylor.com,responsibility.org,golos.te.ua,soft4fun.net,lingq.com,therecoveryvillage.com,informator.news,memepedia.ru,richluck.ru,npvua.com,eusouandroid.co,bizled.co.in,ternopillive.com.ua,dyvys.info,comments.ua,ilife99.com,mur.tv,online-buhuchet.ru,richlife7.com,журналистика-обучение.рф##.spu-bg
-collive.com,valuewalk.com,ellalanguage.com,spiritualresearchfoundation.org,conference2go.com,animeout.xyz,ludent.ru,askdavetaylor.com,responsibility.org,golos.te.ua,soft4fun.net,lingq.com,therecoveryvillage.com,informator.news,memepedia.ru,richluck.ru,eusouandroid.co,bizled.co.in,ternopillive.com.ua,dyvys.info,comments.ua,ilife99.com,mur.tv,online-buhuchet.ru,richlife7.com,журналистика-обучение.рф##.spu-box
+naszesprawy.eu,kbcsm.hr,nintendosoup.com,collive.com,valuewalk.com,ellalanguage.com,spiritualresearchfoundation.org,conference2go.com,animeout.xyz,ludent.ru,askdavetaylor.com,responsibility.org,golos.te.ua,soft4fun.net,lingq.com,therecoveryvillage.com,informator.news,memepedia.ru,richluck.ru,npvua.com,eusouandroid.co,dyvys.info,comments.ua,ilife99.com,mur.tv,online-buhuchet.ru,richlife7.com,журналистика-обучение.рф##.spu-bg
+collive.com,valuewalk.com,ellalanguage.com,spiritualresearchfoundation.org,conference2go.com,animeout.xyz,ludent.ru,askdavetaylor.com,responsibility.org,golos.te.ua,soft4fun.net,lingq.com,therecoveryvillage.com,informator.news,memepedia.ru,richluck.ru,eusouandroid.co,dyvys.info,comments.ua,ilife99.com,mur.tv,online-buhuchet.ru,richlife7.com,журналистика-обучение.рф##.spu-box
 microsoftstore.ru##.subscribe-b
 kariyer.net,annsummers.com,3dnews.ru,sobesednik.ru##.ui-dialog
 clubmonaco.com,kariyer.net,pixalate.com,purina.co.uk,ralphlauren.com,hottopic.com,talk.sonymobile.com,annsummers.com,numbeo.com,global.llbean.com,price.ua,clarins.ru,gezondheidsplein.nl,babycenter.de,sobesednik.ru##.ui-widget-overlay
@@ -6845,10 +6830,6 @@ thebetterindia.com##.tbi-gtap-notification-overlay
 thebetterindia.com##.tbi-gtap-notification-content
 thebetterindia.com##.tbi_content
 !
-foodmagazine.com.br#$#div[id="modalPopup"][aria-labelledby="myModalLabel"] { display: none !important; }
-foodmagazine.com.br#$#div[id="modalPopup"][aria-labelledby="myModalLabel"] ~ div.modal-backdrop { display: none !important; }
-foodmagazine.com.br#$#body { overflow: auto !important; }
-!
 taiwan.sharelife.tw#$##container { filter: none !important; transition: none !important; overflow: auto !important; }
 taiwan.sharelife.tw#$#body div#fb { display: none !important; }
 !
@@ -6887,9 +6868,9 @@ roscontrol.com#$#html { overflow: auto!important; }
 ! NOTE[id=sharingcaring]: 'Sharing is caring' popup
 ! LINK: SocialFilter/sections/popups.txt#sharingcaring
 ! Sync with the rules in Social filter
-sflix2.to,cataz.to,yuppow.com,musichq.cc,hdtodayz.to,myflixer.is,swatchseries.is,theflixertv.to,putlocker.pe,moviesjoyhd.to,123moviesto.pw,123movieshd.top,myflixerz.to,zoechip.cc,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,pressplay.top,flixhd.cc,bflix.gg,123moviestv.net,123-movies.vc,musichq.net,swatchseries.*,fmoviesto.*,cineb.rs,hdtoday.*,yesmovies.mn,divicast.com,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,soap2day.*#$#body { overflow: auto !important; padding-right: 0 !important; }
-sflix2.to,cataz.to,yuppow.com,musichq.cc,hdtodayz.to,myflixer.is,swatchseries.is,theflixertv.to,putlocker.pe,moviesjoyhd.to,123moviesto.pw,123movieshd.top,myflixerz.to,zoechip.cc,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,pressplay.top,flixhd.cc,bflix.gg,123moviestv.net,123-movies.vc,musichq.net,swatchseries.*,fmoviesto.*,cineb.rs,hdtoday.*,yesmovies.mn,divicast.com,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,soap2day.*#$#.modal-backdrop { display: none !important; }
-sflix2.to,cataz.to,yuppow.com,musichq.cc,hdtodayz.to,myflixer.is,swatchseries.is,theflixertv.to,putlocker.pe,moviesjoyhd.to,123moviesto.pw,123movieshd.top,myflixerz.to,zoechip.cc,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,pressplay.top,flixhd.cc,bflix.gg,123moviestv.net,123-movies.vc,musichq.net,swatchseries.*,fmoviesto.*,cineb.rs,hdtoday.*,yesmovies.mn,divicast.com,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,soap2day.*#$##modalshare { display: none !important; }
+sflix2.to,cataz.to,yuppow.com,musichq.cc,hdtodayz.to,myflixer.is,swatchseries.is,theflixertv.to,putlocker.pe,moviesjoyhd.to,123movieshd.top,myflixerz.to,zoechip.cc,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,pressplay.top,flixhd.cc,123moviestv.net,123-movies.vc,musichq.net,swatchseries.*,fmoviesto.*,cineb.rs,hdtoday.*,yesmovies.mn,divicast.com,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,soap2day.*#$#body { overflow: auto !important; padding-right: 0 !important; }
+sflix2.to,cataz.to,yuppow.com,musichq.cc,hdtodayz.to,myflixer.is,swatchseries.is,theflixertv.to,putlocker.pe,moviesjoyhd.to,123movieshd.top,myflixerz.to,zoechip.cc,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,pressplay.top,flixhd.cc,123moviestv.net,123-movies.vc,musichq.net,swatchseries.*,fmoviesto.*,cineb.rs,hdtoday.*,yesmovies.mn,divicast.com,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,soap2day.*#$#.modal-backdrop { display: none !important; }
+sflix2.to,cataz.to,yuppow.com,musichq.cc,hdtodayz.to,myflixer.is,swatchseries.is,theflixertv.to,putlocker.pe,moviesjoyhd.to,123movieshd.top,myflixerz.to,zoechip.cc,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,pressplay.top,flixhd.cc,123moviestv.net,123-movies.vc,musichq.net,swatchseries.*,fmoviesto.*,cineb.rs,hdtoday.*,yesmovies.mn,divicast.com,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,soap2day.*#$##modalshare { display: none !important; }
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/183849
 ! Prevent annoying popup like on the screenshot in - https://github.com/AdguardTeam/AdguardFilters/issues/183849#issuecomment-2262699934
@@ -6899,8 +6880,6 @@ huya.com#%#!function(){const t={apply:(t,e,n)=>{if(n[0]&&"function"==typeof n[0]
 coolpc.com.tw,coolpc.tw#%#(function(){window.setTimeout=new Proxy(window.setTimeout,{apply:(a,b,c)=>c&&c[0]&&/SkipMsg\(\)/.test(c[0].toString())&&c[1]?(c[1]=1,Reflect.apply(a,b,c)):Reflect.apply(a,b,c)})})();
 !+ NOT_PLATFORM(windows, mac, android, ext_chromium)
 coolpc.com.tw,coolpc.tw#%#//scriptlet("adjust-setTimeout", "SkipMsg()", "*", "0.02")
-! https://github.com/AdguardTeam/AdguardFilters/issues/58976
-himovies.to#%#document.cookie="show_share=true; path=/;";
 !
 atbmarket.com#$#.popup_promo_block { display: none !important; }
 atbmarket.com#$#.popup_promo_block ~ div.modal-backdrop { display: none !important; }

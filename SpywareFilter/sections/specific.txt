@@ -84,13 +84,17 @@ $cookie=_awl;maxAge=30,domain=nypost.com|al.com|9news.com
 !
 ! NOTE: Specific rules
 !
+||derstandard.*/qpkdl/
+||duckduckgo.com/t.js?q=
+||data.product.lastpass.com/data/ptm.gif/
+||sstats.adobe.com/*/collect?configId=
 -public-api.hoyoverse.com/event/event_fe_info/$xmlhttprequest
 ||bhol.co.il/system/js/analytics.js
 bhol.co.il#%#//scriptlet('set-local-storage-item', 'analyticsUserId', '$remove$')
 bhol.co.il#%#//scriptlet('set-session-storage-item', 'analyticsSessionId', '$remove$')
 ||global.ketchcdn.com/web/v2/log?
+!+ NOT_PLATFORM(ios, ext_android_cb, ext_safari)
 ||s1.hdslb.com/bfs/seed/jinkela/short/reporter-pb/index.js
-||s1.hdslb.com/bfs/seed/jinkela/short/b-mirror/biliMirror.umd.mini.js
 ||mail.yandex.*/web-api/journal/v1?_m=do-client-log
 ||s3.us-east-2.amazonaws.com/telemetry.bydata/
 ||seaart.ai/log/
@@ -1481,7 +1485,6 @@ anime-drama.jp###block-11
 ||c.delivery.consentmanager.net/delivery/$image
 ||static.stands4.com/*/page.analytics.min.js$domain=lyrics.com
 kino-zeit.de##.vgwort-metis-marker
-||embedaio.cc/cdn-cgi/trace
 ||datasign.co/js/opn.js
 ||herz-fuer-tiere.de/assets/themes/default/images/sunshine.gif
 ||herz-fuer-tiere.de/assets/themes/default/images/ad.gif
@@ -1563,7 +1566,6 @@ newsweekjapan.jp##.taboola-below-article-thumbnails-desktop-2-wrap
 ||services.kontur.ru/articles/ajax/statistics/update
 ||yenicaggazetesi.com.tr/stats/
 ||st.pba.xl.pt/pbasitetracker/pbasitetracker.min.js
-levashove.ru##div[data-column="widget-area-1"]
 ||api.zingnews.vn/*/r?ze=
 ||api.zingnews.vn/*/trackpv/
 ||api.zingnews.vn/*/hit.gif?t=
@@ -1692,7 +1694,6 @@ diamond.jp###main-column > article > div.main-special
 ||jscrambler.com/api/statistics
 norisoku.com###random
 ||sdk.mrf.io/statics/marfeel-sdk.js
-russianbeauties.jp###secondary-column > div.text-recommend
 ||cdn.pdst.fm/ping.min.js
 jiji.com##.RecommendPianoWrapper
 jiji.com##.RecommendUnderlayer
@@ -2751,7 +2752,7 @@ otekomachi.yomiuri.co.jp###_popIn_right
 ||zyuken.net/gcp_remote/ads_imp/
 ||api.fw.tv/embed/
 seshop.com,shoeisha.co.jp###cceol
-/wp-content/plugins/google-analytics-dashboard-for-wp/*$domain=xpornass.com|vitacig.eu.com|musicman.co.jp|wilfmovies.com|popfilmeshd.net
+/wp-content/plugins/google-analytics-dashboard-for-wp/*$domain=xpornass.com|vitacig.eu.com|musicman.co.jp|wilfmovies.com
 ||static.vocento.com/tag-manager/latest/vtm.js
 ||cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.
 -vlybypoc2019.cloudfunctions.net/vtrack?vid=
@@ -3183,7 +3184,6 @@ animespirit.*###CollapsiblePanel_Statistics
 ||content.mql5.com/tr?
 ||responder.wt.heise.de/resp/api/
 ||sbm.nate.com/setCookie?
-||assiatv.com/css/stat.js
 ||fresnel.vimeocdn.com/add/player-test-impression?beacon
 ||exelator.com/pixel.gif
 ||api-js.mixpanel.com/engage/?
@@ -3328,7 +3328,6 @@ tap.az##.links-sites > .counters
 ||amazon.*/gp/sponsored-products/logging^
 ||webtv.bundestag.de/iptv/js/youbora^
 .ru/stat/?c=$domain=ucoz.net
-levashove.ru##.footer-four > section#custom_html-5
 ||cloudfront.net/sso.js
 ||graph.instagram.com/logging_client_events
 ||vc.ru/hit^
@@ -3341,8 +3340,6 @@ levashove.ru##.footer-four > section#custom_html-5
 ||medium.com/_/stat?event=pixel.load
 ||glami.com.tr/js/compiled/pt.js
 ||blogheim.at/ranking
-||watch32hd.org/tracking
-||watch32hd.org/adblock
 ferra.ru##div[data-widget="plista_widget_belowArticle_desktop_nocss"]+div[class^="_"] > svg
 ferra.ru##div[data-widget="plista_widget_webApp_mobile_nocss"]+div[class^="_"] > svg
 ||static-cl.xhcdn.com/js/track.min.js
@@ -3458,8 +3455,6 @@ continentseven.com##.gaoop
 ||nike.com*/trackingConfig?
 abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenmaxx.de
 ||ie8eamus.com/fp?uuid=$domain=avgle.com
-||fembed.com/api/ping/
-||fembed.com/r/collect?
 ||webcamsbabe.com/js/s.js
 ||01net.com/e3/nrtv/?u=
 ||cdn.daenischesbettenlager.de/analytics.js
@@ -3915,7 +3910,6 @@ computerbild.de##.articleAdditional > .mehrthema
 m.lenta.ru##.b-footer_counters
 ||openculture.com/wp-admin/admin-ajax.php*^action=rxn_
 ||googletagservices.com/tag/js/gpt.js$domain=sinoptik.ua|gutefrage.net|dt.ua|ngs.ru|unian.net|easybib.com|bohenon.com|linuxtopia.org|newsroom.kh.ua|hclips.com|noticierodigital.com|northumberlandgazette.co.uk|mywebtimes.com|watchuseek.com|telekritika.ua|fontanka.ru|bhub.com.ua|guhoyas.com|rst.ua|hh.ru|buhgalter.com.ua|unocero.com|autonews.com|metropoles.com|okezone.com|m.yeniakit.com.tr|kanalukraina.tv|day.az|knuddels.de
-||imagecrest.com/asset/view/stats.php
 ||success.trendmicro.com/jslibrary/*/NetworkTracking.js
 ||fonts.net/t/trackingCode.js
 ||vkcache.com/js/amung_counter.js
@@ -4053,7 +4047,6 @@ jin115.com#?#.plugin-memo > div.side > script[src*="ziyu.net/"]:upward(2)
 minnyuu.jp#?#div[class$="BlockBase"] > div > div > div.plugin-freearea > div.ninja-recommend-block:upward(4)
 doorblog.jp,pachinkopachisro.com,blog.livedoor.jp,blog.jp#?#.plugin-memo > div.side > div.ninja-recommend-block:upward(2)
 blogterest.net#?#.blockSide > div.blockWrapper > div > div.ninja-recommend-block:upward(2)
-nukeruerodouga.com#?##main-right > div.right_area > div.ninja-recommend-block:upward(2)
 kuow.org#?#.story-content-wrapper > div.embed_block:has(> div[ub-in-page])
 kuow.org#?#.story-content-wrapper > div.embed_block:has(> script:contains(window.usabilla))
 hinatasoku.blog.jp#?#.right-container > div.sidewrapper:has(> div.side > a[href="http://www.ziyu.net/"])
@@ -4569,6 +4562,9 @@ dreamprogs.net##td[width="88"][height="31"]
 !+ NOT_PLATFORM(ios, ext_safari)
 ||1gr.cz/log^
 !
+! Forter analytics
+mediamarkt.de#%#//scriptlet('abort-on-property-write', 'ftr__startScriptLoad')
+!
 ! Sinclair, Inc
 /resources/video/players/prod/dist/*/analytics.js$domain=komonews.com|wjactv.com|upnorthlive.com|cnycentral.com|wpde.com|cbs6albany.com|kutv.com|wjla.com|news3lv.com|kmph.com|kfoxtv.com|fox17.com|foxbaltimore.com|foxchattanooga.com|foxillinois.com|foxnebraska.com|foxreno.com|foxrochester.com|foxsanantonio.com|nbcmontana.com|okcfox.com|siouxlandnews.com|wach.com|wchstv.com|wcyb.com|wfxl.com|wgxa.tv|wlos.com|wsbt.com|cbs2iowa.com|fox4beaumont.com|mycbs4.com|mynews4.com|news4sanantonio.com|abc6onyourside.com|wtov9.com|turnto10.com|fox11online.com|mynbc15.com|nbc16.com|fox23maine.com|nbc24.com|fox28savannah.com|myfox28columbus.com|fox42kptm.com|dayton247now.com|fox56.com|katu.com|local12.com|bakersfieldnow.com|ktul.com|22thepoint.com|abc3340.com|abc45.com|abc7amarillo.com|abcnews4.com|cbs12.com|cbs4local.com|cbsaustin.com|chattanoogacw.com|cw14online.com|cwomaha.tv|cw18milwaukee.com|cw23tv.com|cw34.com|cw35.com|cw9tv.com|cwcentralpa.com|cwcincinnati.com|cwcolumbus.com|cwlasvegas.com|cwtreasurevalley.com|fox38corpuschristi.com|fox47.com|fox49.tv|foxkansas.com|foxrichmond.com|idahonews.com|katv.com|kcby.com|kdsm17.com|keprtv.com|kfdm.com|khqa.com|kimatv.com|kmyu.tv|kocb.com|kpic.com|krcgtv.com|krcrtv.com|ktvl.com|ktvo.com|ktxs.com|kunptv.com|kunwtv.com|kval.com|local21news.com|midmichigannow.com|myrdctv.com|mytv30web.com|mytvbaltimore.com|mytvbuffalo.com|mytvcharleston.com|mytvdayton.com|mytvrichmond.com|mytvwichita.com|mytvz.com|nebraska.tv|nevadasportsnet.com|newschannel20.com|newschannel9.com|raleighcw.com|seattlerefined.com|southernoregoncw.com|star64.tv|telemundoaustin.com|thecw38.com|thecw46.com|thecwtc.com|thecwtv.tv|thenationaldesk.com|utv44.com|wabm68.com|watchdaytime.com|wcti12.com|weartv.com|wfgxtv.com|wgme.com|wpgh53.com|wset.com|wtwc40.com|wutv29.com|wwmt.com|13wham.com
 /api/rest/analytics/page/rendered$domain=komonews.com|wjactv.com|upnorthlive.com|cnycentral.com|wpde.com|cbs6albany.com|kutv.com|wjla.com|news3lv.com|kmph.com|kfoxtv.com|fox17.com|foxbaltimore.com|foxchattanooga.com|foxillinois.com|foxnebraska.com|foxreno.com|foxrochester.com|foxsanantonio.com|nbcmontana.com|okcfox.com|siouxlandnews.com|wach.com|wchstv.com|wcyb.com|wfxl.com|wgxa.tv|wlos.com|wsbt.com|cbs2iowa.com|fox4beaumont.com|mycbs4.com|mynews4.com|news4sanantonio.com|abc6onyourside.com|wtov9.com|turnto10.com|fox11online.com|mynbc15.com|nbc16.com|fox23maine.com|nbc24.com|fox28savannah.com|myfox28columbus.com|fox42kptm.com|dayton247now.com|fox56.com|katu.com|local12.com|bakersfieldnow.com|ktul.com|22thepoint.com|abc3340.com|abc45.com|abc7amarillo.com|abcnews4.com|cbs12.com|cbs4local.com|cbsaustin.com|chattanoogacw.com|cw14online.com|cwomaha.tv|cw18milwaukee.com|cw23tv.com|cw34.com|cw35.com|cw9tv.com|cwcentralpa.com|cwcincinnati.com|cwcolumbus.com|cwlasvegas.com|cwtreasurevalley.com|fox38corpuschristi.com|fox47.com|fox49.tv|foxkansas.com|foxrichmond.com|idahonews.com|katv.com|kcby.com|kdsm17.com|keprtv.com|kfdm.com|khqa.com|kimatv.com|kmyu.tv|kocb.com|kpic.com|krcgtv.com|krcrtv.com|ktvl.com|ktvo.com|ktxs.com|kunptv.com|kunwtv.com|kval.com|local21news.com|midmichigannow.com|myrdctv.com|mytv30web.com|mytvbaltimore.com|mytvbuffalo.com|mytvcharleston.com|mytvdayton.com|mytvrichmond.com|mytvwichita.com|mytvz.com|nebraska.tv|nevadasportsnet.com|newschannel20.com|newschannel9.com|raleighcw.com|seattlerefined.com|southernoregoncw.com|star64.tv|telemundoaustin.com|thecw38.com|thecw46.com|thecwtc.com|thecwtv.tv|thenationaldesk.com|utv44.com|wabm68.com|watchdaytime.com|wcti12.com|weartv.com|wfgxtv.com|wgme.com|wpgh53.com|wset.com|wtwc40.com|wutv29.com|wwmt.com|13wham.com
@@ -4663,7 +4659,7 @@ link.gmapp*.net$image
 ||alaskaair.com/javascripts/adrum.js$script,redirect=noopjs,domain=alaskaair.com
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53722
-||google-analytics.com/analytics.js$important,domain=unique-tutorials.info|getintopc.com|solvetube.site|tech-platform.info
+||google-analytics.com/analytics.js$important,domain=getintopc.com|tech-platform.info
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43140
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
 !
@@ -4707,6 +4703,11 @@ link.gmapp*.net$image
 /CI0/0$image
 %2FCI0%2F0$image
 !
+! soundcloud.com
+lurl.soundcloud.com/ss/o/$image
+lurl.soundcloud.com%2Fss%2Fo%2F$image
+! gutefrage.net
+tracking.srv2.de$image
 ! hh.ru
 i.hh.ru/mailing/$image
 i.hh.ru%2Fmailing%2F$image

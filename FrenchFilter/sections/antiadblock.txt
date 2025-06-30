@@ -7,6 +7,9 @@
 ! Good: @@/adblocker/detect.js$domain=example.org
 ! Bad: ||ad.doubleclick.net^ (should be in adservers.txt)
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/208343
+gamekult.com##.banana-block
+gamekult.com#%#//scriptlet('prevent-setTimeout', 'displayCookieWallBanner')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/202350
 @@||micro.rubiconproject.com/prebid/dynamic/$domain=tvaplus.ca
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199778
@@ -200,7 +203,7 @@ monumentum.fr#%#//scriptlet('abort-current-inline-script', 'document.getElementB
 !#if (!ext_ublock)
 japscan.lol#%#//scriptlet('trusted-set-constant', 'aclib', '{"isShowingPop": false}')
 japscan.lol#%#//scriptlet('set-constant', 'aclib.runInPagePush', 'noopFunc')
-japscan.lol#%#//scriptlet("remove-node-text", "script", "/Y[a-z][a-z]?k[a-z]\d|BabyYesGod|function nawNA/")
+japscan.lol#%#//scriptlet("remove-node-text", "script", "/Y[a-z][a-z]?k[a-z]\d|MyOhGod|function nawNA/")
 /^https:\/\/acscdn\.com\/script\/(?:aclib|atg|compatibility|ippg|suv4|ut)\.js(\?cb=\d{13})?$/$script,third-party,match-case,important,domain=japscan.lol
 @@||platform.pubadx.one/pubadx-ad.js$xmlhttprequest,domain=japscan.lol
 @@||static.cloudflareinsights.com/beacon.min.js$xmlhttprequest,domain=japscan.lol
@@ -292,8 +295,6 @@ pianoweb.fr###message_antipub
 ! https://github.com/AdguardTeam/AdguardFilters/issues/118024
 @@||parlons-basket.com/wp-content/*/js/prebid-ads.js
 parlons-basket.com#%#//scriptlet("set-constant", "canRunAds", "true")
-! https://github.com/AdguardTeam/AdguardFilters/issues/116877
-@@||fautsy.com/static/js/noadblock.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116109
 jaitoutcompris.com#@#.adbadge
 jaitoutcompris.com#%#//scriptlet("set-constant", "adClasses", "emptyArr")
@@ -338,8 +339,6 @@ varmatin.com#@#.AdSense
 varmatin.com#%#//scriptlet("set-constant", "adblockdetected", "false")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91538
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tirexo.work
-! https://github.com/easylist/listefr/issues/16
-@@||ddl-francais.com/adv/ads/popunder.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/86084
 !+ NOT_OPTIMIZED
 @@||wakanim.tv/*/advertisement?idepisode=
@@ -375,8 +374,6 @@ commentcamarche.net#%#//scriptlet("set-constant", "integrityObserver.corrupted",
 9docu.org#%#//scriptlet("abort-on-property-read", "gothamBatAdblock")
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||9docu.org^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/66771
-@@||debridup.com/*.js$~third-party
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64033
 cliqueduplateau.com##.oadb-popup-container
 @@||cliqueduplateau.com/wordpress/wp-content/plugins/oboxmedia-ads/assets/ads.js
@@ -439,37 +436,17 @@ voyageforum.com#%#//scriptlet("prevent-setTimeout", "adsbygoogle")
 voyageforum.com$$script[tag-content="adsbygoogle"][max-length="3700"]
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_safari)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=voyageforum.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/35621
-!+ PLATFORM(ext_ff, ext_opera, ext_edge, ios, ext_android_cb, ext_safari, ext_ublock)
-@@||zone-telechargement2.net^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/35328
-@@||dustreaming.com/ad-builder.js
-! https://github.com/AdguardTeam/AdguardFilters/issues/35028
-!+ PLATFORM(ext_ff, ext_opera, ext_edge, ios, ext_android_cb, ext_safari, ext_ublock)
-@@||hdstreamvf.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34766
 jtrouver.com#%#//scriptlet("set-constant", "google_jobrunner", "noopFunc")
 !#if (adguard_ext_firefox || adguard_ext_opera || adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=jtrouver.com
 @@||pagead2.googlesyndication.com/pagead/js/r*/show_ads_impl.js$domain=jtrouver.com
 !#endif
-! https://github.com/AdguardTeam/AdguardFilters/issues/34751
-!+ PLATFORM(ext_ff, ext_opera, ext_edge, ios, ext_android_cb, ext_safari, ext_ublock)
-@@||omgtorrent.cz^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/34483
-!+ PLATFORM(ext_ff, ext_opera, ext_edge, ios, ext_android_cb, ext_safari, ext_ublock)
-@@||voirseries.co^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/34421
-!+ PLATFORM(ext_ff, ext_opera, ext_edge, ios, ext_android_cb, ext_safari, ext_ublock)
-@@||streamingdivx.co^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34145
 @@||anime-vf.fr/catalog/view/javascript/ads.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33669
 !+ PLATFORM(ext_ff, ext_opera, ext_edge, ios, ext_android_cb, ext_safari, ext_ublock)
 @@||olympine.com^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/33441
-!+ PLATFORM(ext_ff, ext_opera, ext_edge, ios, ext_android_cb, ext_safari, ext_ublock)
-@@||annuaire-ebook.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167939
 linternaute.com#%#//scriptlet('json-prune', 'adParams siteParams.aabMessage')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/80283
@@ -523,9 +500,6 @@ animedigitalnetwork.fr#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28461
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_safari, ext_ublock)
 @@||torrent9.uno^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/27350
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_safari, ext_ublock)
-@@||yggtorrent.fr^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26658
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_safari, ext_ublock)
 @@||sofiotheque.info^$generichide

@@ -25,6 +25,10 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||d30qdagvt44524.cloudfront.net^
+||tracker-beam.aktuality.sk^
+||collector.fullxh.com^
+||collector.xhamster.com^
 ||ss.samolet.ru^
 ||agent-server.sc-api.seaart.ai^
 ||reqstat.api.mega.co.nz^
@@ -1499,7 +1503,6 @@
 ||beacon.ehow.com^
 ||beacon.gu-web.net^
 ||beacon.gutefrage.net^
-||beacon.indieclicktv.com^
 ||beacon.itmedia.jp^
 ||beacon.kmi-us.com^
 ||beacon.lycos.com^
@@ -2560,7 +2563,6 @@
 ||t.webjavaskript.net^
 ||t.wizards.com^
 ||t*.zcvh.net^
-||t1.musthird.com^
 ||t2.hulu.com^
 ||t2.huluim.com^
 ||ta.trs.cn^
