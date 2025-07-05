@@ -24,6 +24,12 @@
 !#########################################
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/208448
+@@||bluphoria.cms.tecreation.de^$stealth=3p-auth
+! https://github.com/AdguardTeam/AdguardFilters/issues/208566
+@@||vidroll.cloud^$stealth=referrer
+! whatismyip.com - map not showing
+@@||google.com/maps/embed/*/view?key$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/207960
 @@||store.tildaapi.one/api/$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/208071
@@ -33,7 +39,7 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/207964
 @@||eapi.pcloud.com/getpublinkdownload$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/207599
-@@||api-map.mappy.net^$stealth=referrer
+@@||api-*.mappy.net^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/207680
 @@||amazonaws.com^$image,stealth=referrer,domain=help.nextdns.io
 ! https://github.com/AdguardTeam/AdguardFilters/issues/207221
@@ -191,9 +197,11 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199975
 @@||mgsearcher.com/api/$stealth=referrer
 @@||g-mh.online^$image,domain=bzmh.org,stealth=referrer
+! https://github.com/AdguardTeam/AdguardFilters/issues/208490
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199918
 @@||imgs-2.virus2hub.com^$image,stealth=referrer
 @@||imgs-2.2xstorage.com$image,stealth=referrer
+@@||img-r1.2xstorage.com^$image,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199781
 @@||polaris.yammer.com/suite_nav.json$stealth=3p-auth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/199602
@@ -304,11 +312,10 @@
 @@||imgtmo.com^$stealth=referrer
 @@||techobras.com^$stealth=referrer
 @@||babynombres.com^$stealth=referrer
-@@||sombracycling.com^$stealth=referrer
 @@||recetasmaria.com^$stealth=referrer
 @@||culturanimation.com^$stealth=referrer
 @@||zonatmo.com/index.php/view_uploads/$stealth=referrer
-@@/uploads/*$image,stealth=referrer,domain=zonatmo.com|culturanimation.com|recetasmaria.com|techobras.com|babynombres.com|sombracycling.com
+@@/uploads/*$image,stealth=referrer,domain=zonatmo.com|culturanimation.com|recetasmaria.com|techobras.com|babynombres.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/193041
 @@||api.themoviedb.org^$stealth=3p-auth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/192837
@@ -400,8 +407,6 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188363
 @@||vidload.lol/iframe/$stealth=referrer
 @@||cdn*.*.pw/*p_*.jpg$stealth=referrer,domain=vidload.lol
-! https://github.com/AdguardTeam/AdguardFilters/issues/188254
-@@||lordserials.cx^$stealth=3p-cookie
 ! https://github.com/AdguardTeam/AdguardFilters/issues/188142
 @@||login.mobywatel.gov.pl^$stealth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187941
@@ -527,8 +532,6 @@
 @@||myqcloud.com^$stealth=referrer,domain=chinadsl.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181648
 @@||netportal.hdfcbank.com^$stealth=referrer
-! m10.asd.quest - unable to get to download page
-@@/?article=$stealth=referrer,domain=m10.asd.quest
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181893
 @@||img.mangahasu.se^$image,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181749
@@ -738,8 +741,6 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169182
 @@||shrinke.me^$stealth=referrer
 @@||themezon.net/link.php$stealth=referrer
-! https://github.com/AdguardTeam/AdguardFilters/issues/170239
-@@||playm4u.xyz/play/$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169557
 @@|forefront.ai^$stealth=3p-cookie
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169982
@@ -748,9 +749,6 @@
 @@||sn.dplayer*.site/iframe.php$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169404
 @@||hls05.*.*/hls05$stealth=referrer,xmlhttprequest,domain=kisskh.co
-! https://github.com/AdguardTeam/AdguardFilters/issues/169441
-@@||dugrt.com/post$stealth=referrer
-@@||tech*.techradar.ink/*/?se=*&listing=$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168999
 @@||plex.tv/api/$stealth=ip
 ! https://github.com/AdguardTeam/AdguardFilters/issues/168619
@@ -791,14 +789,13 @@
 @@||walletkeyslocker.me/?scode=*&stream=$stealth=referrer
 @@||1qwebplay.xyz/*.php$stealth=referrer
 @@||qqwebplay.xyz/embedlivetv.php$stealth=referrer
-@@||viwlivehdplay.ru/mono.php?id=$stealth=referrer
 @@||wideiptv.top/*/embed.html?token=*&remote=no_check_ip$stealth
 @@||onlinehdhls.ru/*/playlist.m3u8$stealth=referrer
 @@.ru/mylivetv/stream-*.php$stealth=referrer
 @@/premium*/tracks-*.html$xmlhttprequest,stealth=referrer
 @@/tracks-v1a1/*$xmlhttprequest,stealth=referrer,domain=topembed.pw|poscishd.online|pkpakiplay.xyz
 @@/index.m3u8$xmlhttprequest,stealth=referrer,domain=poscishd.online
-@@/premium*/*.php$subdocument,stealth=referrer,domain=worldstreams.lol|stronstream.shop|sportzlive.shop
+@@/premium*/*.php$subdocument,stealth=referrer,domain=stronstream.shop|sportzlive.shop
 @@.xyz/premiumtv/*.php$subdocument,xmlhttprequest,stealth=referrer
 @@.ru/premiumtv/*.php$subdocument,xmlhttprequest,stealth=referrer
 @@/gen.php?playerid$subdocument,stealth=referrer,domain=fastreams.live|fastreams.com|ftmstreams.com
@@ -807,21 +804,19 @@
 @@/scripts/*js|$xmlhttprequest,stealth=referrer,domain=crackstreamer.net|1stream.eu|streameast.app|thecrackstreams.live|buffstreams.app
 @@/playlist/*caxi.m3u8$xmlhttprequest,stealth=referrer,domain=crackstreamer.net|streameast.app|1stream.eu|buffstreams.app
 @@playlist/*/load-playlist$xmlhttprequest,stealth=referrer,domain=crackstreamer.net|1stream.eu|streameast.app|thecrackstreams.live|buffstreams.app
-@@/chunklist/*.m3u8$xmlhttprequest,stealth=referrer,domain=decmelfot.xyz|usgate.xyz|hdfungamezz.xyz|arcasiangrocer.store
+@@/chunklist/*.m3u8$xmlhttprequest,stealth=referrer,domain=decmelfot.xyz|usgate.xyz|arcasiangrocer.store
 @@/hls*/*.m3u8$stealth=referrer,domain=techclips.net|b4ucast.com
-@@/hls/*.ts$stealth=referrer,domain=techclips.net|abolishstand.net
-@@/embed/*$stealth=referrer,subdocument,domain=lol-foot.ru|ldcstreaming.info|sportsonline.*|elixx.xyz|primefoot.ru|lavents.la
+@@/hls/*.ts$stealth=referrer,domain=techclips.net
+@@/embed/*$stealth=referrer,subdocument,domain=ldcstreaming.info|sportsonline.*|elixx.xyz|primefoot.ru|lavents.la
 @@*.php?player=desktop$stealth=referrer,domain=soccermlbstream.top|hitsports.pro|cricplay2.xyz|antenatv.shop|virazo.sx
-@@/live/*.m3u8$xmlhttprequest,stealth=referrer,domain=flstv.online|weakspell.to|weakspell.org|streamocean.online|gameshdlive.net|weakspell.to
+@@/live/*.m3u8$xmlhttprequest,stealth=referrer,domain=weakspell.to|weakspell.org|streamocean.online|weakspell.to
 @@/live/*.ts|$xmlhttprequest,stealth=referrer,domain=weakspell.org|streamocean.online
 @@/live/*/*jpeg|$xmlhttprequest,stealth=referrer,domain=weakspell.org|weakspell.to
 @@style/*/*jpeg$xmlhttprequest,stealth=referrer,domain=weakspell.to
 @@/static/stream*.png$stealth=referrer,xmlhttprequest,domain=streamocean.online|streambtw.com
 @@/stylesheet/*$xmlhttprequest,stealth=referrer,domain=gamingzen.xyz
-@@||closedjelly.net/embed/$subdocument,stealth=referrer
 @@||pawastreams.info/gamer/*.php$subdocument,stealth=referrer
 @@||dubznetwork.com/iframes^$stealth=referrer
-@@||abolishstand.net/embed$stealth=referrer
 @@||ntuplay.xyz/premiumtv$stealth=referrer
 @@.com/embed2.php?player=$stealth=referrer
 @@||keyvdowallet.me^$stealth=referrer
@@ -915,7 +910,6 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161517
 @@||live.tv247us.com/tv247/*.m3u8$stealth=referrer
 ! sport streaming sites (vipbox,streamseast,sportsurge etc.) - embedded player not working
-@@||walletkeyslocker.me^$domain=nolive.me,stealth=referrer
 @@||bscfsdf.azzureedge.xyz/scripts/*.m3u8$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160735
 @@||delta.com^$stealth=3p-auth|ip|useragent|referrer
@@ -981,8 +975,6 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155783
 @@||cdn.idevbase.com/static/$stealth=referrer,domain=ohttps.com
 @@||ohttps.com^$stealth=referrer
-! freemovie.to - video not loading for "streamsb"
-@@||sbfull.com/e/$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155133
 @@||stackblitz.com^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155526
@@ -1027,8 +1019,6 @@
 @@||amazonaws.com/academo-assets/$image,stealth=referrer,domain=academo.org
 ! https://github.com/AdguardTeam/AdguardFilters/issues/153125
 @@||iframe.dacast.com/vod/$stealth=referrer
-! https://github.com/AdguardTeam/AdguardFilters/issues/152740
-@@/content/image.jpg?data=$stealth=referrer,domain=nettruyenplus.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/151641
 @@||store.steampowered.com/events/ajaxgetbesteventsforuser?$stealth=3p-cookie
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152421
@@ -1251,8 +1241,6 @@
 ! https://github.com/List-KR/List-KR/pull/312
 @@||thumbnail*.coupangcdn.com/thumbnails/$stealth=referrer,image
 @@||asset*.coupangcdn.com^$stealth=referrer
-! https://github.com/AdguardTeam/AdguardFilters/issues/134992
-@@/play.php?$stealth=referrer,domain=netlivetv.xyz
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135059
 @@||exee.app^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/135035
@@ -1275,8 +1263,6 @@
 @@||zhodinonews.by$stealth=ip
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131801
 @@||kh.google.com/rt/earth/$stealth=referrer|searchqueries,xmlhttprequest
-! https://github.com/AdguardTeam/AdguardFilters/issues/132602
-@@||earthquakecensus.com/embed/$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131718
 @@||split.io/api/$stealth=3p-auth,domain=secure.rewardcodes.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/132145
@@ -1506,10 +1492,6 @@
 @@||fundingchoicesmessages.google.com^$domain=rocketnews24.com|soranews24.com|youpouch.com,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116952
 @@||ip-*.net/*.mp4$stealth=referrer,domain=meusanimes.net
-! https://github.com/AdguardTeam/AdguardFilters/issues/116957
-@@||multicanais.org/get/auth$stealth=referrer
-! https://github.com/AdguardTeam/AdguardFilters/issues/116946
-@@||viajarhoje.com^$stealth=referrer
 @@||saborcaseiro.org/*.php?contentId=$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116942
 @@||api.anivideo.fun/file/$stealth=referrer
@@ -1621,8 +1603,6 @@
 @@||xboxservices.com^$stealth=3p-auth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/106303
 @@||duihui.duoduocdn.com^$image,stealth=referrer,domain=zhibo8.cc
-! https://github.com/AdguardTeam/AdguardFilters/issues/107777
-@@.jpg$stealth=referrer,domain=manga1001.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108211
 @@||gurgle.zdbb.net/amp-targeting$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/106462
@@ -1673,8 +1653,6 @@
 @@||api.mapbox.com/*?secure&access_token=$stealth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98137
 @@||ip-*.net/*.mp4$stealth=referrer,domain=animeonline.site
-! https://github.com/AdguardTeam/AdguardFilters/issues/96913#issuecomment-952242629
-@@||onlinefixuploads.ru^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97915
 @@||ixifile.xyz/*.mp4$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97176
@@ -1707,8 +1685,6 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95882
 @@||simg.doubanio.com^$stealth=referrer,domain=douban.com
 @@||img*.doubanio.com^$stealth=referrer,domain=douban.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/96021
-@@||kissorg.net^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/96003
 @@||live-buyback-order-api.live-api.recommerce.cloud/product?$stealth=3p-auth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94305
@@ -1760,9 +1736,6 @@
 @@||content-*.googleapis.com^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90012
 @@||cloudfront.net/images/$stealth=referrer,domain=maps.seaofthieves.rarethief.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/89642
-@@||123tv.live^$stealth=referrer
-@@|http$stealth=referrer,xmlhttprequest,other,media,domain=123tv.live
 ! https://github.com/AdguardTeam/AdguardFilters/issues/89977
 @@||login.bible.com^$stealth=referrer,domain=bible.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/89323
@@ -1797,8 +1770,6 @@
 @@||m.media-amazon.com/images/*$domain=amazon.*,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/86938
 @@||media.nbb-cdn.de/images^$stealth=referrer
-! https://github.com/AdguardTeam/AdguardFilters/issues/86895
-@@||sf*-*cdn-tos.pstatp.com^$domain=bcy.net,stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85212
 @@||medium.com^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85325
@@ -1896,8 +1867,6 @@
 @@||api.mapbox.com^$stealth=referrer,domain=maps.me
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73941
 @@||cinemaxxl.de^$stealth=donottrack
-! https://github.com/AdguardTeam/AdguardFilters/issues/75370
-@@||midiaflixhd.com^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74228
 @@||kinescope.io/embed/$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73961
@@ -2046,8 +2015,6 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57017
 @@||registrierung.web.de^$stealth
 @@||registrierung.gmx.net^$stealth
-! https://github.com/AdguardTeam/AdguardFilters/issues/55883
-@@||privateuploads.net/%$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56640
 @@||sdn.cz^$stealth=referrer,domain=televizeseznam.cz
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56477#issuecomment-638972724
@@ -2061,8 +2028,6 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/73820
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56368
 @@/mangakakalot/*$stealth=referrer,image,domain=mangakakalot.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/56068
-@@||amazonaws.com/zeroistanbulplaylist/$stealth=referrer,domain=zeroistanbul.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/55487
 @@||50.7.161.20:8081/*.m3u8?$stealth=ip
 ! https://github.com/AdguardTeam/AdguardFilters/issues/35789
@@ -2238,8 +2203,6 @@
 @@||googleapis.com/tile/v*/*?session=$stealth=referrer,domain=waze.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/41380
 @@||algolia.net/*/indexes/*/queries?x-algolia-agent*vue-instantsearch*algolia-api-key$stealth=referrer
-! https://github.com/AdguardTeam/AdguardFilters/issues/40983
-@@||linkvietvip.com^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/41136
 @@||51.15.*/videoplayback?vid=$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/40761 (no option)
@@ -2342,8 +2305,6 @@
 @@||hanime.tv/omni-player/index.html$stealth=referrer
 ! my.visualstudio.com/downloads - error page
 @@||vlscppe.microsoft.com/fp/tags.js$stealth=referrer
-! https://github.com/AdguardTeam/AdguardFilters/issues/34201
-@@||trollvid.net/embed/$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33905
 @@||uzmantv.com/metadata/$stealth=referrer
 ! https://reddit.com/r/Adguard/comments/bq0cab/how_to_configure_so_that_kinja_sites_gizmodo/
@@ -2488,14 +2449,10 @@
 @@||swapsmut.com/video/$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/11621
 @@||cdns.*.gigya.com/gs/webSdk/Api.aspx$stealth=referrer
-! https://github.com/AdguardTeam/AdguardFilters/issues/11346
-@@||datavimg.com^$stealth=referrer
 ! https://forum.adguard.com/index.php?threads/28083/
 @@||maps.2gis.com^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/11447
 @@||doubanio.com/view/$stealth=referrer
-! https://github.com/AdguardTeam/AdguardFilters/issues/10657
-@@||fmhua.com^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/10658
 @@||177mh.com^$stealth=referrer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/10659
@@ -2591,8 +2548,6 @@
 @@||esia.gosuslugi.ru^$stealth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/2267
 @@||raindrop.io/api/$stealth
-! https://forum.adguard.com/index.php?threads/10586/
-@@||freehdsport.com^$stealth
 ! https://forum.adguard.com/index.php?threads/10573/
 @@||allsport-live.net^$stealth
 ! https://github.com/AdguardTeam/ExperimentalFilter/issues/1803
@@ -2622,8 +2577,6 @@
 @@||hdfree.tv/live^$stealth=referrer
 ! https://forum.adguard.com/index.php?threads/9765/
 @@||help.ea.com^$stealth
-! https://forum.adguard.com/index.php?threads/9740/
-@@||latino-webtv.com^$stealth=referrer
 ! https://forum.adguard.com/index.php?threads/9739/
 @@||feldherr.com^$stealth=3p-cookie
 ! https://github.com/AdguardTeam/ExperimentalFilter/issues/2011
@@ -2750,6 +2703,7 @@
 ! https://github.com/AdguardTeam/CoreLibs/issues/1645
 !#if (adguard_app_windows || adguard_app_mac || adguard_app_android)
 !
+@@||omhm.qc.ca^$stealth=dpi
 @@||kultursanat.istanbul^$stealth=dpi
 @@||brookaccessory.com^$stealth=dpi
 @@||funnel.bgfretail.com^$stealth=dpi

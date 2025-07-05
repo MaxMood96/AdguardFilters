@@ -51,7 +51,6 @@
 ||185.165.169.108^$websocket,third-party
 ||ecstatic-hoover-50a7b7.netlify.com/pYrqEw.js
 ||ecstatic-hoover-50a7b7.netlify.com/LXWzre.js
-||jsfiddle.net^$important,domain=7torr.com
 ||pornsfw.com/assets/application-*.js
 ||omine.org^$third-party
 ||tercabilis.info^$third-party
@@ -69,16 +68,12 @@ vkcdnservice.appspot.com^$third-party
 ||vuryua.ru^$third-party
 $websocket,domain=300mbfilms.io|lib.rus.ec
 /cdn-cgi/pe/bag2?r[]=*eth-pocket.de
-||webminerpool.com^$third-party
 ||mepirtedic.com^$third-party
-||nerohut.com^$third-party
 ||silimbompom.com^$third-party
 ||afminer.com^$third-party
 ||bablace.com^$third-party
-||becanium.com^$third-party
 ||brominer.com^$third-party
 ||coin-have.com^$third-party
-||coinblind.com^$third-party
 ||coinerra.com^$third-party
 ||coinimp.com^$third-party
 ||coinnebula.com^$third-party
@@ -91,9 +86,7 @@ $websocket,domain=300mbfilms.io|lib.rus.ec
 ||jscdndel.com^$third-party
 ||jsecoin.com^$third-party
 ||kinohabr.net/*.php?id=*&type=
-||laserveradedomaina.com^$third-party
 ||minemytraffic.com^$third-party
-||nametraff.com^$third-party
 ||offerreality.com^$third-party
 ||papoto.com^$third-party
 ||party-vqgdyvoycc.now.sh^$third-party
@@ -133,12 +126,9 @@ $websocket,domain=300mbfilms.io|lib.rus.ec
 ||gaypornwave.com/wp-content/plugins/simple-miner-tweaks^
 ||techhome-js.github.io/main.js^$third-party
 ||techhome-js.github.io/code.wsm^$third-party
-||vidzi.tv/plays.js
 ||hiy.vidzi.tv/socket.io^
-||goodkino.biz/*.2.1.2.js|
 ||audioknigi.club/templates/skin/aclub/js/m/bgd.js
 ||d1e1rbybdt265x.cloudfront.net/mmfb2.html
-||kisshentai.net/Content/js/c-hive.js
 ||fili.tv/assets/libs/mino.min.js
 ||dekoder.ws/*/m.js
 !

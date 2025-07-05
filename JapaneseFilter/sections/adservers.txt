@@ -53,7 +53,6 @@
 ||creative-klepon-3f0ecb.netlify.app^
 ||effulgent-stroopwafel-efb9ce.netlify.app^
 ||adma.xsrv.jp^$third-party
-||amazones-tools.com^$third-party
 ||ranklet.come.cc^$third-party
 ||js.click-plus.net^
 ||ad.douga-kan.com^$third-party
@@ -76,8 +75,6 @@
 ||dlp4luwpus5kr.cloudfront.net^
 ||mobadme.jp^$third-party
 ||ad-drop.jp^
-||nectarineple.com^$all
-||antennash.com^
 ||unddeliv.com^$all
 ||ad.886644.com^$third-party
 ||ad.mdmd.info^
@@ -95,7 +92,6 @@
 ||ad.moo-mam-tai.com^
 ||hydrangeao.com^$all
 ||smart-c.jp^$third-party
-||jpshopes.com^$document
 ||ads.mediams.mb.softbank.jp^
 ||ad.owlair.net^
 ||js.medi-8.net^
@@ -118,7 +114,6 @@
 ||link-a.net^$third-party
 ||moro-douga.link^$all
 ||gusion.space^
-||ad-clcount.com^
 ||js.kabutocho-dsp.net^
 ||enmusubimail000.com^$all
 ||infohimatalk77.net^$all
@@ -345,7 +340,6 @@
 ||i2iserv.com^$third-party
 ||image-rentracks.com^$third-party
 ||link-trade.net^$third-party
-||mcnt.jp^$third-party
 ||microad.jp^$third-party
 ||rcm-jp.amazon.co.jp/e/cm?$third-party
 ||recommender.jp^$third-party

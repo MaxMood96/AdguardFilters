@@ -167,6 +167,10 @@ dlsdk.appsflyer.com^
 !
 ! NOTE: Regular rules
 !
+||eats-ads-event-capture.coupang.com^
+||trackchecker.ru/stat/
+||tracking.trackchecker.net^
+||googletagmanager.com^$app=app.shinagawa.listentonovels.androidApp
 ||mon*-misc.fqnovel.com^
 ||clientlog.perfectworldgames.com^
 ||log1.perfectworldgames.com^
@@ -639,7 +643,6 @@ d4?appid*type*
 ||tobapplog.ctobsnssdk.com^
 ||t.castle.io^
 ||bs.nakanohito.jp^
-||log1.happymod.com^
 ||log.pvpgang.com^
 ||crs-event.line.me^
 ||crs-hometab-event.line.me^
@@ -974,7 +977,6 @@ d4?appid*type*
 ||invenio_tracking_*.sgnapps.com^
 ||krxd.net^
 ||lepodownload.mediatek.com^
-||log.droid4x.cn^
 ||log.umsns.com^
 ||lp4.io^
 ||m.vk.com/counters.php
@@ -988,9 +990,7 @@ d4?appid*type*
 ||mobileanalytics.*.amazonaws.com^
 ||mobilelog.upqzfile.com^
 ||ms.cmcm.com^
-||mtlog.droid4x.cn^
 ||nativesdks.mparticle.com^
-||nlog.droid4x.cn^
 ||nrc.tapas.net^
 ||online-metrix.net^
 ||openstat.net^

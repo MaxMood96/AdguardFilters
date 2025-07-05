@@ -7,6 +7,7 @@
 ! Bad: ||legitwebsite.com^$third-party (should be in adservers.txt)
 !
 !
+||d3m6crjuedf6o.cloudfront.net^
 ||chuchle.all-usanomination.com^
 ||bundle.ppas.monster^
 ||adf.underhentai.net^
@@ -70,8 +71,6 @@
 ||ads.betweendigital.com^
 ||rec.deezer.com^
 ||ads.greengeeks.com^
-||d2xupcbyjjjfoa.cloudfront.net^
-||d17xmf66fp9kg9.cloudfront.net^
 ||d3icekm41k795y.cloudfront.net^
 ||ads.videy.co^
 ||ads.sportslocalmedia.com^

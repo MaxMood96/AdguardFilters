@@ -16,8 +16,6 @@ fastdl.app#%#//scriptlet('set-constant', 'clickAds.init', 'noopFunc')
 modern-family-lostfilm.net#%#//scriptlet('remove-class', 'branded', 'body')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/181297
 cunofilms.ru#%#//scriptlet('abort-on-property-read', 'adOnClick')
-! https://github.com/AdguardTeam/AdguardFilters/issues/177871
-blackserie.ru#%#//scriptlet('set-constant', 'adOnClick', 'noopFunc')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175426
 ru.spbtv.com#%#//scriptlet("json-prune", "data.ads")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/171941
@@ -67,8 +65,6 @@ public-porn.xyz#%#//scriptlet('set-constant', 'biads.initCli', 'noopFunc')
 adultepic.com,xxxtube2022.com,fuck-xxx-movies.com#%#//scriptlet("abort-on-property-read", "userout")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/127540
 sweet-tv.net,cdnneedtv.ru#%#//scriptlet('prevent-window-open')
-! https://github.com/uBlockOrigin/uAssets/issues/13230
-https-xvideos.com#%#//scriptlet('prevent-window-open')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116089
 igroutka.ru#%#//scriptlet("set-cookie-reload", "afg", "1")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104944
@@ -101,7 +97,7 @@ kinofilm.co#%#//scriptlet("set-constant", "document.onmouseup", "undefined")
 mmo13.ru#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'bnrShowAd')
 mmo13.ru#%#//scriptlet('remove-class', 'bnr', '#page.bnr')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/76017
-allsports-tv.ru,channels247.net,sport7.biz,sporting77.com,barsportbar.com,sportbar.biz#%#//scriptlet("prevent-window-open")
+allsports-tv.ru,channels247.net,sport7.biz,sporting77.com,barsportbar.com#%#//scriptlet("prevent-window-open")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74361
 penzainform.ru#%#//scriptlet("abort-on-property-write", "u0")
 penzainform.ru#$#body { cursor: auto!important; }
@@ -114,8 +110,6 @@ fastpic.ru,fastpic.org#%#//scriptlet("abort-on-property-read", "utrgLabel")
 l2top.ru#%#//scriptlet("abort-current-inline-script", "$", "cleanAndEval")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67949
 93.88.74.236#%#//scriptlet("abort-on-property-read", "open")
-! https://github.com/AdguardTeam/AdguardFilters/issues/65645
-4rl.ru#%#//scriptlet("prevent-window-open")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64994
 720video.me#%#//scriptlet("prevent-window-open")
 ! audit-it.ru - ads replacement
@@ -166,8 +160,6 @@ oxax.tv#%#//scriptlet('prevent-window-open')
 4kfilm.click,4kfilm.online#%#//scriptlet("remove-class", "have-brand", "div.have-brand")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53045
 it-like.ru#%#//scriptlet('remove-attr', 'href', '.post-content > article > div > ul > li > a[href^="https://it-like.ru/link/"][data-wpel-link="external"]')
-! assiatv.com - popups
-assiatv.com#%#//scriptlet("prevent-window-open")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/107096
 ! kino.mail.ru has different ivi ads; ivi.ru - preroll ads
 ivi.ru#%#//scriptlet('set-constant', 'Object.prototype.getAd', 'noopFunc')
@@ -198,11 +190,9 @@ life.ru#?#.news-feed-item:has(> div.news-feed-item-advertising)
 !+ NOT_PLATFORM(windows, mac, android)
 tele.ru#%#//scriptlet("abort-current-inline-script", "String.fromCharCode", "/substr/")
 ! Streams at sport-24tv.ru
-sportbar.biz,sportbox.ws,goool7.ws,sport-24tv.ru#%#//scriptlet("prevent-window-open")
+sportbox.ws,goool7.ws,sport-24tv.ru#%#//scriptlet("prevent-window-open")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/44512
 porno-incest.net#%#//scriptlet("prevent-window-open")
-! https://github.com/AdguardTeam/AdguardFilters/issues/43382
-moresisek.net#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "/asg_mixed_tabs/")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43503
 porevos.ru#%#//scriptlet("abort-current-inline-script", "String.fromCharCode", "/substr/")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43054
@@ -246,8 +236,6 @@ sberometer.ru#%#//scriptlet("abort-current-inline-script", "document.addEventLis
 spaces.im,spaces-blogs.com,strip2.me#%#//scriptlet("set-constant", "mobiads_loader", "noopFunc")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/11776
 economistua.com#%#//scriptlet('set-constant', 'onlyBodyClick', 'noopFunc')
-! https://github.com/AdguardTeam/AdguardFilters/issues/9168
-ruclip.com#%#//scriptlet("abort-current-inline-script", "atob", "decodeURIComponent")
 ! https://forum.adguard.com/index.php?threads/23865/
 fainaidea.com#%#//scriptlet('abort-on-property-read', 'td_ad_background_click_link')
 ! https://forum.adguard.com/index.php?threads/33157/
@@ -281,8 +269,6 @@ cunofilms.ru#$#body { background-image: none !important; }
 domovita.by#$##reklamnaya-modalka { display: none !important; }
 domovita.by#$#.c-modal-overlay { display: none !important; }
 domovita.by#$#body { overflow: auto !important; padding-right: 0 !important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/177871
-blackserie.ru#$#body { background-image: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/177346
 seasonvar.*#$#.wrapper { margin-top: 0 !important; }
 ! top padding
@@ -834,9 +820,6 @@ filmitorrent.xyz#$#.content { margin-top: 0!important; }
 rbkgames.com#$#.branding div.main-content { margin-top: 60px!important; }
 ! gdetraffic.com - удаление отступа сверху
 gdetraffic.com#$#.header~div.main.with-top-menu.main-padded { padding-top: 100px!important; }
-! https://github.com/AdguardTeam/AdguardFilters/issues/29828
-porno-eblja.com#$#.player-cols { padding-left: 0!important; }
-porno-eblja.com#$#.player-rkl { display: none!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29552
 partnerkin.com#$#.header-clear { margin-bottom: 0px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/38774
@@ -1391,9 +1374,9 @@ gtamania.ru$$script[tag-content="/bens/vinos"]
 novosti-n.org$$script[tag-content="setAttribute('type', 'text')"]
 ! rutracker.org - addition for apps only
 !+ NOT_PLATFORM(ext_ff)
-rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org$$div[class="bn-topic"]
+rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker.lib,rutracker.net,rutracker.org$$div[class="bn-topic"]
 !+ NOT_PLATFORM(ext_ff)
-rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker.lib,rutracker.net,rutracker.nl,rutracker.org$$div[class="bn-bottom"]
+rutracker.appspot.com,pornolab.biz,pornolab.cc,pornolab.lib,pornolab.net,rutracker.appspot.com,rutracker.lib,rutracker.net,rutracker.org$$div[class="bn-bottom"]
 ! Yandex.Video
 yandex-video.naydex.net#%#//scriptlet('trusted-replace-xhr-response', '/(<VAST[\s\S]*?>)[\s\S]*<\/VAST>/', '\$1<\/VAST>', 'strm.yandex.ru')
 yandex.md,yandex.by,yandex.com,yandex.com.tr,yandex.fr,yandex.kz,yandex.ru$$div[class="DirectStripe"]

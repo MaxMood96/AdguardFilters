@@ -6,6 +6,8 @@
 !
 !
 !
+! temporally hidden for GTM
+ar-mag.jp,ben54.jp#$#html[class^="loading"] { visibility: visible !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/208209
 mobilegadget.jp#@#.header-ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/208191
@@ -78,6 +80,7 @@ funny-ai.com#@#.button_ads
 !+ NOT_PLATFORM(ios, ext_safari)
 funny-ai.com#$#.orp-player-rewarded { display: none !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142569
+@@||cm-beacon.nakanohito.jp/at/ranking/$script
 @@||cm-widget.nakanohito.jp/cm/$script,stylesheet
 @@||cm-beacon.nakanohito.jp/cm/comment_$xmlhttprequest
 ! https://github.com/easylist/easylist/pull/7519
@@ -291,9 +294,6 @@ magazine.jp.square-enix.com#@#a[href^="http://ad2.trafficgate.net/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120603
 jj-jj.net#@#.ad_container
 jj-jj.net#@#.ad-rect
-! https://github.com/tofukko/filter/issues/70
-||yads.c.yimg.jp/js/yads.js$script,redirect=noopjs,domain=news.biglobe.ne.jp,important
-@@||yads.c.yimg.jp/js/yads.js$domain=news.biglobe.ne.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117406
 macaro-ni.jp#@#.rectangle__item
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117212
@@ -329,9 +329,6 @@ osusume.mynavi.jp#@#.ad-widget
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78094
 real-sports.jp#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')
 ||googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication-adsbygoogle,important,domain=real-sports.jp
-! https://jbbs.shitaraba.net/bbs/read.cgi/internet/25463/1598352715/232
-!+ NOT_PLATFORM(windows, mac)
-@@||adcdn.goo.ne.jp/images/pix/2dwkwwau99.js$domain=news.goo.ne.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95739
 @@||cxad.cxense.com/adserver/search$domain=gizmodo.jp
 ! https://github.com/AdguardTeam/AdguardFilters/issues/8873

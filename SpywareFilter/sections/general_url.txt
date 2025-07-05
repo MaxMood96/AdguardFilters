@@ -24,6 +24,10 @@
 !+ NOT_OPTIMIZED
 /.well-known/private-click-measurement
 !
+.com/hit$ping
+/click.php?lp=data_upd&
+/cdn/shopifycloud/consent-tracking-api/*
+/.netlify/scripts/rum
 /stattag.js
 /ingest/*ip=*&ver=
 /a/elevar?source_url=
@@ -77,6 +81,14 @@
 /com.snowplowanalytics.$domain=~snowplowanalytics.com
 .com.br/tracking.set^|
 .com.br/cliente/trackRemote^|
+! Tracking on parked domains
+/_static/deliver.js?nonce=$script,~third-party
+/sxp/i/*$script,third-party
+/tc_imp.gif?
+/munin/a/tr/browserjs?domain=
+/munin/a/ls?t=$xmlhttprequest
+/javascripts/browserfp.min.js?templateId=
+/sk-park.php?pid=
 ! zfgloadedpopup tracking
 /solid.gif?z=
 ! ShopifyAnalytics

@@ -83,7 +83,6 @@ cdn.braun634.com^$third-party
 @@||allfaucet.xyz^$generichide
 @@||hatauzmani.com^$generichide
 @@||elitetunnel.com^$generichide
-@@||business-phone.org^$generichide
 @@||dajya-ranger.com^$generichide
 @@||memangbau.com^$generichide
 @@||hengame.club^$generichide
@@ -133,7 +132,6 @@ cdn.braun634.com^$third-party
 @@||voyeurhouse.life^$generichide
 @@||handydecor.com.vn^$generichide
 @@||thizissam.in^$generichide
-@@||coincity.in^$generichide
 @@||heyapakabar.com^$generichide
 @@||usefuldiy.com^$generichide
 @@||dual1080p.blogspot.com^$generichide
@@ -177,7 +175,6 @@ cdn.braun634.com^$third-party
 @@||readsmsonline.com^$generichide
 @@||forex-trnd.com^$generichide
 @@||informatikamu.id^$generichide
-@@||birdurls.com^$generichide
 @@||windowsbulletin.com^$generichide
 @@||animeunity.tv^$generichide
 @@||animeuploader.com^$generichide
@@ -190,12 +187,10 @@ cdn.braun634.com^$third-party
 @@||crazyblog.in^$generichide
 @@||mgkomik.com^$generichide
 @@||tritinia.com^$generichide
-@@||wildfaucet.me^$generichide
 @@||bitcointrophy.com^$generichide
 @@||tutflix.org^$generichide
 @@||tboost.xyz^$generichide
 @@||nartag.com^$generichide
-@@||rureka.com^$generichide
 @@||cazzette.com^$generichide
 @@||restorbio.com^$generichide
 @@||azsoft.$generichide
@@ -206,10 +201,6 @@ cdn.braun634.com^$third-party
 @@||gamingforecast.com^$generichide
 @@||genshinnude.com^$generichide
 @@||xanimehub.com^$generichide
-@@||diariotecnico.net^$generichide
-@@||nsfwcrave.com^$generichide
-@@||turismoeviagem.com^$generichide
-@@||cizzy.cc^$generichide
 @@||xploit.ink^$generichide
 @@||two.re^$generichide
 @@||afly.pro^$generichide
@@ -218,21 +209,17 @@ cdn.braun634.com^$third-party
 @@||viralfeed.xyz^$generichide
 @@||jav-asia.top^$generichide
 @@||objectivequiz.com^$generichide
-@@||robloxhacks.net^$generichide
 @@||mexa.sh^$generichide
 @@||multirecommend.com^$generichide
 @@||mylinkconverter.com^$generichide
 @@||thegoneapp.com^$generichide
 @@||nousdecor.com^$generichide
 @@||visitmama.com^$generichide
-@@||mobileflasherbd.com^$generichide
 @@||staaker.com^$generichide
 @@||itopmusicx.com^$generichide
 @@||damduck01.com^$generichide
 @@||feyorra.top^$generichide
-@@||hilanofaucet.xyz^$generichide
 @@||dizipal*.com^$generichide
-@@||tutsgalaxy.net^$generichide
 @@||descargaspcpro.net^$generichide
 @@||pinayvids.com^$generichide
 @@||streamingcommunity.$generichide
@@ -247,9 +234,7 @@ cdn.braun634.com^$third-party
 @@||173.249.49.204^$generichide
 @@||evolution-x.org^$generichide
 @@||wuyong.fun^$generichide
-@@||cubehosting.me^$generichide
 @@||hdturk.club^$generichide
-@@||short-zero.com^$generichide
 @@||fzmovies.*^$generichide
 @@||gledajcrtace.xyz^$generichide
 @@||mcmfaucets.xyz^$generichide
@@ -279,8 +264,6 @@ cdn.braun634.com^$third-party
 @@||tempmailpro.net^$generichide
 @@||gledaitv.live^$generichide
 @@||mmff30.com^$generichide
-@@||meganews.tech^$generichide
-@@||shrx.in^$generichide
 @@||217.16.188.246^$generichide
 @@||freevstplugins.net^$generichide
 @@||acilissaati.com^$generichide
@@ -290,10 +273,8 @@ cdn.braun634.com^$third-party
 @@||assistir.biz^$generichide
 @@||edvok.com^$generichide
 @@||ltc24.com^$generichide
-@@||jm2.xyz^$generichide
 @@||portable4pc.com^$generichide
 @@||allhomecinema.com^$generichide
-@@||clickhouse.xyz^$generichide
 @@||rscripts.net^$generichide
 @@||uppit.com^$generichide
 @@||beursig.com^$generichide
@@ -301,15 +282,12 @@ cdn.braun634.com^$third-party
 @@||hcdn.online^$generichide
 @@||coindice.win^$generichide
 @@||melissabenoist.com.br^$generichide
-@@||startlr.com^$generichide
 @@||fastcoin.ga^$generichide
-@@||puretoons.me^$generichide
 @@||pcso-lottoresults.com^$generichide
 @@||jagoanssh.com^$generichide
 @@||cryptojunkie.net^$generichide
 @@||99btc.top^$generichide
 @@||dynamicpapers.com^$generichide
-@@||freetutsdownload.net^$generichide
 @@||wouterplanet.com^$generichide
 @@||coinles.com^$generichide
 @@||globaltvapp.net^$generichide
@@ -318,12 +296,9 @@ cdn.braun634.com^$third-party
 @@||msfsaddon.com^$generichide
 @@||doge.is^$generichide
 @@||novelgo.id^$generichide
-@@||centraldopirata.com^$generichide
 @@||torrentsmegafilmes.com^$generichide
 @@||xxxdao.com^$generichide
-@@||desishoot.fun^$generichide
 @@||everexam.in^$generichide
-@@||freemiumaccounts.net^$generichide
 @@||ifdreamscametrue.com^$generichide
 @@||mailocal2.xyz^$generichide
 @@||ad-doge.com^$generichide
@@ -338,26 +313,19 @@ cdn.braun634.com^$third-party
 @@||sm.ms^$generichide
 @@||afasiaarchzine.com^$generichide
 @@||f1countdown.com^$generichide
-@@||paidtomoney.com^$generichide
 @@||famfonts.com^$generichide
 @@||novelasligera.com^$generichide
-@@||tecnomusic-evolution.com^$generichide
 @@||jpopsingles.eu^$generichide
-@@||kiwiexploits.com^$generichide
 @@||getpczone.com^$generichide
 @@||myviptuto.com^$generichide
-@@||multicoinads.com^$generichide
 @@||8tm.net^$generichide
-@@||hdmp4mania1.net^$generichide
 @@||androidtunado.com.br^$generichide
 @@||gpucheck.com^$generichide
 @@||cryptoaddicted.biz$generichide
 @@||shoppinglys.blogspot.com^$generichide
 @@||fzmovies.host^$generichide
-@@||freetempsms.com^$generichide
 @@||file-upload.com^$generichide
 @@||weviral.org^$generichide
-@@||pro-deals.com^$generichide
 @@||dota2freaks.com^$generichide
 @@||hala-tube.net^$generichide
 @@||significatocanzoni.it^$generichide
@@ -370,10 +338,8 @@ cdn.braun634.com^$third-party
 @@||hugo3c.tw^$generichide
 @@||themeparktourist.com^$generichide
 @@||tw-hkt.blogspot.com^$generichide
-@@||filedown.org^$generichide
 @@||best-shopme.com^$generichide
 @@||swift4claim.com^$generichide
-@@||doctor-groups.com^$generichide
 @@||apps2app.com^$generichide
 @@||filmytoday.com^$generichide
 @@||msmxtended.org^$generichide
@@ -382,29 +348,22 @@ cdn.braun634.com^$third-party
 @@||samapkstore.com^$generichide
 @@||satoshiquiz.com^$generichide
 @@||super-ethanol.com^$generichide
-@@||royalkom.com^$generichide
 @@||vidlii.com^$generichide
 @@||csgo-ranks.com^$generichide
-@@||gobrowse.net^$generichide
-@@||sociadrive.com^$generichide
 @@||hakie.net^$generichide
 @@||safetxt.net^$generichide
 @@||onlinevideoconverter.pro^$generichide
 @@||nodkey.xyz^$generichide
 @@||raphsonbd.com^$generichide
-@@||koreanaddict.net^$generichide
 @@||unity3diy.blogspot.com^$generichide
-@@||theinnews.com^$generichide
 @@||vviruslove.com^$generichide
 @@||unionmanga.xyz^$generichide
 @@||shrinkurl.org^$generichide
 @@||btcfaucet.best^$generichide
 @@||yannik.biz^$generichide
 @@||planet-streaming1.com^$generichide
-@@||asus-zenfone.com^$generichide
 @@||anonymous-links.com^$generichide
 @@||series-streaminghd.com^$generichide
-@@||dramahd.me^$generichide
 @@||iptunnels.com^$generichide
 @@||davidgalaxia.com^$generichide
 @@||faktykaliskie.pl^$generichide
@@ -413,29 +372,21 @@ cdn.braun634.com^$third-party
 @@||quicasting.it^$generichide
 @@||senpa.io^$generichide
 @@||bioskopkaca21.com^$generichide
-@@||necksdesign.com^$generichide
-@@||zt-za.com^$generichide
 @@||watchseries.video^$generichide
-@@||daviruzsystems.com^$generichide
-@@||veryfiles.com^$generichide
 @@||graphicdesignresources.net^$generichide
 @@||apptoko.com^$generichide
 @@||freedownloadae.com^$generichide
 @@||emoji.gg^$generichide
 @@||lookimg.com^$generichide
-@@||skidrowfull.com^$generichide
 @@||eduzabawy.com^$generichide
 @@||apnetv.me^$generichide
 @@||vstplugs.com^$generichide
-@@||zagl.info^$generichide
 @@||9ketsuki.info^$generichide
 @@||utorrentgamesps2.blogspot.com^$generichide
-@@||onlinemovie.one^$generichide
 @@||aradramatv.co^$generichide
 @@||dayoftheweek.org^$generichide
 @@||osuskinner.com^$generichide
 @@||yoursavegames.com^$generichide
-@@||mywatchseries.stream^$generichide
 @@||canadapolicereport.ca^$generichide
 @@||rahim-soft.com^$generichide
 @@||weatherx.co.in^$generichide
@@ -449,7 +400,6 @@ cdn.braun634.com^$third-party
 @@||casos-aislados.com^$generichide
 @@||milaulas.com^$generichide
 @@||anomize.xyz^$generichide
-@@||shareappscrack.com^$generichide
 @@||ziperto.com^$generichide
 @@||themes-dl.com^$generichide
 @@||localizaagencia.com^$generichide
@@ -458,16 +408,13 @@ cdn.braun634.com^$third-party
 @@||dolldivine.com^$generichide
 @@||cours-de-droit.net^$generichide
 @@||kantotero.net^$generichide
-@@||paste.asia^$generichide
 @@||althub.club^$generichide
-@@||arabnaar.com^$generichide
 @@||dirrrtyremixes.com^$generichide
 @@||bg-gledai.live^$generichide
 @@||bg-gledai.co^$generichide
 @@||verteleseriesonline.com^$generichide
 @@||cryptofun.space^$generichide
 @@||legendas.dev^$generichide
-@@||bgnews.space^$generichide
 @@||mariouniverse.com^$generichide
 @@||sombex.com^$generichide
 @@||business-mortgage.pw^$generichide
@@ -484,7 +431,6 @@ cdn.braun634.com^$third-party
 @@||ovagames.com^$generichide
 @@||miscellaneous-c.blogspot.com^$generichide
 @@||easyexploits.com^$generichide
-@@||userapk.net^$generichide
 @@||userupload.in^$generichide
 @@||hhkungfu.tv^$generichide
 @@||webtvhd.com^$generichide
@@ -495,19 +441,15 @@ cdn.braun634.com^$third-party
 @@||forzearmate.eu^$generichide
 @@||sklinkstech.blogspot.com^$generichide
 @@||ero18.cc^$generichide
-@@||reqlinks.net^$generichide
 @@||expresswords.xyz^$generichide
 @@||watchthementalistonline.com^$generichide
-@@||shortearn.org^$generichide
 @@||scambieuropei.info^$generichide
 @@||filmedonstage.com^$generichide
 @@||obengplus.com^$generichide
 @@||teledyski.info^$generichide
 @@||get-digital-help.com^$generichide
-@@||nxmac.com^$generichide
 @@||alfaloji.org^$generichide
 @@||bigbtc.win^$generichide
-@@||musicpremieres.com^$generichide
 @@||prueba.pixelshost.com^$generichide
 @@||kiminime.com^$generichide
 @@||profhalazayed.gnomio.com^$generichide
@@ -515,7 +457,6 @@ cdn.braun634.com^$third-party
 @@||romsforever.co^$generichide
 @@||mintik.com^$generichide
 @@||checkz.net^$generichide
-@@||scaleya.com^$generichide
 @@||xda-developers-android.blogspot.com^$generichide
 @@||k258059.net^$generichide
 @@||happy2hub.me^$generichide
@@ -525,20 +466,15 @@ cdn.braun634.com^$third-party
 @@||myicloud.info^$generichide
 @@||smashresume.com^$generichide
 @@||tr3fit.xyz^$generichide
-@@||freeallcourse.com^$generichide
-@@||speed-down.org^$generichide
 @@||mega-p2p.net^$generichide
-@@||chronox.co.in^$generichide
 @@||infodifesa.it^$generichide
 @@||info-desk.co.za^$generichide
 @@||seosocialnews.info^$generichide
 @@||countrytabs.com^$generichide
 @@||gvmp.de^$generichide
 @@||erovoice.us^$generichide
-@@||remixsearch.co^$generichide
 @@||comptoir-hardware.com^$generichide
 @@||157.245.202.123^$generichide
-@@||rndnovels.com^$generichide
 @@||apkgezegeni.com^$generichide
 @@||vstx.ru^$generichide
 @@||courseforfree.com^$generichide
@@ -558,7 +494,6 @@ cdn.braun634.com^$third-party
 @@||crackedvst.com^$generichide
 @@||minioppai.org^$generichide
 @@||olodesi.com^$generichide
-@@||sololeveling.net^$generichide
 @@||cryptlife.com^$generichide
 @@||myreadingmanga.info^$generichide
 @@||themehits.com^$generichide
@@ -570,14 +505,10 @@ cdn.braun634.com^$third-party
 @@||classic-retro-games.com^$generichide
 @@||gaming-tools.com^$generichide
 @@||vietgamemod.net^$generichide
-@@||tpaste.net^$generichide
 @@||bax.tv^$generichide
 @@||topflix.tv^$generichide
 @@||onifile.com^$generichide
 @@||vsx.pl^$generichide
-@@||sportsio.xyz^$generichide
-@@||getrelax.cc^$generichide
-@@||tokvid.com^$generichide
 @@||limontec.com^$generichide
 @@||itechfever.com^$generichide
 @@||hisse.net^$generichide
@@ -590,11 +521,8 @@ cdn.braun634.com^$third-party
 @@||btcnewz.com^$generichide
 @@||zipraw.com^$generichide
 @@||tranimeizle.*^$generichide
-@@||downloadcursos.net^$generichide
 @@||ktm2day.com^$generichide
 @@||r34anim.com^$generichide
-@@||godisagamer.org^$generichide
-@@||shareappscrack.com^$generichide
 @@||afreesms.com^$generichide
 @@||meusfilmestorrents.com^$generichide
 @@||f1fanklub.pl^$generichide
@@ -610,7 +538,6 @@ cdn.braun634.com^$third-party
 @@||tibiawiki.com.br^$generichide
 @@||wowclassicbis.com^$generichide
 @@||tionghoa.info^$generichide
-@@||papahd.live^$generichide
 @@||pasend.com^$generichide
 @@||shorterall.com^$generichide
 @@||gamebrew.org^$generichide
@@ -622,27 +549,19 @@ cdn.braun634.com^$third-party
 @@||techrrival.com^$generichide
 @@||gogoanime.cool^$generichide
 @@||chiaseapk.com^$generichide
-@@||designoptimal.com^$generichide
-@@||fmzm.xyz^$generichide
 @@||mangaromance.eu^$generichide
-@@||watchonetreehillonline.com^$generichide
 @@||teknolojiprojeleri.com^$generichide
-@@||uncensoredleak.com^$generichide
 @@||downfile.site^$generichide
-@@||teamos-hkrg.com^$generichide
-@@||onlyfullporn.com^$generichide
 @@||downloader.la^$generichide
 @@||freecourser.com^$generichide
 @@||quizdiva.net^$generichide
 @@||opendrive.online^$generichide
-@@||driverays.com^$generichide
 @@||lyricsongation.com^$generichide
 @@||iblitzmods.ru^$generichide
 @@||queenfaucet.website^$generichide
 @@||earnbtc.io^$generichide
 @@||herexxx.com^$generichide
 @@||mcadventuretime.com^$generichide
-@@||leporno.org^$generichide
 @@||go-links.net^$generichide
 @@||naturalhealthy.xyz^$generichide
 @@||getfreebit.xyz^$generichide
@@ -650,14 +569,12 @@ cdn.braun634.com^$third-party
 @@||turkdown.com^$generichide
 @@||earn4files.com^$generichide
 @@||tempmail.ninja^$generichide
-@@||business-trade.me^$generichide
 @@||chile-forum.ru^$generichide
 @@||cyberspace.world^$generichide
 @@||todotech20.com^$generichide
 @@||dostats.info^$generichide
 @@||tollypics.com^$generichide
 @@||manatelugumovies.cc^$generichide
-@@||learningcrux.com^$generichide
 @@||readcomicsonline.ru^$generichide
 @@||correotemporal.org^$generichide
 @@||g-status.com^$generichide
@@ -666,14 +583,12 @@ cdn.braun634.com^$third-party
 @@||getpcapps.com^$generichide
 @@||massivetechinterview.blogspot.com^$generichide
 @@||tech-zealots.com^$generichide
-@@||hoshinoromi.org^$generichide
 @@||av-drive.blogspot.com^$generichide
 @@||adorofilmesdeterror.com^$generichide
 @@||alt-torrent.com^$generichide
 @@||amtonline.com.br^$generichide
 @@||androidaba.com^$generichide
 @@||androidescomplicado.blogspot.com^$generichide
-@@||anitoonstv.com^$generichide
 @@||brfiles.com^$generichide
 @@||cobachpl8.milaulas.com^$generichide
 @@||dangotoons.com^$generichide
@@ -681,34 +596,22 @@ cdn.braun634.com^$third-party
 @@||edusaguepa.milaulas.com^$generichide
 @@||enfermeria.gnomio.com^$generichide
 @@||eusouandroid.co^$generichide
-@@||futeboltvgratis.com^$generichide
-@@||g1novelas.org^$generichide
-@@||lacalleochotv.org^$generichide
 @@||lamitadmas1.net^$generichide
-@@||lapumiafilmes.com^$generichide
 @@||lctutors.com.br^$generichide
 @@||medicalopium.blogspot.com.br^$generichide
-@@||megafilmestorrenthd.net^$generichide
-@@||micinehd.com^$generichide
-@@||mileyupdateuk.com^$generichide
 @@||minhaoperadora.com.br^$generichide
 @@||mixmods.com.br^$generichide
 @@||nerdmaldito.com^$generichide
-@@||popfilmeshd.net^$generichide
 @@||programasvirtualespc.net^$generichide
-@@||seriesgato.tv^$generichide
 @@||sobootlogo.blogspot.com^$generichide
 @@||somosbinarios.es^$generichide
 @@||tibiabr.com^$generichide
-@@||torrentbrazil.org^$generichide
-@@||torrentdosfilmeshd.net^$generichide
 @@||tunovelaligera.com^$generichide
 @@||turiver.com^$generichide
 @@||tvfree.me^$generichide
 @@||vsthouse.ru^$generichide
 @@||wakfutemporada2subs.blogspot.com^$generichide
 @@||arrowos.net^$generichide
-@@||legendadult.net^$generichide
 ! END: BlockAdBlock(no JS)
 ! NOTE: BlockAdBlock end ⬆️
 ! !SECTION: BlockAdBlock
@@ -717,9 +620,8 @@ cdn.braun634.com^$third-party
 ! SECTION[id=antiblockorg]: antiblock.org g207
 ! URL baits
 .png#ad$image,domain=avjamack.com
-@@.jpg#/adengage1./$image,domain=gotxx.com
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
-@@/\.(gif|jpg|png|svg).*#.*\/ad\//$image,domain=mizugigurabia.com|tamilmovierockers.info|aimasummd.blog.fc2.com|newssokuhou666.blog.fc2.com|touhoudougamatome.blog.fc2.com|metamani.blog15.fc2.com|youkaiwatch2345.blog.fc2.com|dokuo666.blog98.fc2.com|mysafe.stisda.ac.id|metamani.blog15.fc2.com|link.technics-goods.info|comandotorrentshds.org|gfilex.blogspot.com|codare.fun|ads-ti9ni4.blogspot.com|bouamra.blogspot.com|thelibrarydigital.blogspot.com|www-daftarharga.blogspot.com|mediapemersatubangsa.com|love-stoorey210.net|ear-phone-review.com|tienganhedu.com|itdmusics.com|burnbutt.com|cubehosting.me|valuable.hatenablog.com|leechpremium.net|lib.hatenablog.com|gametter.com|btvsports.my
+@@/\.(gif|jpg|png|svg).*#.*\/ad\//$image,domain=mizugigurabia.com|aimasummd.blog.fc2.com|newssokuhou666.blog.fc2.com|touhoudougamatome.blog.fc2.com|metamani.blog15.fc2.com|youkaiwatch2345.blog.fc2.com|dokuo666.blog98.fc2.com|mysafe.stisda.ac.id|metamani.blog15.fc2.com|link.technics-goods.info|gfilex.blogspot.com|codare.fun|ads-ti9ni4.blogspot.com|bouamra.blogspot.com|thelibrarydigital.blogspot.com|www-daftarharga.blogspot.com|mediapemersatubangsa.com|love-stoorey210.net|ear-phone-review.com|tienganhedu.com|itdmusics.com|burnbutt.com|valuable.hatenablog.com|leechpremium.net|lib.hatenablog.com|gametter.com|btvsports.my
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dqmsl-search.net
 !
 chartstream.net###b6c3
@@ -742,21 +644,16 @@ king-shoot.tv#@##ads_top
 @@||ysokuhou.blog.jp^$generichide
 @@||mmo69.com^$generichide
 @@||adnade.net^$generichide
-@@||btvsports.cam^$generichide
 @@||postazap.com^$generichide
 @@||360kora.io^$generichide
 @@||aktion-holz.de^$generichide
-@@||9goals.live^$generichide
 @@||s41poke.com^$generichide
 @@||yalla-shoot-tv.io^$generichide
-@@||torrentmovies.online^$generichide
 @@||tucinehd.com^$generichide
 @@||db-creation.net^$generichide
 @@||aiimgvlog.fun^$generichide
 @@||mdpr.jp^$generichide
-@@||fazercurriculo.online^$generichide
 @@||serverssh.net^$generichide
-@@||digitalmarktrend.com^$generichide
 @@||fc-lc.xyz^$generichide
 @@||akw.cam^$generichide
 @@||hes-goal.net^$generichide
@@ -779,17 +676,13 @@ king-shoot.tv#@##ads_top
 @@||ak4eg.*^$generichide
 @@||uploady.io^$generichide
 @@||oii.io^$generichide
-@@||eg-akw.com^$generichide
 @@||xpicture.ru^$generichide
 @@||ibmmainframes.com^$generichide
 @@||4mirrorlink.com^$generichide
-@@||uploadydl.com^$generichide
 @@||prz.pw^$generichide
 @@||btvsports.lol^$generichide
-@@||novelssites.com^$generichide
 @@||downloadgeral.com^$generichide
 @@||sequencecard.xyz^$generichide
-@@||descargasok.org^$generichide
 @@||lib.hatenablog.com^$generichide
 @@||comandotorrenthd.org^$generichide
 @@||livestreamtvbox.com^$generichide
@@ -798,8 +691,6 @@ king-shoot.tv#@##ads_top
 @@||speedynews.xyz^$generichide
 @@||xmod.in^$generichide
 @@||pastlinkvn.com^$generichide
-@@||oneotv.online^$generichide
-@@||liveradios.online^$generichide
 @@||freehorseracingtv.com^$generichide
 @@||mistermodzzforum.space^$generichide
 @@||hadoantv.com^$generichide
@@ -816,38 +707,28 @@ king-shoot.tv#@##ads_top
 @@||gamezone.de^$generichide
 @@||valuable.hatenablog.com^$generichide
 @@||avjamak.net^$generichide
-@@||uploadydl.com^$generichide
 @@||telefullenvivo.com^$generichide
 @@||yacine-tv.com^$generichide
 @@||gsm1x.xyz^$generichide
-@@||health-and.me^$generichide
-@@||cubehosting.me^$generichide
 @@||livetvboxfree.com^$generichide
 @@||e-didaskalia.blogspot.com^$generichide
-@@||copydev.com^$generichide
 @@||toonvideos.me^$generichide
 @@||uploadmx.com^$generichide
 @@||mangajokomik.blogspot.com^$generichide
-@@||leet365.cc^$generichide
 @@||rosefile.net^$generichide
 @@||funnymadworld.blogspot.com^$generichide
-@@||katflys.com^$generichide
 @@||burnbutt.com^$generichide
 @@||filesus.com^$generichide
 @@||itdmusics.com^$generichide
 @@||tienganhedu.com^$generichide
-@@||latest-files.com^$generichide
 @@||avjamack.com^$generichide
 @@||cotravinh.blogspot.com^$generichide
 @@||themanwiththehat.de^$generichide
 @@||sturls.com^$generichide
-@@||gotxx.com^$generichide
 @@||shuajota.com^$generichide
 @@||akwam.$generichide
 @@||akwams.$generichide
 @@||fivemturk.com^$generichide
-@@||lordchannel.com^$generichide
-@@||anoboy.media^$generichide
 @@||oneotv.com^$generichide
 @@||5ggyan.com^$generichide
 @@||uyduportal.net^$generichide
@@ -858,14 +739,12 @@ king-shoot.tv#@##ads_top
 @@||explosivemenu.com^$generichide
 @@||love-stoorey210.net^$generichide
 @@||fc-lc.com^$generichide
-@@||maxurlz.com^$generichide
 @@||gfilex.blogspot.com^$generichide
 @@||mediapemersatubangsa.com^$generichide
 @@||aktion-solar.com^$generichide
 @@||nbyts.online^$generichide
 @@||itsguider.com^$generichide
 @@||fc.lc^$generichide
-@@||comandotorrentshds.org^$generichide
 @@||link.technics-goods.info^$generichide
 @@||mysafe.stisda.ac.id^$generichide
 @@||youkaiwatch2345.blog.fc2.com^$generichide
@@ -881,7 +760,6 @@ king-shoot.tv#@##ads_top
 @@||cintateknologi.com^$generichide
 @@||bouamra.blogspot.com^$generichide
 @@||ads-ti9ni4.blogspot.com^$generichide
-@@||tamilmovierockers.info^$generichide
 @@||drop.download^$generichide
 @@||samuraiscan.com^$generichide
 @@||codare.fun^$generichide
@@ -895,14 +773,12 @@ king-shoot.tv#@##ads_top
 @@||yilmaztv.com^$generichide
 @@||garaveli.de^$generichide
 @@||uvnc.com^$generichide
-@@||mobileflasherbd.com^$generichide
 @@||xiaomitools.com^$generichide
 @@||decomaniacos.es^$generichide
 @@||pengantartidurkuh.blogspot.com^$generichide
 @@||whowantstuffs.blogspot.com^$generichide
 @@||dqmsl-search.net^$generichide
 @@||satilikhayvanim.com^$generichide
-@@||plex-guide.de^$generichide
 @@||th-world.com^$generichide
 @@||dmhy.b168.net^$generichide
 @@||mas-13.site^$generichide
@@ -914,25 +790,19 @@ king-shoot.tv#@##ads_top
 @@||satunivers.tv^$generichide
 @@||arab4media.com^$generichide
 @@||larvelfaucet.com^$generichide
-@@||nobinbarta.com^$generichide
 @@||webserver.one^$generichide
 @@||megacuriosidades.pw^$generichide
 @@||itdmusic.in^$generichide
 @@||blograffo.net^$generichide
-@@||ozbeceriksizler.co^$generichide
 @@||sshconect.com.br^$generichide
-@@||channelstream.club^$generichide
 @@||av-jamak.com^$generichide
 @@||teknomuda.com^$generichide
 @@||bitfly.io^$generichide
 @@||onlinetutorium.com^$generichide
-@@||kiwiexploits.com^$generichide
 @@||3dzip.org^$generichide
 @@||adobeactivators.blogspot.com^$generichide
 @@||4download.net^$generichide
 @@||dcode.fr^$generichide
-@@||wowtv.info^$generichide
-@@||onlyfoot.net^$generichide
 @@||acapellas.eu^$generichide
 @@||gomaainfo.com^$generichide
 @@||xup.in^$generichide
@@ -940,7 +810,6 @@ king-shoot.tv#@##ads_top
 @@||cgtips.org^$generichide
 @@||tutoganga.blogspot.com^$generichide
 @@||3dmodelshare.org^$generichide
-@@||sshagan.net^$generichide
 @@||dafideff.com^$generichide
 @@||moneywar2.blogspot.com^$generichide
 @@||hesgoal.com^$generichide
@@ -952,7 +821,6 @@ king-shoot.tv#@##ads_top
 @@||texte.work^$generichide
 @@||hhkungfu.tv^$generichide
 @@||chuppito.fr^$generichide
-@@||filetera.com^$generichide
 @@||depo-program.blogspot.com^$generichide
 @@||gametter.com^$generichide
 @@||freshstuff4u.info^$generichide
@@ -960,7 +828,6 @@ king-shoot.tv#@##ads_top
 @@||mage.si^$generichide
 @@||magesy.pro^$generichide
 @@||4kfilm.online^$generichide
-@@||bedavapdf.com^$generichide
 @@||anonymousceviri.com^$generichide
 @@||seireshd.com^$generichide
 @@||globalssh.net^$generichide
@@ -970,12 +837,10 @@ king-shoot.tv#@##ads_top
 @@||sakaiplus.com^$generichide
 @@||nulledpremium.com^$generichide
 @@||animeuniverse.*^$generichide
-@@||gdrivez.xyz^$generichide
 @@||minorpatch.com^$generichide
 @@||magesy.blog^$generichide
 @@||shorterall.com^$generichide
 @@||reifenrechner.at^$generichide
-@@||micano4u.org^$generichide
 @@||techieway.blogspot.com^$generichide
 @@||shinsori.com^$generichide
 @@||de-baystars.doorblog.jp^$generichide
@@ -984,7 +849,6 @@ king-shoot.tv#@##ads_top
 @@||2kspecialist.net^$generichide
 @@||digit77.com^$generichide
 @@||hd-tch.com^$generichide
-@@||maxidbr.com^$generichide
 @@||archaeologynewsnetwork.blogspot.com^$generichide
 @@||zekozimo.blogspot.com^$generichide
 @@||e9china.net^$generichide
@@ -999,14 +863,12 @@ king-shoot.tv#@##ads_top
 @@||wojtekczytawh40k.blogspot.com^$generichide
 @@||ogrenciyegelir.com^$generichide
 @@||tipslab.info^$generichide
-@@||myhdjav.net^$generichide
 @@||akoam.net^$generichide
 @@||download.3dzip.org^$generichide
 @@||toppng.com^$generichide
 @@||livestreamgamess.blogspot.com^$generichide
 @@||goodssh.com^$generichide
 @@||magdyman.com^$generichide
-@@||smsbomber.biz^$generichide
 @@||best-anime.eu^$generichide
 @@||ear-phone-review.com^$generichide
 @@||squidssh.com^$generichide
@@ -1024,11 +886,8 @@ king-shoot.tv#@##ads_top
 @@||daemon-hentai.com^$generichide
 @@||vmc.org.pl^$generichide
 @@||unlockapk.com^$generichide
-@@||libros4.com^$generichide
-@@||wegner.tech^$generichide
 @@||aspdotnet-suresh.com^$generichide
 @@||jagoanssh.com^$generichide
-@@||1idsly.com^$generichide
 @@||acienciasgalilei.com^$generichide
 @@||aeprofree.com^$generichide
 @@||akashiro.co.id^$generichide
@@ -1037,7 +896,6 @@ king-shoot.tv#@##ads_top
 @@||anonyviet.com^$generichide
 @@||antiblock.org^$generichide
 @@||balog18.blogspot.com^$generichide
-@@||bludvfilmes.com^$generichide
 @@||camwhores.co^$generichide
 @@||cle0desktop.blogspot.com^$generichide
 @@||connectwww.com^$generichide
@@ -1046,16 +904,12 @@ king-shoot.tv#@##ads_top
 @@||diagnofast.com^$generichide
 @@||dictionnaire-medical.net^$generichide
 @@||direct-link.net^$generichide
-@@||dompl3.info^$generichide
 @@||dreamfancy.org^$generichide
-@@||drivebox.club^$generichide
 @@||driverdestek.com^$generichide
-@@||droidtk.com^$generichide
 @@||dropapk.com^$generichide
 @@||dvdgayporn.com^$generichide
 @@||ebookdz.com^$generichide
 @@||echoes.gr^$generichide
-@@||egyptiangy.net^$generichide
 @@||eikaiwamastery.blogspot.com^$generichide
 @@||eldaryasolutiongame.blogspot.com^$generichide
 @@||europeanclassiccomic.blogspot.com^$generichide
@@ -1069,20 +923,14 @@ king-shoot.tv#@##ads_top
 @@||freeserial-keys.blogspot.com^$generichide
 @@||freshstuff4you.com^$generichide
 @@||generacionretro.net^$generichide
-@@||getinmac.com^$generichide
 @@||getlec.blogspot.com^$generichide
 @@||grafixfather.com^$generichide
 @@||gtoys.blog.fc2.com^$generichide
 @@||hdbox.ws^$generichide
-@@||helpsetup.ru^$generichide
 @@||i8086.de^$generichide
-@@||in-trend.biz^$generichide
-@@||infosehatku.club^$generichide
 @@||itdmusic.com^$generichide
 @@||jagobd.com^$generichide
 @@||javaguides.net^$generichide
-@@||jelajahinternet.me^$generichide
-@@||jobhunterplg.xyz^$generichide
 @@||kamikiyuki.hatenablog.com^$generichide
 @@||kickass.com.se^$generichide
 @@||kikra.jp.com^$generichide
@@ -1093,16 +941,11 @@ king-shoot.tv#@##ads_top
 @@||letras2.com^$generichide
 @@||lib.hatenablog.com^$generichide
 @@||link-to.net^$generichide
-@@||links4u.me^$generichide
-@@||linku.us^$generichide
 @@||liodonwloads.blogspot.com^$generichide
 @@||loverscum.com^$generichide
 @@||m.pes24.com^$generichide
 @@||majesy.com^$generichide
 @@||marketmovers.it^$generichide
-@@||mega-debrit.com^$generichide
-@@||megafilmestorrents.net^$generichide
-@@||merdekaid.online^$generichide
 @@||merlininkazani.com^$generichide
 @@||mimaletadepeliculas.blogspot.com^$generichide
 @@||mimaletamusical.blogspot.com^$generichide
@@ -1118,13 +961,11 @@ king-shoot.tv#@##ads_top
 @@||novelasd.com^$generichide
 @@||novelasymangasjpo.blogspot.com^$generichide
 @@||nuevos-mu.ucoz.com^$generichide
-@@||oddreaders.com^$generichide
 @@||omutulove.blog.fc2.com^$generichide
 @@||omutulove.seesaa.net^$generichide
 @@||otakuworldsite.blogspot.com^$generichide
 @@||oyunceviri.net^$generichide
 @@||oz3gamer.blog.fc2.com^$generichide
-@@||pajaslocas.com^$generichide
 @@||parasitipedia.net^$generichide
 @@||peytonlist.ru^$generichide
 @@||pharmaguideline.com^$generichide
@@ -1138,30 +979,20 @@ king-shoot.tv#@##ads_top
 @@||sacheats.com^$generichide
 @@||samnaprawiam.com^$generichide
 @@||satoshilabs.net^$generichide
-@@||sdw-net.me^$generichide
-@@||sharecool.us^$generichide
-@@||skips.link^$generichide
 @@||sna3talaflam.com^$generichide
 @@||softmaroc.org^$generichide
-@@||sslproxies24.top^$generichide
-@@||stadium-live.biz^$generichide
 @@||stalker-mods.clan.su^$generichide
 @@||stiffgamerdown.com^$generichide
 @@||studizba.com^$generichide
-@@||suarankri.me^$generichide
-@@||telolet.in^$generichide
 @@||terrarium.com.pl^$generichide
 @@||tiengnhatpro.net^$generichide
 @@||turkleech.com^$generichide
 @@||tv-onlinehd.com^$generichide
 @@||unfriend-app.com^$generichide
-@@||updatetribun.org^$generichide
-@@||vabstutorials.com^$generichide
 @@||verdirectotv.com^$generichide
 @@||visionias.net^$generichide
 @@||vivotvhd.com^$generichide
 @@||voipsipclient.blogspot.nl^$generichide
-@@||vqporn.com^$generichide
 @@||wakudan.seesaa.net^$generichide
 @@||webassistance.eu^$generichide
 @@||wehellas.gr^$generichide
@@ -1188,7 +1019,6 @@ king-shoot.tv#@##ads_top
 @@||klix.ba^$generichide
 @@||santafenewmexican.com^$generichide
 @@||japan.techinsight.jp^$generichide
-@@||reyada-365.com^$generichide
 @@||taimanin-rpg.wikiru.jp^$generichide
 @@||f1-gate.com^$generichide
 @@||in.gr^$generichide
@@ -1293,7 +1123,6 @@ king-shoot.tv#@##ads_top
 @@||24u.jp^$generichide
 @@||dphotoworld.net^$generichide
 @@||animerikosuper.blogspot.com^$generichide
-@@||snbc13.com^$generichide
 @@||megatv.com^$generichide
 @@||sonixgvn.net^$generichide
 @@||androplus.org^$generichide
@@ -1444,9 +1273,6 @@ repubblica.it##div[id^="adv-"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150712
 @@||onl.bz^
 @@||aws.amazon.com/*/*-ad
-! https://github.com/AdguardTeam/AdguardFilters/issues/147153
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,script,domain=aoutoqw.xyz
-@@||sovrn.com/|$xmlhttprequest,domain=aoutoqw.xyz
 ! https://github.com/AdguardTeam/AdguardFilters/issues/147298
 @@||ariba.com/*/ad/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146951
@@ -1488,9 +1314,6 @@ lightningmaps.org###wb_mobile
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=twinkybf.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102267
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=softfully.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/101878
-@@||embedstream.me^$generichide
-@@||daddylive.me^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/101358
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=windowsbulletin.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99912
@@ -1511,9 +1334,6 @@ lightningmaps.org###wb_mobile
 @@||pornofaps.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/pull/105436
 @@||temporarymail.com/js/ads-prebid.js
-! https://github.com/bogachenko/fuckfuckadblock/issues/219
-rureka.com##.ads-img
-rureka.com##.column-left > div.widget.card
 ! https://github.com/AdguardTeam/AdguardFilters/issues/90864
 @@||milfnut.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/89061#issuecomment-890454613
@@ -1615,13 +1435,8 @@ pcgamer.com##amp-ad
 @@||google-analytics.com/analytics.js$domain=world4.eu
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71365
 @@||inews.co.uk^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/71605
-@@||temp-phone-number.com^$generichide
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=temp-phone-number.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71156
 @@||slidesharedownloader.ngelmat.net^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/70364
-@@||dogemate.com/assets/img/cointiply_728x90.jpg
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70452
 @@||scubidu.eu^$generichide
 @@||ib.adnxs.com^$image,domain=scubidu.eu
@@ -1668,14 +1483,6 @@ pcgamer.com##amp-ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67023
 @@||k12reader.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=k12reader.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/66713
-@@||tekfame.com^$generichide
-@@||ib.adnxs.com^$image,domain=tekfame.com
-@@||tekfame.com/wp-content/plugins/ad-inserter/*/*.js
-@@||tekfame.com/wp-content/plugins/ad-inserter/images/ads.png
-@@||router.infolinks.com/dyn/apn-usync$image,domain=tekfame.com
-@@||contextual.media.net/dmedianet.js$domain=tekfame.com
-tekfame.com##.adsbygoogle
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66007
 @@||googleads.g.doubleclick.net/pagead/ads$domain=next-episode.net
 @@||adservice.google.com/adsid/integrator.js$domain=next-episode.net
@@ -1714,11 +1521,6 @@ htmlweb.ru#@#div > .adsbygoogle
 ! https://github.com/AdguardTeam/AdguardFilters/issues/61263
 @@||mercedesclub.cz^$generichide
 @@||google-analytics.com/analytics.js$domain=mercedesclub.cz
-! https://github.com/AdguardTeam/AdguardFilters/issues/60632
-@@||dramahd.me^$generichide
-@@||contextual.media.net/dmedianet.js$domain=dramahd.me
-@@||dramahd.me/wp-content/plugins/ad-inserter/*/*.js
-@@||dramahd.me/wp-content/plugins/ad-inserter/images/ads.png
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60492
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dynast.io
 ! https://github.com/AdguardTeam/AdguardFilters/issues/60369
@@ -1767,8 +1569,6 @@ exambd.net##.adsbygoogle
 @@||contextual.media.net/dmedianet.js$domain=parzibyte.me
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57219
 canadapolicereport.ca##.adsbygoogle
-! https://github.com/AdguardTeam/AdguardFilters/issues/57085
-@@||lapumia.org/wp-content/*/js/adblock.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54041
 @@thalia.de/shop/*.html?pid=*&group_id=0&banner_id=
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56992
@@ -1824,14 +1624,10 @@ sms24.me##div[id^="div-gpt-ad"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54741
 @@||unreshiramor.com/*/|$domain=disneyplayvn.net
 @@||iamcdn.net/players/ads.watch.js$domain=disneyplayvn.net
-! https://github.com/AdguardTeam/AdguardFilters/issues/54679
-@@||wstream.video/js/popunder.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54532
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=techably.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54508
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=prepostseo.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/54426
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=runmods.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54225
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=nieuwsblad.be
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=nieuwsblad.be
@@ -1868,9 +1664,6 @@ forbes.com#@#.AD-Rotate
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ilovephd.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53394
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=akinator.mobi|akinator.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/53586
-dogemate.com#@##ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"]):not([style*="width: 1px;"])
-dogemate.com#@#.ad-banner:not([style="height: 5px; width: 5px; position: absolute; top: 0;"]):not(.blocker-tester + .ad-banner)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53106
 @@||a.exosrv.com/ads.js$domain=javtiful.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/52976
@@ -1913,8 +1706,6 @@ m.haberler.com##.swiper-slide > a.rekkklam ~ div
 @@||global.proper.io/salon.min.js$domain=salon.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50811
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=ujszo.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/50089
-@@||iamcdn.net/players/ads.js$script,domain=watchcartoonsonline.biz
 ! https://github.com/AdguardTeam/AdguardFilters/issues/49833#issuecomment-592652930
 @@||marca.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50511
@@ -1969,8 +1760,6 @@ lcsun-news.com#@#.plainAd
 ! https://github.com/AdguardTeam/AdguardFilters/issues/48715
 @@||gigaho.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=gigaho.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/48665
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=asia-mag.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/48598
 @@||nik-ser.at.ua/js/pagead2.ads.js$domain=remont-aud.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/48614
@@ -2018,8 +1807,6 @@ yusepjaelani.blogspot.com#@##adcontent
 ! https://github.com/AdguardTeam/AdguardFilters/issues/44510
 @@||cdn.gatehousemedia.com/gh-sites/global/ads/ads.js
 @@||googletagservices.com/tag/js/gpt.js
-! https://github.com/AdguardTeam/AdguardFilters/issues/44488
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=fullhdfilmdeposu.com
 ! basicweb.ru - antiadblock notice
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=basicweb.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43790
@@ -2067,6 +1854,7 @@ coachmag.co.uk#@#.plainAd
 @@||google-analytics.com/analytics.js$domain=volvo-club.cz
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39709
 @@||10play.com.au/static/ads.js
+@@||10play.com.au/static/ads.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39588
 tvtropes.org##div[style*="z-index: 100001;"][style*="position: fixed;"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39745
@@ -2092,11 +1880,6 @@ abc.es#@#.div-gpt-ad
 ! https://github.com/AdguardTeam/AdguardFilters/issues/39110
 @@||ad.doubleclick.net/ddm/$domain=prad.de
 @@||prad.de^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/pull/38506
-! https://github.com/AdguardTeam/AdguardFilters/issues/44033
-@@||ddnk.advertur.ru/*/loader.js$domain=zoobusiness.kiev.ua
-! https://github.com/AdguardTeam/AdguardFilters/issues/38816
-@@||freshmms.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/38905
 @@||iconmonstr.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/38249
@@ -2114,11 +1897,10 @@ denofgeek.com#@#.plainAd
 @@||rp5.kz^$generichide
 @@||rp5.ru^$generichide
 @@||rp5.ua^$generichide
-@@||rp5.co.uk^$generichide
 @@||rp5.md^$generichide
-rp5.by,rp5.kz,rp5.ru,rp5.ua,rp5.co.uk,rp5.md#@#.adslot_1
-@@||m.rp5.*/mobile/scripts/adtop.js$domain=m.rp5.ru|m.rp5.by|m.rp5.kz|rp5.co.uk|rp5.md
-@@||m.rp5.*/mobile/scripts/adblocker.js$domain=m.rp5.ru|m.rp5.by|m.rp5.kz|rp5.co.uk|rp5.md
+rp5.by,rp5.kz,rp5.ru,rp5.ua,rp5.md#@#.adslot_1
+@@||m.rp5.*/mobile/scripts/adtop.js$domain=m.rp5.ru|m.rp5.by|m.rp5.kz|rp5.md
+@@||m.rp5.*/mobile/scripts/adblocker.js$domain=m.rp5.ru|m.rp5.by|m.rp5.kz|rp5.md
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34414
 @@||tagblatt.ch^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/32068
@@ -2143,13 +1925,9 @@ techbii.com##.herald-ad
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=itprotoday.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/12215
 @@||tubeland.site^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/12197
-@@||teutorrent.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/12188
 lep.co.uk##.leaderboard-ad
 @@||lep.co.uk^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/12042
-@@||layer13.net^$generichide
 @@||leechall.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/11644
 @@||caravaning.de^$generichide
@@ -2172,10 +1950,6 @@ lubetube.com##.sidead
 manta.com##.adsbygoogle
 ! https://github.com/AdguardTeam/AdguardFilters/issues/10728
 @@||pressgazette.co.uk^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/10729
-@@||boxwares.com^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/9832
-@@||asianovel.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/9833
 @@||food-tiger.de^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/9534
@@ -2189,8 +1963,6 @@ play.anghami.com##.header-banner
 play.anghami.com##.content > .mpu
 ! https://github.com/AdguardTeam/AdguardFilters/issues/8696
 @@||smslisten.com^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/8695
-@@||smsreceiving.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/8653
 @@||sabishiidesu.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/8476
@@ -2219,12 +1991,8 @@ motorradonline.de#@#.mps-banner
 mathb-ege.sdamgia.ru##.content >div[style="margin-bottom:20px"] > div[style="width:728px;margin:auto"]+div
 ! https://github.com/AdguardTeam/AdguardFilters/issues/4906
 @@||mobilesringtones.com^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/4899
-@@||susutin.com^$generichide
 ! https://forum.adguard.com/index.php?threads/deezer-com-antiadblock.21269/
 @@||deezer.com^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/4889
-@@||studychacha.com^$generichide
 ! https://forum.adguard.com/index.php?threads/jkwaveblog-com.19449/
 @@||jkwaveblog.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/3680
@@ -2243,30 +2011,25 @@ mathb-ege.sdamgia.ru##.content >div[style="margin-bottom:20px"] > div[style="wid
 @@||bhookedcrochet.com^$generichide
 @@||biochemden.com^$generichide
 @@||bloggingden.com^$generichide
-@@||braininspired.net^$generichide
 @@||carapraktis.info^$generichide
 @@||caratulasparacuadernos.com^$generichide
 @@||catchmyjobs.com^$generichide
 @@||ccna6.com^$generichide
 @@||ccnav6.com^$generichide
 @@||circuiteasy.com^$generichide
-@@||conspatriot.com^$generichide
 @@||dailyhealthkeeper.com^$generichide
 @@||dayoadetiloye.com^$generichide
 @@||detutorial.com^$generichide
 @@||diedit.com^$generichide
 @@||dollsnews.com^$generichide
-@@||dormir-moins-bete.com^$generichide
 @@||duniaq.com^$generichide
 @@||espiaresgratis.com^$generichide
 @@||gamingguidetips.com^$generichide
 @@||geekpeaksoftware.com^$generichide
 @@||gennarino.org^$generichide
-@@||gratiserotik.se^$generichide
 @@||healthspiritbody.com^$generichide
 @@||hightechbuzz.net^$generichide
 @@||inmigrantesenmadrid.com^$generichide
-@@||kimdirbu.com^$generichide
 @@||laivanduc.com^$generichide
 @@||langsungviral.com^$generichide
 @@||learn-automation.com^$generichide
@@ -2275,10 +2038,8 @@ mathb-ege.sdamgia.ru##.content >div[style="margin-bottom:20px"] > div[style="wid
 @@||masterdrivers.com^$generichide
 @@||mobilehardreset.com^$generichide
 @@||mobilesreview.co.in^$generichide
-@@||mstory.me^$generichide
 @@||mypapercraft.net^$generichide
 @@||mysemakan.com^$generichide
-@@||newmoviesfun.com^$generichide
 @@||nicecarsinfo.com^$generichide
 @@||ofertasahora.com^$generichide
 @@||orduh.com^$generichide
@@ -2298,8 +2059,6 @@ mathb-ege.sdamgia.ru##.content >div[style="margin-bottom:20px"] > div[style="wid
 @@||sumberpendidikan.com^$generichide
 @@||supportcanon.com^$generichide
 @@||tatuajestatu.com^$generichide
-@@||teclane.com^$generichide
-@@||tipsdroidmax.com^$generichide
 @@||topnaturaltips.com^$generichide
 @@||topwebsitelists.com^$generichide
 @@||trenddify.com^$generichide
@@ -2310,7 +2069,6 @@ mathb-ege.sdamgia.ru##.content >div[style="margin-bottom:20px"] > div[style="wid
 @@||wikigain.com^$generichide
 @@||wisdomquotesandstories.com^$generichide
 @@||yoemigro.com^$generichide
-@@||zenfoneasus.com^$generichide
 ! https://forum.adguard.com/index.php?threads/camiris-com-nsfw-anti-adblock.20650/
 @@||camiris.com^$generichide
 @@/fuckadblock.js$domain=camiris.com
@@ -2323,9 +2081,6 @@ mathb-ege.sdamgia.ru##.content >div[style="margin-bottom:20px"] > div[style="wid
 @@||c.betrad.com/geo/ba.js$domain=boston.com|calgaryherald.com|calgarysun.com|celebuzz.com|montrealgazette.com|saveur.com
 @@||yahoo.com/lib/metro/g/myy/advertisement_*.js$domain=boston.com|calgaryherald.com|calgarysun.com|celebuzz.com|montrealgazette.com|saveur.com
 @@||google-analytics.com/analytics.js$domain=boston.com|calgaryherald.com|calgarysun.com|celebuzz.com|montrealgazette.com|saveur.com
-! https://forum.adguard.com/index.php?threads/19151/
-@@||avaxhome.co^$generichide
-@@/favicon.ico$domain=avaxhome.co
 ! https://github.com/AdguardTeam/AdguardFilters/issues/4143
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_$domain=allmusic.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/4189
@@ -2441,7 +2196,6 @@ latimes.com##.google-dfp-ad-caption
 @@||animecast.net^$generichide
 @@||armyranger.com^$generichide
 @@||boxylucha.com^$generichide
-@@||coreseeker.com^$generichide
 @@||duniailkom.com^$generichide
 @@||enciclopediaonline.com^$generichide
 @@||eyalo.com^$generichide
@@ -2449,10 +2203,8 @@ latimes.com##.google-dfp-ad-caption
 @@||fotopixel.es^$generichide
 @@||freeiphone.fr^$generichide
 @@||hairstylesthatwork.com^$generichide
-@@||hello-e1.com^$generichide
 @@||ichberlin.com^$generichide
 @@||indostarmedia.com^$generichide
-@@||indrive.net^$generichide
 @@||ireez.com^$generichide
 @@||keepkoding.com^$generichide
 @@||latribunadeautomocion.es^$generichide
@@ -2466,7 +2218,6 @@ latimes.com##.google-dfp-ad-caption
 @@||pictasty.com^$generichide
 @@||playlists.rocks^$generichide
 @@||rencah.com^$generichide
-@@||riverdesdelatribuna.com.ar^$generichide
 @@||sarkarinaukry.com^$generichide
 @@||seamanmemories.com^$generichide
 @@||socialmediaverve.com^$generichide
@@ -2481,30 +2232,28 @@ latimes.com##.google-dfp-ad-caption
 @@||javhoho.com^$generichide
 @@||isekaisubs.web.id^$generichide
 @@||buydekhke.com^$generichide
-@@||gaydelicious.com^$generichide
 @@||gaypornmasters.com^$generichide
 @@||plugincrack.com^$generichide
 @@||g.doubleclick.net/tag/js/gpt.js$domain=ccthesims.com
-@@/wp-content/plugins/ad-inserter/*$domain=plugincrack.com|gaypornmasters.com|gaydelicious.com|buydekhke.com|isekaisubs.web.id|javhoho.com|udoyoshi.com|amyscans.com|adrianoluis.net|animecast.net|armyranger.com|boxylucha.com|coreseeker.com|duniailkom.com|enciclopediaonline.com|eyalo.com|fosslovers.com|fotopixel.es|freeiphone.fr|hairstylesthatwork.com|hello-e1.com|ichberlin.com|indostarmedia.com|indrive.net|ireez.com|keepkoding.com|latribunadeautomocion.es|linemarlin.com|lumpiastudio.com|mobility.com.ng|mygardening411.com|newstvonline.com|organismes.org|papagiovannipaoloii.altervista.org|pictasty.com|playlists.rocks|rencah.com|riverdesdelatribuna.com.ar|sarkarinaukry.com|seamanmemories.com|socialmediaverve.com|solnechnyj-kitaj.ru|thefoodstorydotcom.wpcomstaging.com|theorie-musik.de|topperpoint.com|transformator220.ru|vita-water.ru|googledrivelinks.com|ccthesims.com|papunika.com
-@@||contextual.media.net/dmedianet.js$domain=plugincrack.com|gaypornmasters.com|gaydelicious.com|buydekhke.com|isekaisubs.web.id|javhoho.com|udoyoshi.com|amyscans.com|adrianoluis.net|animecast.net|armyranger.com|boxylucha.com|coreseeker.com|duniailkom.com|enciclopediaonline.com|eyalo.com|fosslovers.com|fotopixel.es|freeiphone.fr|hairstylesthatwork.com|hello-e1.com|ichberlin.com|indostarmedia.com|indrive.net|ireez.com|keepkoding.com|latribunadeautomocion.es|linemarlin.com|lumpiastudio.com|mobility.com.ng|mygardening411.com|newstvonline.com|organismes.org|papagiovannipaoloii.altervista.org|pictasty.com|playlists.rocks|rencah.com|riverdesdelatribuna.com.ar|sarkarinaukry.com|seamanmemories.com|socialmediaverve.com|solnechnyj-kitaj.ru|thefoodstorydotcom.wpcomstaging.com|theorie-musik.de|topperpoint.com|transformator220.ru|vita-water.ru|googledrivelinks.com|ccthesims.com|papunika.com
-@@||ib.adnxs.com^$image,domain=plugincrack.com|gaypornmasters.com|gaydelicious.com|buydekhke.com|isekaisubs.web.id|javhoho.com|udoyoshi.com|amyscans.com|adrianoluis.net|animecast.net|armyranger.com|boxylucha.com|coreseeker.com|duniailkom.com|enciclopediaonline.com|eyalo.com|fosslovers.com|fotopixel.es|freeiphone.fr|hairstylesthatwork.com|hello-e1.com|ichberlin.com|indostarmedia.com|indrive.net|ireez.com|keepkoding.com|latribunadeautomocion.es|linemarlin.com|lumpiastudio.com|mobility.com.ng|mygardening411.com|newstvonline.com|organismes.org|papagiovannipaoloii.altervista.org|pictasty.com|playlists.rocks|rencah.com|riverdesdelatribuna.com.ar|sarkarinaukry.com|seamanmemories.com|socialmediaverve.com|solnechnyj-kitaj.ru|thefoodstorydotcom.wpcomstaging.com|theorie-musik.de|topperpoint.com|transformator220.ru|vita-water.ru|googledrivelinks.com|ccthesims.com|papunika.com
-@@||router.infolinks.com/dyn/apn-usync?$image,domain=plugincrack.com|gaypornmasters.com|gaydelicious.com|buydekhke.com|isekaisubs.web.id|javhoho.com|udoyoshi.com|amyscans.com|adrianoluis.net|animecast.net|armyranger.com|boxylucha.com|coreseeker.com|duniailkom.com|enciclopediaonline.com|eyalo.com|fosslovers.com|fotopixel.es|freeiphone.fr|hairstylesthatwork.com|hello-e1.com|ichberlin.com|indostarmedia.com|indrive.net|ireez.com|keepkoding.com|latribunadeautomocion.es|linemarlin.com|lumpiastudio.com|mobility.com.ng|mygardening411.com|newstvonline.com|organismes.org|papagiovannipaoloii.altervista.org|pictasty.com|playlists.rocks|rencah.com|riverdesdelatribuna.com.ar|sarkarinaukry.com|seamanmemories.com|socialmediaverve.com|solnechnyj-kitaj.ru|thefoodstorydotcom.wpcomstaging.com|theorie-musik.de|topperpoint.com|transformator220.ru|vita-water.ru|googledrivelinks.com|ccthesims.com|papunika.com
+@@/wp-content/plugins/ad-inserter/*$domain=plugincrack.com|gaypornmasters.com|buydekhke.com|isekaisubs.web.id|javhoho.com|udoyoshi.com|amyscans.com|adrianoluis.net|animecast.net|armyranger.com|boxylucha.com|duniailkom.com|enciclopediaonline.com|eyalo.com|fosslovers.com|fotopixel.es|freeiphone.fr|hairstylesthatwork.com|ichberlin.com|indostarmedia.com|ireez.com|keepkoding.com|latribunadeautomocion.es|linemarlin.com|lumpiastudio.com|mobility.com.ng|mygardening411.com|newstvonline.com|organismes.org|papagiovannipaoloii.altervista.org|pictasty.com|playlists.rocks|rencah.com|sarkarinaukry.com|seamanmemories.com|socialmediaverve.com|solnechnyj-kitaj.ru|thefoodstorydotcom.wpcomstaging.com|theorie-musik.de|topperpoint.com|transformator220.ru|vita-water.ru|googledrivelinks.com|ccthesims.com|papunika.com
+@@||contextual.media.net/dmedianet.js$domain=plugincrack.com|gaypornmasters.com|buydekhke.com|isekaisubs.web.id|javhoho.com|udoyoshi.com|amyscans.com|adrianoluis.net|animecast.net|armyranger.com|boxylucha.com|duniailkom.com|enciclopediaonline.com|eyalo.com|fosslovers.com|fotopixel.es|freeiphone.fr|hairstylesthatwork.com|ichberlin.com|indostarmedia.com|ireez.com|keepkoding.com|latribunadeautomocion.es|linemarlin.com|lumpiastudio.com|mobility.com.ng|mygardening411.com|newstvonline.com|organismes.org|papagiovannipaoloii.altervista.org|pictasty.com|playlists.rocks|rencah.com|sarkarinaukry.com|seamanmemories.com|socialmediaverve.com|solnechnyj-kitaj.ru|thefoodstorydotcom.wpcomstaging.com|theorie-musik.de|topperpoint.com|transformator220.ru|vita-water.ru|googledrivelinks.com|ccthesims.com|papunika.com
+@@||ib.adnxs.com^$image,domain=plugincrack.com|gaypornmasters.com|buydekhke.com|isekaisubs.web.id|javhoho.com|udoyoshi.com|amyscans.com|adrianoluis.net|animecast.net|armyranger.com|boxylucha.com|duniailkom.com|enciclopediaonline.com|eyalo.com|fosslovers.com|fotopixel.es|freeiphone.fr|hairstylesthatwork.com|ichberlin.com|indostarmedia.com|ireez.com|keepkoding.com|latribunadeautomocion.es|linemarlin.com|lumpiastudio.com|mobility.com.ng|mygardening411.com|newstvonline.com|organismes.org|papagiovannipaoloii.altervista.org|pictasty.com|playlists.rocks|rencah.com|sarkarinaukry.com|seamanmemories.com|socialmediaverve.com|solnechnyj-kitaj.ru|thefoodstorydotcom.wpcomstaging.com|theorie-musik.de|topperpoint.com|transformator220.ru|vita-water.ru|googledrivelinks.com|ccthesims.com|papunika.com
+@@||router.infolinks.com/dyn/apn-usync?$image,domain=plugincrack.com|gaypornmasters.com|buydekhke.com|isekaisubs.web.id|javhoho.com|udoyoshi.com|amyscans.com|adrianoluis.net|animecast.net|armyranger.com|boxylucha.com|duniailkom.com|enciclopediaonline.com|eyalo.com|fosslovers.com|fotopixel.es|freeiphone.fr|hairstylesthatwork.com|ichberlin.com|indostarmedia.com|ireez.com|keepkoding.com|latribunadeautomocion.es|linemarlin.com|lumpiastudio.com|mobility.com.ng|mygardening411.com|newstvonline.com|organismes.org|papagiovannipaoloii.altervista.org|pictasty.com|playlists.rocks|rencah.com|sarkarinaukry.com|seamanmemories.com|socialmediaverve.com|solnechnyj-kitaj.ru|thefoodstorydotcom.wpcomstaging.com|theorie-musik.de|topperpoint.com|transformator220.ru|vita-water.ru|googledrivelinks.com|ccthesims.com|papunika.com
 @@||google-analytics.com/analytics.js$domain=plugincrack.com
 @@||googletagmanager.com/gtag/js$domain=plugincrack.com
 ! ai_front anti-adblock
-bi-girl.net,itbusiness.com.ua,wikirise.com,mejoresmodsminecraft.site,gaydelicious.com,gaypornmasters.com,5moviesporn.net,freebulksmsonline.com,freemagazines.top,ubuntudde.com,mettablog.com,secondlifetranslations.com,charbelnemnom.com,lowkeytech.com,pinayvids.com##[style*="cursor:"][style*="position: fixed;"][style*="z-index:"]
-@@||contextual.media.net/dmedianet.js$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|5moviesporn.net|freewebcart.com|wristreview.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
-@@/ad-inserter*/*/*.js$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|5moviesporn.net|freewebcart.com|wristreview.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
-@@/ad-inserter*/images/ads.png$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|5moviesporn.net|freewebcart.com|wristreview.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
-@@||google-analytics.com/analytics.js$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|5moviesporn.net|freewebcart.com|pasend.cam|javnow.net|freebulksmsonline.com|victor-mochere.com
-@@||ib.adnxs.com^$image,domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|5moviesporn.net|freewebcart.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
-@@||router.infolinks.com/dyn/apn-usync$image,domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|5moviesporn.net|freewebcart.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
+bi-girl.net,itbusiness.com.ua,wikirise.com,mejoresmodsminecraft.site,gaypornmasters.com,freebulksmsonline.com,freemagazines.top,ubuntudde.com,mettablog.com,secondlifetranslations.com,charbelnemnom.com,lowkeytech.com,pinayvids.com##[style*="cursor:"][style*="position: fixed;"][style*="z-index:"]
+@@||contextual.media.net/dmedianet.js$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|freewebcart.com|wristreview.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
+@@/ad-inserter*/*/*.js$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|freewebcart.com|wristreview.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
+@@/ad-inserter*/images/ads.png$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|freewebcart.com|wristreview.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
+@@||google-analytics.com/analytics.js$domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|freewebcart.com|pasend.cam|javnow.net|freebulksmsonline.com|victor-mochere.com
+@@||ib.adnxs.com^$image,domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|freewebcart.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
+@@||router.infolinks.com/dyn/apn-usync$image,domain=bi-girl.net|itbusiness.com.ua|wikirise.com|mejoresmodsminecraft.site|freewebcart.com|pasend.cam|javnow.net|gcertificationcourse.com|pinayvids.com|secondlifetranslations.com|mettablog.com|freebulksmsonline.com|victor-mochere.com
 @@||bi-girl.net^$generichide
 @@||victor-mochere.com^$generichide
 @@||itbusiness.com.ua^$generichide
 @@||wikirise.com^$generichide
 @@||mejoresmodsminecraft.site^$generichide
-@@||5moviesporn.net^$generichide
 @@||freebulksmsonline.com^$generichide
 @@||mettablog.com^$generichide
 @@||secondlifetranslations.com^$generichide
@@ -2552,10 +2301,6 @@ iculture.nl##.ad-container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/19405
 ||ltn.hitomi.la/thlYeSta6.js$important
 ||ltn.hitomi.la/RaCtICanTi24.js$important
-! https://github.com/AdguardTeam/AdguardFilters/issues/19579
-! https://github.com/AdguardTeam/AdguardFilters/issues/15017
-! https://github.com/AdguardTeam/AdguardFilters/issues/13114
-cmovieshd.bz,vidstreaming.io##body > div[style^="z-index: 9999"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/13064
 forbes.com##.top-ad-container
 forbes.com##div[id^="google_ads_iframe_"]
@@ -2586,15 +2331,11 @@ sports.ru##.bonuses-aside
 ! https://github.com/AdguardTeam/AdguardFilters/issues/4764
 o2.pl##div[data-st-area="ST-Article-Body"] > div._1-MSN > div[style*="width: 970px;"]
 o2.pl##div[data-st-area="ST-Article-Body"] > div._1-MSN+div > div[style="padding-top: 20px;"] > div[class] > div[style*="height: 600px;"]
-! https://forum.adguard.com/index.php?threads/19151/
-avaxhome.co##a[href^="http://ul.to/ref"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/4061
 forbes.com###stackForbesAdvoice
 forbes.com##.article-speed-bump
 ! https://github.com/AdguardTeam/AdguardFilters/issues/3880
 /\:\/\/[a-z0-9]*.[a-z]*\/[0-9]*\//$third-party,domain=mintmanga.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/3327
-vidzi.tv##.player-ads
 ! https://github.com/AdguardTeam/AdguardFilters/issues/3090
 golem.de###screen > div[id][data-google-query-id]
 !
@@ -2610,9 +2351,6 @@ uptobox.com##.ad-square
 kinopoisk.ru###brandingFlash
 kinopoisk.ru##.direct-kp-customize
 ||st.kp.yandex.net/images/bnnr/$domain=kinopoisk.ru
-! https://forum.adguard.com/index.php?threads/12268/
-go4up.com##a[style="display:inline!important"] > img
-go4up.com##a[target$="_blank"] > img
 ! https://github.com/AdguardTeam/AdguardFilters/issues/2730
 on-movie.net##body > div[class^="skin-block_"][style^="background-image: url(data:image/jpeg;base64"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/2669
@@ -2765,8 +2503,6 @@ m.sports.ru##iframe[src^="http://www.sports.ru/desktop/special/"]
 @@||switching.software/replace/google-analytics/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/57812
 @@||spareroom.co.uk/*/offered-$domain=spareroom.co.uk
-! https://github.com/AdguardTeam/AdguardFilters/issues/57398
-@@||a.exdynsrv.com/ads.js$domain=loveheaven.net
 ! https://github.com/AdguardTeam/AdguardFilters/issues/56173
 @@||cdn.movie-pass.live/scripts/nwm-fcn.min.js$domain=opensubtitles.org
 opensubtitles.org###fcnbox
@@ -2825,8 +2561,6 @@ myshows.me##.adsbygoogle
 @@||securepubads.g.doubleclick.net/gpt/pubads_impl_*.js$domain=airlinepilotforums.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/27868
 @@||olxliban.com/en/ads/
-! https://github.com/AdguardTeam/AdguardFilters/issues/35540
-|https://$image,script,stylesheet,third-party,domain=1movies.is,badfilter
 ! https://github.com/AdguardTeam/AdGuardForSafari/issues/192
 @@||theregister.co.uk/*_adtech_
 ! https://github.com/AdguardTeam/AdguardFilters/issues/33093
@@ -2838,8 +2572,6 @@ inequality.org#@#.social-hide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34012
 @@||guce.engadget.com/consent
 @@||guce.advertising.com/collectIdentifiers
-! https://github.com/AdguardTeam/AdguardFilters/issues/32880
-|https://$image,other,script,stylesheet,third-party,xmlhttprequest,domain=ffmovies.ru|fmovies.to|fmovies.today,badfilter
 ! https://github.com/AdguardTeam/AdguardFilters/issues/31923
 @@||mbid.marfeelrev.com/hub/mbidder/adx$domain=cleantechnica.com
 @@||bc.marfeelcache.com/statics/marfeel/prebid-worker/webworker.js$domain=cleantechnica.com
@@ -2973,11 +2705,6 @@ inequality.org#@#.social-hide
 @@||google.com/js/bg/$domain=xhamster.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/4180
 @@||go.onelink.me/*?pid=
-! https://github.com/AdguardTeam/AdguardFilters/issues/3656
-@@||bp.blogspot.com^$domain=fmovies.to
-@@||googlevideo.com^$domain=fmovies.to
-@@||oloadcdn.net^$domain=fmovies.to
-@@||jwpltx.com^$domain=fmovies.to
 ! vmall.com - Fixing authorization
 @@.vmall.com/oauth
 ! https://github.com/AdguardTeam/AdguardFilters/issues/3879
@@ -2986,8 +2713,6 @@ inequality.org#@#.social-hide
 @@||vectorstock.com^$domain=vectorstock.com
 ! https://github.com/AdguardTeam/AdguardBrowserExtension/issues/466
 @@||11street.my/totalsearch/
-! https://github.com/AdguardTeam/AdguardFilters/issues/3559
-@@|http://*$domain=fmovies.to,~third-party
 !https://forum.adguard.com/index.php?threads/accountkiller-com.16162/
 @@||google-analytics.com/analytics.js^$domain=accountkiller.com
 ! https://forum.adguard.com/index.php?threads/pornve-com-nsfw.16118/
