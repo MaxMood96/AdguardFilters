@@ -8,6 +8,9 @@
 ! Bad:  $removeparam=utm_id,domain=example.org (for instance, should be in specific.txt)
 !
 !
+! AD Counter by live-revolution.co.jp
+$removeparam=adc_publisher
+$removeparam=adc_token
 ! https://kb.triplewhale.com/en/articles/5740620-klaviyo-integration#h_d0fb8c7039
 $removeparam=tw_medium
 $removeparam=tw_profile_id
@@ -37,7 +40,7 @@ $removeparam=_bhlid
 ! Not identified. Popular on Japanese sites
 $removeparam=_bdadid
 ! a8.net
-$removeparam=a8 
+$removeparam=a8
 ! personaclick.com
 $removeparam=recommended_by
 $removeparam=recommended_code
@@ -307,6 +310,9 @@ $removeparam=dpg_content
 ! AdmitAd tracking
 $removeparam=admitad_uid
 ! adjust.com tracking
+$removeparam=adj_campaign
+$removeparam=adj_t
+$removeparam=adj_creative
 $removeparam=gps_adid
 $removeparam=unicorn_click_id
 $removeparam=adjust_creative

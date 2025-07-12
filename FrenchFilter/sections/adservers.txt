@@ -7,6 +7,7 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||heliumads.com^
 ||proxy.ads.canalplus-bo.net^
 ||7bd92.v.fwmrm.net^
 ||7cbf2.v.fwmrm.net^
@@ -15,4 +16,3 @@
 ||7b9de.v.fwmrm.net^
 ||ads.dugwood.com^
 ||be-rtl.videoplaza.tv^
-||fristminyas.com^$third-party

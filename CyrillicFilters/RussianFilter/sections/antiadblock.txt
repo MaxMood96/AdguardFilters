@@ -10,20 +10,6 @@
 ! NOTE: UA rules copied to Ukrainian filter
 ! TODO: Remove not multi lang rules with .ua tld after splitting the filter (look at the end of file)
 !
-! AdBlocksBuilder
-.com/resources/draw_script.js$third-party
-!
-! AdRegain
-modsforwot.ru,helpsetup.ru,vargr.ru,trialkeys.ru#%#//scriptlet("abort-on-property-write", "adregain_wall")
-modsforwot.ru,helpsetup.ru,vargr.ru,trialkeys.ru#%#//scriptlet("abort-on-property-read", "ad_nodes")
-!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=trialkeys.ru|vargr.ru|modsforwot.ru
-modsforwot.ru,vargr.ru,trialkeys.ru#@#.AdSense
-modsforwot.ru,vargr.ru,trialkeys.ru#@#iframe[width="728"][height="90"]
-modsforwot.ru,vargr.ru,trialkeys.ru#@#img[width="728"][height="90"]
-!#endif
-!
-!
 ! https://github.com/AdguardTeam/AdguardFilters/issues/206755
 ||servermon.ru/assets/template_mon/js_src/script.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/207006
@@ -100,7 +86,7 @@ pikabu.ru#%#//scriptlet('abort-on-property-read', 'Object.prototype.shouldShowSt
 pikabu.ru#%#//scriptlet('abort-on-property-write', 'Ya')
 pikabu.ru$$script:contains(/\.getPropertyPriority.*=requestAnimationFrame/)
 !#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android)
-pikabu.ru#%#//scriptlet('remove-node-text', 'script', '/xhr\.setRequestHeader\((\w?_\w?)?header/')
+pikabu.ru#%#//scriptlet('remove-node-text', 'script', '/xhr\.setRequestHeader\(h[a-zA-Z0-9]?ad[a-zA-Z0-9]?[a-zA-Z0-9]?r/')
 !#endif
 ! sports.ru
 sports.ru#%#//scriptlet('json-prune', 'direct rtbAuctionInfo')
@@ -375,20 +361,6 @@ poli-vsp.ru#@##adSense
 @@||imageban.ru/ads.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/43243
 @@/advertisement.js$domain=happy-hack.ru
-! https://github.com/AdguardTeam/AdguardFilters/issues/45323
-!+ PLATFORM(ios, ext_android_cb)
-helpsetup.ru#@##solnisko111
-helpsetup.ru#$##solnisko111 { height: 1px!important; }
-helpsetup.ru$$script[tag-content="adBlockFunction"][max-length="1600"]
-!#if (!adguard_ext_edge && !adguard_app_ios && !adguard_ext_android_cb && !adguard_ext_safari)
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=helpsetup.ru
-||mc.yandex.ru/metrika/tag.js$script,redirect=noopjs,important,domain=helpsetup.ru
-!#endif
-!#if (adguard_ext_edge || adguard_app_ios || adguard_ext_android_cb || adguard_ext_safari)
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=helpsetup.ru
-@@||mc.yandex.ru/metrika/tag.js$domain=helpsetup.ru
-@@||an.yandex.ru/system/context.js$domain=helpsetup.ru
-!#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74166
 balticlivecam.com#%#//scriptlet("prevent-setTimeout", "isAdsBlock", "5000")
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
@@ -457,9 +429,6 @@ world-of-facts.com##body > #modal
 ||wp-r.github.io/aplacer/
 ! hevc-club.ucoz.net
 @@||ucoz.net/bnr/blocks/ads.js
-! https://github.com/AdguardTeam/AdguardFilters/issues/37163
-helpsetup.ru$$script[tag-content="advblock"][max-length="6200"]
-helpsetup.ru#%#//scriptlet("abort-current-inline-script", "Math.random", "advblock")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/32503
 @@||yastatic.net/pcode/adfox/loader.js$domain=kanobu.ru
 ! https://github.com/AdguardTeam/AdguardFilters/issues/32245
@@ -583,9 +552,6 @@ video.khl.ru#%#//scriptlet("set-constant", "Object.prototype.adblockers_detector
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=stalker-mods.clan.su
 ! https://github.com/AdguardTeam/AdguardFilters/issues/15653
 ||cdn-library.su^$domain=nikopolnews.net
-! https://github.com/AdguardTeam/AdguardFilters/issues/15558
-!+ NOT_OPTIMIZED PLATFORM(ext_ff, ext_opera, ios, ext_android_cb)
-@@||helpsetup.ru^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/15489
 @@||howdyho.net/media/js/adsbygoogle.js
 !
@@ -828,8 +794,6 @@ mindspace.ru###rba2
 @@||cashback.ru/adblock.js
 ! https://forum.adguard.com/index.php?threads/19635/
 @@||sinst.fwdcdn.com/js/*/advertisment.js
-! https://forum.adguard.com/index.php?threads/19436/
-@@||api.kinomoov.org^$generichide
 ! https://forum.adguard.com/index.php?threads/19272/
 proshivkis.ru#%#window.ab = false;
 @@||proshivkis.ru/advert.js
@@ -862,8 +826,6 @@ cybergame.tv###abwarn
 ! https://forum.adguard.com/index.php?threads/15822/
 @@||tests24.ru/advert.js
 tests24.ru#$#.g_rt { height: 1px!important;}
-! https://forum.adguard.com/index.php?threads/9842/
-@@||imgbum.net^$generichide
 ! https://forum.adguard.com/index.php?threads/15652/
 @@||ensage-forum.ru/*adv*.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/3274
@@ -1073,46 +1035,46 @@ overclockers.ru#@#.material-other-feed
 !#endif
 !
 ! rustorka.com
-game4you.top,monna2.top,apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top$$script:contains(/function ads_|_0x.*'write'/)
-game4you.top,monna2.top,apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top$$body > div:contains(/color: #333.*margin: auto; position:relative; text-align: left;/)
-game4you.top,monna2.top,apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top##div[id^="jetta"]
-game4you.top,monna2.top,apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top###chess2day
-game4you.top,monna2.top,apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top###as2_script
+game4you.top,monna2.top,apad2.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top$$script:contains(/function ads_|_0x.*'write'/)
+game4you.top,monna2.top,apad2.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top$$body > div:contains(/color: #333.*margin: auto; position:relative; text-align: left;/)
+game4you.top,monna2.top,apad2.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top##div[id^="jetta"]
+game4you.top,monna2.top,apad2.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top###chess2day
+game4you.top,monna2.top,apad2.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top###as2_script
 $removeheader=location,domain=zannn.top|innal.top
-game4you.top,monna2.top,apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top$$script[tag-content="=document[_"]
-game4you.top,monna2.top,apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top#$##e7af0de8b4 { height: 16px !important; }
+game4you.top,monna2.top,apad2.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top$$script[tag-content="=document[_"]
+game4you.top,monna2.top,apad2.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top#$##e7af0de8b4 { height: 16px !important; }
 !+ PLATFORM(ios, ext_android_cb, ext_ff, ext_opera, ext_chromium, ext_edge)
-@@||aj*.online^$domain=game4you.top|monna2.top|apad2.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|rustorka.top|naylo.top|zannn.top|innal.top,xmlhttprequest,script
-game4you.top,monna2.top,apad2.top,games-pc.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top##div[id^="epom-"]
+@@||aj*.online^$domain=game4you.top|monna2.top|apad2.top|rustorka.com|rustorka.net|rustorkacom.lib|rustorka.top|naylo.top|zannn.top|innal.top,xmlhttprequest,script
+game4you.top,monna2.top,apad2.top,rustorka.com,rustorka.net,rustorkacom.lib,rustorka.top,naylo.top,zannn.top,innal.top##div[id^="epom-"]
 !
-@@/clickheat.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/sponsored-links.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/ads-admin.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/sidead$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/punder-rotate.$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/pushdownAd.$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/pubads.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/newad.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/nativead.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/footerad.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/linkadv.$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/leftad.$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/lazyad.$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/layerad.$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/jspopunder.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/printad.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/prerollad.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/pop_ads.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/pop_ad.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/clickunder.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/pop-under.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/popunder.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/footerads.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/nativeads.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/side-ad.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/SidebarAds.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-@@/report_ad.js$~third-party,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
-$cookie=opt_js,domain=game4you.top|games-pc.top|rustorka.com|rustorka.net|rustorkacom.lib|rustorka.top|naylo.top
+@@/clickheat.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/sponsored-links.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/ads-admin.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/sidead$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/punder-rotate.$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/pushdownAd.$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/pubads.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/newad.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/nativead.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/footerad.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/linkadv.$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/leftad.$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/lazyad.$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/layerad.$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/jspopunder.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/printad.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/prerollad.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/pop_ads.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/pop_ad.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/clickunder.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/pop-under.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/popunder.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/footerads.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/nativeads.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/side-ad.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/SidebarAds.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+@@/report_ad.js$~third-party,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|naylo.top|monna2.top|zannn.top|innal.top|apad2.top
+$cookie=opt_js,domain=game4you.top|rustorka.com|rustorka.net|rustorkacom.lib|rustorka.top|naylo.top
 !
 rustorka.com#%#//scriptlet('abort-on-stack-trace', 'document.createElement', 'ads_script')
 rustorka.com###debil
@@ -1143,8 +1105,6 @@ qq-new.ru##.xenOverlay
 @@||ok-magazine.ru/sites/all/themes/*/ads.js
 ! https://forum.adguard.com/index.php?threads/11417/
 @@||r2-item.ru^$generichide
-! https://forum.adguard.com/index.php?threads/7182/
-@@||svetmonet.ru^$generichide
 ! https://forum.adguard.com/index.php?threads/11090/
 brazzers-hd.com#%#var isadblock=1;
 ! kinogb.net
@@ -1247,9 +1207,6 @@ sharasoft.com##.noadblock
 ||mmoru.com/board/clientscript/css*.js
 ! https://github.com/AdguardTeam/ExperimentalFilter/issues/749
 @@||porevo.info/js/advert.js
-@@||porevo.info^$jsinject
-! http://forum.adguard.com/showthread.php?6845
-@@||chingachgook.net/wp-content/themes/*/advert.js
 !
 ! https://github.com/AdguardTeam/ExperimentalFilter/issues/746
 ria.ru##.antiblock
@@ -1363,6 +1320,7 @@ ya.ru##.i-mini-bem:has(> div[data-hydration-id] > div > div.direct-close-block)
 ya.ru##.main-home-banner
 !
 ! Yandex.Search
+yandex.*##.SerpListFeature div.Skeleton_type_ad_search
 ya.ru,yandex.*##.DirectFeature
 ya.ru##div[data-hydration-id] > style + div[style^="--image-aspect-ratio:"]
 ||yandex.ru/search/_crpd/*/*/*_$script,replace=/\.?directBannerType//
@@ -1436,8 +1394,8 @@ yandex.*#?#.business-card-title-view__actions > div.business-card-title-view__ad
 ||yandex-pogoda.static-storage.net/*/*/*$script,replace=/adblock//
 !
 ! Yandex.Market
-market.yandex.*##div[id="/header/madvHeaderPromo"]
-market.yandex.*##div[id="/content/header/headerPromo"]
+market.yandex.*###\/content\/page\/fancyPage\/heroBannerCarousel
+market.yandex.*###\/content\/header\/madvHeaderPromo
 market.yandex.*###banner-streamer
 market.yandex.*##div[data-apiary-widget-name*="@marketfront/HeroBanner"]
 market.yandex.*##div[data-apiary-widget-id*="/headerPromo"]

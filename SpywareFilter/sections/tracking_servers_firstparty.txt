@@ -25,6 +25,34 @@
 ! Blocking piwik analytics subdomain(for DNS filtering)
 |piwik.
 !
+||clckdm.domclick.ru^
+||seo-service.domclick.ru^
+||ping.fastsimon.com^
+||adtcdn.unidadeditorial.es^
+||pixelcounter.marca.com^
+||analytics-service.api.linkme.global^
+||athena-event-provider.n11.com^
+||hepsiads-gw.hepsiburada.com^
+||tag.panorama.ai^
+||beacon.panorama.ai^
+||dtm.ashleyhomestore.ca^
+||maxwell.france.tv^
+||cdn.instant.one^
+||m.techpump.com^
+||d1vg5xiq7qffdj.cloudfront.net^
+||inbound-analytics.pixlee.co^
+||connect.blockboardtech.com^
+||analytics.macpaw.com^
+||mtg.macpaw.com^
+||collect.trendyol.com^
+||en-collect.trendyol.com^
+||demeter-tr-core-collect.trendyol.com^
+||lc-event.pixiv.net^
+||count.ing.de^
+||d30qdagvt44524.cloudfront.net^
+||tracker-beam.aktuality.sk^
+||collector.fullxh.com^
+||collector.xhamster.com^
 ||ss.samolet.ru^
 ||agent-server.sc-api.seaart.ai^
 ||reqstat.api.mega.co.nz^
@@ -827,7 +855,6 @@
 ||tracking.epicgames.com^
 ||tracking.fortnite.com^
 ||log.znews.vn^
-||aem-kakao-collector.onkakao.net^
 ||cellar-analytics.mapion.co.jp^
 ||event.hackle.io^
 ||r.aachener-zeitung.de^
@@ -1457,7 +1484,6 @@
 ||analytics*.carambo.la^
 ||analytics2.tvreport.co.kr^
 ||analyticsnew.overwolf.com^
-||analyzer*.fc2.com^
 ||anon-stats.eff.org^
 ||ape-tagit.timeinc.net^
 ||api-adservices.apple.com^
@@ -1499,7 +1525,6 @@
 ||beacon.ehow.com^
 ||beacon.gu-web.net^
 ||beacon.gutefrage.net^
-||beacon.indieclicktv.com^
 ||beacon.itmedia.jp^
 ||beacon.kmi-us.com^
 ||beacon.lycos.com^
@@ -1905,6 +1930,7 @@
 ||host*.rvshare.com^
 ||host*.rigbyandpeller.com^
 ||hstats*.hepsiburada.com^
+||htrace.wetvinfo.com^
 ||huffingtonpost.fr/px.gif^
 ||hummingbird.mavencoalition.io^
 ||hwa.his.huawei.com^
@@ -2560,7 +2586,6 @@
 ||t.webjavaskript.net^
 ||t.wizards.com^
 ||t*.zcvh.net^
-||t1.musthird.com^
 ||t2.hulu.com^
 ||t2.huluim.com^
 ||ta.trs.cn^

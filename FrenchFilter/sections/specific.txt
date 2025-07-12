@@ -6,14 +6,17 @@
 !
 ! For URL shorteners or simple sites with frequently changed ad servers.
 ! Incorrectly blocked domains can be excluded using regex(synchronize this regexp in all filters)
-/^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=scan-fr.cc
+/^(?!.*(mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|(\/\/|\.)vk\.com|yandex.|yastatic.net|ytimg.com|zencdn.net|player|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|(\/\/|\.)x\.com)).*$/$third-party,script,_____,domain=scan-fr.cc
 ! Similar to regexp above, but using the denyallow modifier
-*$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com,_____,domain=extreme-down.moe|dl-protect.link|tirexo.ink|zone-telechargement.*|fsmirror93.lol
+*$script,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com,_____,domain=dl-protect.link|zone-telechargement.*|fsmirror93.lol
 ! Similar to regexp above, but using the denyallow modifier and for xmlhttprequest
-$xmlhttprequest,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|raincaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com,_____,domain=zone-telechargement.*
+$xmlhttprequest,third-party,denyallow=mega.co.nz|mega.nz|libs.baidu.com|ilfcdn.li|bytecdntp.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|linkvertise.com|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|imgsmail.ru|cloudflare.net|rabbitstream.net|x.com,_____,domain=zone-telechargement.*
 !
 !
 !
+qwant.com#%#//scriptlet('json-prune', 'data.result.items.sidebar.[-].type.[=].advertiser_ads', 'data.search_id')
+qwant.com##.is-sidebar > div[class*=" "]:has(img[data-testid="advertiserAdsImage"])
+gamekult.com##.gk__sidebar__list  > li:has(> .g2__a-dc)
 numerama.com##.is-superb-lungfish
 numerama.com##.opti-kyd[data-gtm-bic]
 dexerto.fr##div[class*="bg-custom-ad-background"]
@@ -277,14 +280,9 @@ lequipe.fr##body div[id^="AmPlaceholder-"]
 orange.fr##.media-advert-rm-center
 minutesports.fr###slide
 orange.fr##div[id="oan_ora_1_300x250_hp.prospects"]
-cpasmieux.homes##.movie-xyz
-cpasmieux.homes###js-fake_player
-cpasmieux.homes##.adsvp-movie_collage_blue-wrapper
-cpasmieux.homes##li.nopls[data-plink="/streamvip.html"]
 futura-sciences.com##.article-sidebar > div[style="min-height: 600px;"]
 ||cvt1.sibnet.ru/j79fbdxg.js
 dl-protect.link##.col-sm-12 > center > span > a > img
-extreme-down.moe##.blockcontent > center > a[rel] > img
 ww9.bookys-ebooks.com##.dl_bg
 e-player-stream.app##.cta-ap
 letelegramme.fr##.tlg-ad-container
@@ -374,9 +372,7 @@ universfreebox.com###free-mid-article-native
 meteofrance.com###block-bandeauadministrablepoi
 liberation.fr##div[class^="default__OutbrainWrapper-"]
 generation-nt.com###page-hp > div.pub.overflow-hidden
-dl-protect.net##a[href^="/geturl"] > img
-/main.js$~third-party,domain=wawacity.*|annuaire-telechargement.tel|dl-protect.net
-||annuaire-telechargement.tel/static/img/atdl1.png
+/main.js$~third-party,domain=wawacity.*
 cnews.fr##.ban-top-habillage
 cnews.fr##div[id^="block-dm-ads-"]
 aufeminin.com###af_partnerBlock_seeAlso
@@ -486,7 +482,6 @@ purepeople.com##.ad__holder
 vostfr.stream##.mvic-btn > a.btn-successful
 caradisiac.com###MegaBan
 caradisiac.com##.containerPub
-||dl-protect.info/assets/images/dl1.png
 liberation.fr##div[class^="StickyAd-"]
 torrent911.*,oxtorrent.*,bookys-ebooks.com###vpnvpn
 ||widget.publishub.optimhub.com/assets/widget/widget_mntzm.js$domain=closermag.fr
@@ -498,11 +493,6 @@ programme-television.org##div[id^="programme-televisionorg_"][id$="_ar"].cmi_pSt
 linternaute.com,commentcamarche.net##.ads--insertor-casper
 seriecenter.com##a[class^="ebooks_orange_72890"]
 letemps.ch##.ad-container
-dl-protect.info##.blkad
-||dl-protect.info/170921.js
-zustream.org###plyb
-zustream.org###contenedor > div[class] > a[target="_blank"]
-vf-serie.org,vf-film.org##.bnr
 jeuxvideo.com##.sideWootbox
 actu-environnement.com##.module_annonce
 orange.fr##.autopromo-prospect
@@ -519,7 +509,6 @@ expressio.fr##.promoted-vcontainer
 neogeo-system.com##.inner a[onclick*="'shift'"][target="_blank"]
 ||11anim.com/ctag*.js
 ddaynormandy.forumgaming.fr###main-content a[onclick*="'shift'"][target="_blank"]
-channelstream.club###html3
 ||cdn.allsportsflix.top/scripts/nwm-fp.min.js
 lalanguefrancaise.com##div[style="min-height:260px;text-align:center;"]
 lalanguefrancaise.com##.custom-html-widget > div[style="min-height:250px;"]
@@ -553,9 +542,7 @@ eurosport.fr##.bet-btn
 eurosport.fr##.Winamax
 ||developpez.com/ws/offres?
 it-connect.fr##img[src$="Infrastructure_300x250_FR.gif"]
-wikiserie.me,cpasmieux.homes,hdss.uno,voirseries.co###pub
-voirseries.co##center[style="padding: 20px;"]
-voirseries.co##.custom-fake-media-info
+wikiserie.me,hdss.uno###pub
 ecranlarge.com#%#//scriptlet("abort-on-property-write", "__yget_ad_list")
 ||static.canal-plus.net/pub/*/*_*.mp4$redirect=noopmp4-1s,media
 tvanouvelles.ca##.header-banner-sticky
@@ -598,9 +585,7 @@ ici.tou.tv##div[class*="publicite-"]
 universanimeiz.com##iframe[src^="https://cdn.ctzcdn-ua.fr"]
 maxiapple.com##.cegg_widget_products
 ||cdn.insideall.com/galaxiemedia/*/iall.js
-||zone-telechargement2.net/haut.php
 ||yggtorrent.gg/assets/img/banner.jpg
-dustreaming.com##.col-player > div[style^="position:relative;"][style*="border:none !important; background:none;"]:not([class]):not([id])
 linternaute.com##div[id^="Crt-"]
 voyageforum.com##div[id^="pa"][style*="display: table;"][style*="float: left;"]
 voyageforum.com##.adShadow
@@ -628,8 +613,6 @@ programme-tv.net##.container-pave-haut-sidebar
 ||portail.free.fr/_/img/banhp/-1000x176-don.png
 tfarjo.cc,filmz.cc###asdfass
 tfarjo.cc,filmz.cc##.col-md-8 script + div:not([class]):not([id]) > div[style^="position:relative;"]:not([class]):not([id])
-torrents9.cc##.movie-detail > .row[style*="background-color:"][style*="margin-top:"]
-torrents9.cc##.movie-detail > .row a[target="_blank"][href^="/register"]
 yggtorrent.gg##.hadopi
 desinhibition.com##.espace-cam
 latribunedelart.com##.encart_colonne
@@ -729,15 +712,6 @@ empire-streamz.fr,empire-streaming.*,empire-stream.*##.hover-ads-interval
 ||fmovies.*/sw.js
 ! added when wadsBlocking is set to 1
 ||static1.purepeople.com/skins/autop.png
-! https://github.com/AdguardTeam/AdguardFilters/issues/34483
-!+ PLATFORM(ext_ff, ext_opera, ext_edge, ios, ext_android_cb, ext_safari, ext_ublock)
-voirseries.co###playerPub
-! https://github.com/AdguardTeam/AdguardFilters/issues/34421
-!+ PLATFORM(ext_ff, ext_opera, ext_edge, ios, ext_android_cb, ext_safari, ext_ublock)
-streamingdivx.co###playerPub
-! https://github.com/AdguardTeam/AdguardFilters/issues/33441
-!+ PLATFORM(ext_ff, ext_opera, ext_edge, ios, ext_android_cb, ext_safari, ext_ublock)
-annuaire-ebook.com##.adsbygoogle
 !
 !
 ! lesfrontaliers.lu

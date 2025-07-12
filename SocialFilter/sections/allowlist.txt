@@ -5,6 +5,11 @@
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
 !
+! lexlege.pl - broken website, scroll doesn't work and some elements are not displayed
+lexlege.pl#%#//scriptlet('trusted-set-constant', 'gapi', '{"plusone": {}}')
+lexlege.pl#%#//scriptlet('set-constant', 'gapi.plusone.render', 'noopFunc')
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||apis.google.com/js/plusone.js$domain=lexlege.pl
 ! https://cystore.com/page/tnf6th.aspx
 cystore.com#@#a[href^="https://lin.ee/"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/204919
@@ -102,8 +107,6 @@ yfsp.tv#@#.share-top
 rirekisho.yagish.jp#@#.sns_list
 ! foodboom.de - broken content in article
 foodboom.de#@#.fb-page
-! https://github.com/AdguardTeam/AdguardFilters/issues/175880
-610cktb.com#@#.share-tools
 ! https://github.com/AdguardTeam/AdguardFilters/issues/178951
 ! https://github.com/AdguardTeam/AdguardFilters/issues/175631
 !#if (adguard_app_ios || adguard_ext_android_cb)

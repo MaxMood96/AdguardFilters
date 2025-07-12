@@ -9,6 +9,26 @@
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/208565
+||guiavidaesaude.com/wp-settings/ads_anuncio.js
+guiavidaesaude.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', '/window\.getComputedStyle|adblock-/')
+! https://github.com/AdguardTeam/AdguardFilters/issues/208564
+fgtd.online#%#//scriptlet('set-cookie', 'unlock', '1')
+fgtd.online#%#//scriptlet('adjust-setTimeout', 'unlock', '*', '0.001')
+fgtd.online#%#//scriptlet('adjust-setInterval', 'seconds', '*', '0.001')
+fgtd.online#%#//scriptlet('prevent-fetch', 'popads.net')
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||popads.net/js/adblock.js$xmlhttprequest,domain=fgtd.online
+! https://github.com/AdguardTeam/AdguardFilters/issues/208581
+||eshentai.tv/app/eshentai/themes/assets/js/4dguard.js
+! https://github.com/AdguardTeam/AdguardFilters/issues/208409
+||imasdk.googleapis.com/js/sdkloader/ima3.js$redirect=google-ima3,domain=disneycdn.net
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=disneycdn.net
+! https://github.com/AdguardTeam/AdguardFilters/issues/208339
+cinemastervip.com#%#//scriptlet('abort-on-property-read', 'blockAdBlock')
+!+ PLATFORM(ios, ext_android_cb, ext_safari)
+@@||cinemastervip.com/wp-content/plugins/azo-ads/assets/js/ab-detector.min.js$domain=cinemastervip.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/208177
 mediasetinfinity.es#%#//scriptlet('prevent-element-src-loading', 'script', 'static-cloud.mediaset.net/misc/ad/adanalytics.js')
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=mediasetinfinity.es
@@ -374,9 +394,9 @@ megacanaisonline.me#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.co
 ! https://github.com/AdguardTeam/AdguardFilters/issues/206376
 ! https://github.com/AdguardTeam/AdguardFilters/issues/196297
 ! https://github.com/AdguardTeam/AdguardFilters/issues/159034
-tulink.org,acortados.com,notipostingt.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
-tulink.org,acortados.com,acortalink.me#%#//scriptlet('prevent-fetch', '/ads-twitter\.com|pagead|googleads|doubleclick/', '', 'opaque')
-tulink.org,acortados.com,todoandroid.live,gadgetzona.net,qwanturankpro.com#%#//scriptlet('prevent-fetch', 'method:HEAD')
+financialtrust.info,tulink.org,acortados.com,notipostingt.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
+financialtrust.info,tulink.org,acortados.com,acortalink.me#%#//scriptlet('prevent-fetch', '/ads-twitter\.com|pagead|googleads|doubleclick/', '', 'opaque')
+financialtrust.info,tulink.org,acortados.com,todoandroid.live,gadgetzona.net,qwanturankpro.com#%#//scriptlet('prevent-fetch', 'method:HEAD')
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 @@||static.ads-twitter.com/uwt.js$xmlhttprequest,domain=qwanturankpro.com|acortados.com|tulink.org
 @@||pagead2.googlesyndication.com/|$xmlhttprequest,domain=qwanturankpro.com|acortados.com|notipostingt.com|tulink.org
@@ -774,11 +794,6 @@ elcorreo.com#@#.text_ads
 elcorreo.com#@#.text-ads
 elcorreo.com#@#.text-ad-links
 !#endif
-! https://github.com/AdguardTeam/AdguardFilters/issues/88401
-porno-japones.top##div[class^="adde_"]
-! porno-japones.top - antiadblock
-porno-japones.top##div[id^="adde_modal-"]
-porno-japones.top#%#//scriptlet("abort-on-property-read", "adsBlocked")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85703
 lawebdelprogramador.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,xmlhttprequest,redirect=noopjs,domain=lawebdelprogramador.com
@@ -866,8 +881,6 @@ diariodegoias.com.br#%#//scriptlet("abort-on-property-read", "ppAdblocks")
 @@||tags.premiumads.com.br/ads/advertisement.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75110
 @@||todopolicia.com/foro/js/siropu/am/ads.min.js$domain=todopolicia.com
-! https://github.com/AdguardTeam/AdguardFilters/issues/74115
-deportealdia.live#%#//scriptlet("set-constant", "adblockDetector.init", "noopFunc")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/74026
 @@||mahimeta.com/networks/ad_code.php$domain=1i1.in
 ||mahimeta.com/networks/ad_code.php$xmlhttprequest,redirect=nooptext
@@ -1052,10 +1065,6 @@ sejasaudavel.net#$#.content #src_iframe { display: block !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/32132
 ||static.criteo.net/js/px.js?ch=$redirect=nooptext,important,domain=jovempan.uol.com.br
 ||cas.criteo.com/delivery/ajs.php$redirect=nooptext,important,domain=jovempan.uol.com.br
-! https://github.com/AdguardTeam/AdguardFilters/issues/32170
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=noopjs,important,domain=g1novelas.org
-!+ PLATFORM(ios, ext_android_cb, ext_safari)
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=g1novelas.org
 ! https://github.com/AdguardTeam/AdguardFilters/issues/31876
 !#if (!adguard_app_windows && !adguard_app_mac && !adguard_app_android && !adguard_ext_chromium && !adguard_ext_edge)
 @@||eldaryasolutiongame.blogspot.com^$generichide
@@ -1077,8 +1086,6 @@ sejasaudavel.net#$#.content #src_iframe { display: block !important; }
 @@||cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js$domain=doramasmp4.com
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||doramasmp4.com^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/29574
-||torrentbrazil.org/adbclk.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/29427
 animeshouse.net#%#//scriptlet("abort-current-inline-script", "document.addEventListener", "/;return \{clear:function\(\)\{/")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28732
@@ -1131,18 +1138,12 @@ seriesdonghua.com,mundodonghua.com#%#//scriptlet("set-constant", "loadingAds", "
 @@||novelasymangasjpo.blogspot.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/23534
 sapo.pt#@#.adslot
-! https://github.com/AdguardTeam/AdguardFilters/issues/22555
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
-@@||bludvfilmes.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/21896
 @@||eurogamer.pt^$generichide,app=iexplore.exe
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
 @@||eurogamer.pt^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/22178
 ||hilariouszinc.com^
-! https://github.com/AdguardTeam/AdguardFilters/issues/22053
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
-@@||futeboltvgratis.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/21733
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
 @@||static.logrosxbox.com/js/fuckadblock.js
@@ -1150,9 +1151,6 @@ sapo.pt#@#.adslot
 @@||logrosxbox.com/ad/banner/*.ad.json$~third-party
 !+ PLATFORM(ios, ext_android_cb)
 @@||logrosxbox.com^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/21618
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
-@@||megafilmestorrenthd.net^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/21623
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
 @@||letras2.com^$generichide
@@ -1162,10 +1160,6 @@ sapo.pt#@#.adslot
 @@||progamingstudio.com/js/siropu/am/ads.min.js
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
 @@||amtonline.com.br^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/20735
-@@||cdnjs.cloudflare.com/ajax/libs/fuckadblock^$domain=torrentdosfilmeshd.net
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
-@@||torrentdosfilmeshd.net^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/20635
 @@||animesvision.net/ads/adsbygoogle.js
 @@||animesvision.net/ads/advertisement.js
@@ -1179,9 +1173,6 @@ sapo.pt#@#.adslot
 ! https://github.com/AdguardTeam/AdguardFilters/issues/20407
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
 @@||majesy.com^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/20425
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
-@@||dompl3.info^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/20092
 !+ PLATFORM(ios, ext_android_cb)
 @@||meutimao.com.br^$generichide
@@ -1190,12 +1181,6 @@ sapo.pt#@#.adslot
 @@||latornamesa.blogspot.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/19311
 @@||damelibros.com^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/19253
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
-@@||micinehd.com^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/19258
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
-@@||lapumiafilmes.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/19151
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
 @@||acienciasgalilei.com^$generichide
@@ -1209,9 +1194,6 @@ superanimes.site#$#.adstopo { position: absolute!important; left: -3000px!import
 @@||dvdgayonline.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/18036
 @@||purohigueyano.com.do/wp-content/themes/purotheme/js/advertisement.js
-! https://github.com/AdguardTeam/AdguardFilters/issues/17844
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
-@@||pajaslocas.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/17298
 !+ PLATFORM(ios, ext_android_cb)
 @@||ecuestre.es^$generichide
@@ -1226,9 +1208,6 @@ superanimes.site#$#.adstopo { position: absolute!important; left: -3000px!import
 @@||androidaba.com^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/16470
 @@||adwhi.com/js/fuckadblock.js
-! https://github.com/AdguardTeam/AdguardFilters/issues/16193
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
-@@||seriesgato.tv^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/16185
 @@||assistir-tv.online/stream/advertisement.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/15964
@@ -1282,9 +1261,6 @@ shares.enetres.net#%#window.N3CanRunAds = true;
 @@||shares.enetres.net/ads.js.php?*&show_ad_&video_ads_&smart_ad_$domain=shares.enetres.net
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb)
 @@||trecetv.es^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/14188
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb)
-@@||popfilmeshd.net^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/13849
 !+ NOT_OPTIMIZED PLATFORM(ext_ff, ext_opera, ios, ext_android_cb)
 @@||ddmix.net^$generichide
@@ -1337,14 +1313,8 @@ universoformulas.com#%#window.UFads = true;
 ! https://github.com/AdguardTeam/AdguardFilters/issues/9018
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
 @@||eusouandroid.co^$generichide
-! https://github.com/AdguardTeam/AdguardFilters/issues/8160
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
-@@||megafilmestorrents.net^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/7701
 ||okdiario.com/app/*/js/check-blocker.js
-! https://github.com/AdguardTeam/AdguardFilters/issues/7422
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
-@@||sharecool.us^$generichide
 ! https://forum.adguard.com/index.php?threads/resolved-www-vivo-tv-com-anti-adblock.25892/
 !+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb, ext_ublock)
 @@||vivotvhd.com^$generichide
@@ -1396,9 +1366,6 @@ vsports.pt#%#window.adblockDetecter = true;
 @@||habboin.net^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/12421
 @@||gamersclub.com.br^*/ads.js
-! https://github.com/AdguardTeam/AdguardFilters/issues/6175
-!+ PLATFORM(ext_ff, ext_opera, ios, ext_android_cb)
-@@||futbolchile.net^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/6152
 !+ PLATFORM(ios, ext_android_cb)
 @@||flooxer.com^$generichide
@@ -1450,8 +1417,6 @@ farodevigo.es#%#window.pr_okvalida = true;
 @@||levante-emv.com/servicios/ads/dfp.js^
 ! uol.com.br antiadblock
 ||uol.com.br/camaleao/assets/web/javascript/detectadblock/detectadblock.js$important
-! https://forum.adguard.com/index.php?threads/21090/
-@@||connect-trojan.net^$generichide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/4538
 @@||tabletsesmartphones.org^$generichide
 ! https://forum.adguard.com/index.php?threads/18891/

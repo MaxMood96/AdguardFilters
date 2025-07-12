@@ -10,6 +10,9 @@
 ! https://forum.adguard.com/index.php?threads/ivoox-com-podcasts-issues.29530/
 ! ||addevweb.com^$third-party
 !
+||publyads.jstag.space^
+||crummydevioussucculent.com^$all
+||cibersexo.net^$third-party
 ||ceremonyjogglecling.com^
 ||simpleads.com.br^$third-party
 ||upeex.com.br^
@@ -68,14 +71,11 @@
 ||actualtrade.eu^$third-party
 ||ad-pub.terra.com.br^
 ||ad.correioweb.com.br^
-||ad.harrenmedianetwork.com^$third-party
 ||ad.pt.doubleclick.net^$third-party
 ||ad.terra.com.mx^
 ||ad.terra.com^
-||adbasket.net^$third-party
 ||adcell.de^$third-party
 ||ads.elpais.com.uy^
-||ads.eorezo.com^
 ||ads.gamavirtual.com^
 ||ads.gazetaesportiva.net^
 ||ads.grupozeta.es^$third-party

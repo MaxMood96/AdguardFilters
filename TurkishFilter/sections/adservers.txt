@@ -7,6 +7,10 @@
 ! Bad: ||adssubdomain.legitwebsite.com^ (should be in adservers_firstparty.txt)
 !
 !
+||azelvid.com^
+||polatads.com^
+||approximatedriver.com^
+||aggravatingoil.com^$all
 ||trpartners.io^$popup
 ||ahatm8od.top^
 ||statbest.in^
@@ -24,7 +28,6 @@
 ||revotas.com^$third-party
 ||cdn.cdnhipter.xyz^
 ||kingads2.org^
-||ad-service.shop^
 ||gr.hdream.cfd^
 ||kriptoparahaber.care^
 ||alty.fun^
@@ -125,7 +128,6 @@
 ||makroo.com^$third-party
 ||metrics34.com^$third-party
 ||minireklam.com^$third-party
-||mkazanc.com^$third-party
 ||mp.subservis.com^$third-party
 ||nativendo.com^$third-party
 ||numarabiz.com/scr^$third-party
@@ -151,7 +153,6 @@
 ||savoy.storage.cubecdn.net^
 ||segmentify.com^$third-party
 ||seldos.com.tr^$third-party
-||sinefilmizlesen.com^$third-party
 ||smrtbnr.com^
 ||tagon.co^$third-party
 ||theadx.com^$third-party
