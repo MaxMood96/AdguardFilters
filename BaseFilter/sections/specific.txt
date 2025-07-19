@@ -3746,7 +3746,6 @@ retromania.gg##.banner > *
 [$path=/search]startpage.com#?##main > div[class^="css-"]:has(> div[class^="css-"] > p[class^="css-"]:contains(/Annoncer|Anzeigen|Ads|Anuncios|Publicités|Advertenties|Annonser|Reklamy|Anúncios/))
 [$path=/search]startpage.com#?#.main-results-container > div.shopping-header > div[class^="css-"] > div[class^="css-"] > div.information-container + div[class^="css-"]:has(> span:contains(/Sponsoreret|Gesponsert|Sponsored|Patrocinad|Sponsorisé|Gesponsord|Sponset|Sponsorowane|Sponsrad/))
 crystalmark.info###main-wrap > #top-container-widget:has(> .widget_text:only-child > .textwidget > .adsbygoogle)
-3dmodelshare.org##.inner-ads
 intro-hd.net##.sidebar_master > .widget:has(> div[id^="intro-"] > .adsbygoogle)
 intro-hd.net##.widget__gallery .col-lg-8 > .row > .in_loop:has(> .card > .adsbygoogle)
 wco.tv,wcofun.net##div[style]:has(> div[class^="reklam_"]:only-child)
@@ -9965,7 +9964,6 @@ livescore.com###banner-top-image-wrapper
 ||fapfappy.com/*.php$script,~third-party
 foxaholic.com##div[class*="foxaholic-publift-"][class*="_sticky"]
 ||pouvideo.cc/player*/vast.js
-3dmodelshare.org##.single-728
 finviz.com##td[valign="top"][style*="gfx/banner"]
 livemint.com###adfreeDeskSpace
 livemint.com###specialAd
@@ -11086,9 +11084,6 @@ mirrorace.*##.vpn-download
 ||ytboob.com/long-limit-$script
 ||impactserving.com/preroll.engine$xmlhttprequest,redirect=nooptext
 ||twinrdsrv.com/preroll.engine$xmlhttprequest,redirect=nooptext
-3dmodelshare.org##.post > div.single-box
-3dmodelshare.org##.homeadv > span
-3dmodelshare.org##.widget_anthemes_300px
 ad-doge.com###ctl00_PageMainContent_balancesChartDiv12
 ||ad-doge.com/Images/b_ads/
 ||shrinkme.io/js/full-page-script.js
@@ -19634,7 +19629,7 @@ colegialasdeverdad.*,crackstreams.cx,anime4i.com,cuttyy.com,puffytr.com,anizm.ne
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 /^https?:\/\/([0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z][0-9a-z]?[0-9a-z]?[0-9a-z]?\.)?[0-9a-z-][0-9a-z-][0-9a-z-][0-9a-z-][0-9a-z-]+\.com\/\/?([0-9a-z][0-9a-z]\/)([0-9a-z][0-9a-z]\/)([0-9a-z][0-9a-z]\/)?[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]\.js/$script,xmlhttprequest,third-party
 !+ PLATFORM(ext_chromium_mv3)
-/\/[a-f0-9]{32}\.js(?:$|\?)/$script,xmlhttprequest,third-party,domain=tokyomotion.net|rarbg-official.to|jmanga.*|daftporn.com|85po.com|9tsu.tv|blogspot.comg|hqq.tv|javboys.com|javboys.upn.one|niraw.com|tiqu.cc|123av.*|1av.to|akuma.moe|fetchfile.me|gogoanime.*|haho.moe|hianime.to|jav.com.se|jav.re|xfantazy.com|myxxgirl.com|nnyy.in|sexiezpix.com
+/\/[a-f0-9]{32}\.js(?:$|\?)/$script,xmlhttprequest,third-party,domain=tokyomotion.net|rarbg-official.to|jmanga.*|daftporn.com|85po.com|9tsu.tv|blogspot.comg|hqq.tv|javboys.com|javboys.upn.one|niraw.com|tiqu.cc|123av.*|1av.to|akuma.moe|fetchfile.me|gogoanime.*|haho.moe|hianime.to|jav.com.se|jav.re|xfantazy.com|myxxgirl.com|nnyy.in|sexiezpix.com|hentai4.me|javhdporn.net|javseen.tv|njav.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54684
 ! New popads script - blocking popads script casues requests to "undefined" and in some cases website doesn't load correctly
 |https://undefined/|$script,redirect=noopjs
