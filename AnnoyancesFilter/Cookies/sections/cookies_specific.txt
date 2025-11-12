@@ -349,6 +349,7 @@ raz-zeitung.de,muensteraner-rechtsanwaelte.de,hardware-helden.de,naheland-apothe
 !
 ! NOTE: Regular rules
 !
+staloysius.nsw.edu.au##.article-acknowledge-main
 /assets/js/*.sirdata.js$domain=futbolfantasy.com
 planoplan.com##div[class^="cookies__"]
 home-appliances.philips##shared-anonymous-consent-management-banner
@@ -357,6 +358,7 @@ lide.cz##szn-cwl
 mosmetro.ru##cookie-banner
 capcut.com##tiktok-cookie-banner
 shopify.com###dux-privacy
+pyszne.pl##.cc-banner-granular
 gnn.pl##.marketing-notice
 ditur.pl#%#//scriptlet('trusted-click-element', 'button[\@click="acceptSelected()"]', '', '1000')
 prm.com#%#//scriptlet('trusted-set-cookie', 'CookieConsent', '1%2C0%2C0%2C0')
@@ -1121,7 +1123,7 @@ listaprzetargow.pl#%#//scriptlet('abort-current-inline-script', '$', 'js-cookie-
 ||exist.ru/ts/CookiesConfirmer.js
 history.com#%#//scriptlet('trusted-click-element', 'button[data-sentry-source-file="terms-of-use.tsx"]')
 qrcodefacil.com##.MuiGrid-root > div[class^="sc-"]:has(> div[class^="sc-"] > div[style] > div[style] > a[href="/privacy"])
-skycash.com,zemail.me###silktide-wrapper
+fontlab.com,skycash.com,zemail.me###silktide-wrapper
 cambuy.de##.cookie-popup::after
 chase.co.uk#%#//scriptlet('trusted-click-element', 'div[aria-describedby=""] button[data-variant="secondary"], div[aria-describedby=""] button[class*="focus-visible:tw-border-primaryFocusBorder"]', '!cookie:CookieConsents')
 gx.games#%#//scriptlet('trusted-set-cookie', 'cookie-consent', '{%22version%22:2%2C%22marketing%22:false%2C%22necessary%22:true}')
@@ -5426,7 +5428,7 @@ gamearter.com###awagon_gdpr_box
 careers.equinix.com#$#.consent-modal { display: none !important; }
 smulderstextiel.nl##div[class^="estrategy-cc-popup"]
 sailing.org###sotic-cookie-notice
-destigohotels.com,zegarki-diament.pl,skinmuses.com,berger-tools.co.uk,carrefoursa.com,amplitude-studios.com##div[id^="cookies"]
+incommonwith.com,destigohotels.com,zegarki-diament.pl,skinmuses.com,berger-tools.co.uk,carrefoursa.com,amplitude-studios.com##div[id^="cookies"]
 modelgigi.com,amplitude-studios.com###notification-container
 companyofheroes.com,games2gether.com,account.community.amplitude-studios.com##.cookies-control
 teufelaudio.pl#$#.p-layer[data-p-layer-contents-endpoint="/privacy-layer"] { display: none !important; }
@@ -7538,7 +7540,7 @@ semiconductor.samsung.com##div[id^="cookie_component"]
 ptwm.org.pl###cookies-fixed
 oferta.lotto.pl,raportdekra.pl##.landend-infobar-light
 ||rest.arbeitsagentur.de/headerfooter/*^feature=disclaimerwc
-deckhouse.ru,maiscelular.com.br,przelewy24.pl##body .gdpr
+digiseller.me,deckhouse.ru,maiscelular.com.br,przelewy24.pl##body .gdpr
 frost.co.uk,turk.net##body .rey-cookieNotice:not(#style_important)
 menmania.pl###times-legal-notice
 modamelis.com###btz-cookie-popup
@@ -12361,7 +12363,7 @@ seikowatches.com##.blk-Disclaimer
 bnf.fr##.block-bnf-cookies
 bose.ae,bose.at,bose.ca,bose.ch,bose.cl,bose.cn,bose.co,bose.co.jp,bose.co.nz,bose.co.uk,bose.com,bose.com.au,bose.de,bose.dk,bose.es,bose.fi,bose.fr,bose.hk,bose.hu,bose.ie,bose.it,bose.lu,bose.mx,bose.nl,bose.no,bose.pe,bose.pl,bose.se,bose.sg,bose.tw,bose.vn,bosebelgium.be,boseindia.com,boselatam.com##.bose-infoBar2016--cookie
 my.avira.com##.bottom-page-notification[ng-show="cookiePolicyCtrl.isNotificationVisible"]
-beamng.com,old-games.ru##.bottomFixer > div.Notices
+forum-sachsen.com,beamng.com,old-games.ru##.bottomFixer > div.Notices
 nhl.com##.btm-nhl-announcement-modal[data-cookie-id]
 handy-games.com##.bugme-fixed
 cda.pl##.bx-info-cookie

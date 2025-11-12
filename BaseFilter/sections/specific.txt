@@ -823,6 +823,7 @@ techarmor.xyz##.my-ad-container
 !
 ! NOTE: Specific rules
 !
+wwd.com##.wwd-subscribe-now-banner-ad-container
 ||cdn.iseekgirls.com/ads/
 iseekgirls.com###ads-rotating
 justporn.com##.avd-video-item
@@ -838,7 +839,7 @@ sxypix.com##.grid > div.gall_el:has(> div > div[data-cl-spot])
 ||mylust.com/static/js/initsite.min.js
 hohoj.tv###ads-in-video
 hohoj.tv##[data-link^="https://t.fluxtrck.site/"]
-porn300.com##.nf905n48
+porn300.com##.anf905n48
 youjizz.com###related > div.video-thumb:not([data-videoid])
 3movs.com###tab1
 3movs.com##.player > div.notify:has(> a[href^="https://landing.brazzersnetwork.com/"])
@@ -870,6 +871,8 @@ fontspace.com##.text-center[height]:has(> div[style^="min-height:"] > #fontspace
 fontspace.com##.text-center[height]:has(> div[style^="min-height:"] > div[id^="fontspace_incontent_"])
 fontspace.com##.font-container:has(> .text-center[height] > div[style^="min-height:"] > #fontspace_leaderboard_atf)
 fontspace.com##.font-container:has(> .text-center[height] > div[style^="min-height:"] > div[id^="fontspace_incontent_"])
+turkifsahub.com##a[href^="/out/"][aria-label*="Banner"]
+||turkifsahub.com/ads/
 send2video.com###banners
 ||send2video.com/banners?
 sterham.net$$script:contains(isDocReady())
@@ -20062,6 +20065,8 @@ duplichecker.com#?#.data_inbox > div:has(> * > span > div[data-ap-network])
 fmovies24.*,fmoviesz.*,bflix.to,watchseries.mx,hurawatch.*#%#//scriptlet('abort-current-inline-script', 'document.write', '_bnx')
 /assets/_bnx/*_*xx.$image,domain=fmovies24.*|fmoviesz.*|bflix.to|watchseries.mx|hurawatch.*
 !
+flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com##.zone
+flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com##.container__mainInner > .sideMenu:has(> .leftMenu__head > .leftMenu__advertisement)
 flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com##.adsenvelope
 flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com###detail > .detailLeaderboard
 flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com###box-over-content-a
