@@ -1,7 +1,7 @@
 sites:
   Belestepe (belestepe*.sbs):
-    last_known_mirror: belestepe836.sbs
-    success_since: 2026-05-28 01:43
+    last_known_mirror: belestepe846.sbs
+    success_since: 2026-05-30 15:29
   Turkifsaclub (turkifsaclub*.sbs):
     force_search_ahead: true
     last_known_mirror: turkifsaclub130.sbs
