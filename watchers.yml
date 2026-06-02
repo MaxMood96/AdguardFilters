@@ -36,8 +36,8 @@ sites:
     accept_antibot: true
     geoblock: TR
     force_search_ahead: true
-    last_known_mirror: papazsports1013.pro
-    success_since: 2026-06-01 15:09
+    last_known_mirror: papazsports1014.pro
+    success_since: 2026-06-02 15:52
   HiMovies (himovies.*):
     last_known_mirror: himovies.bz
     success_since: 2026-05-25
