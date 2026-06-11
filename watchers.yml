@@ -4,8 +4,8 @@ sites:
     success_since: 2026-06-01 17:38
   Turkifsaclub (turkifsaclub*.sbs):
     force_search_ahead: true
-    last_known_mirror: turkifsaclub130.sbs
-    success_since: 2026-05-25
+    last_known_mirror: turkifsaclub140.sbs
+    success_since: 2026-06-11 11:51
   Jmanga (jmanga.*):
     last_known_mirror: jmanga.nyc
     success_since: 2026-06-04 08:30
@@ -41,7 +41,7 @@ sites:
   HiMovies (himovies.*):
     last_known_mirror: himovies.bz
     failed_since: 2026-06-10 19:50
-    failed_days: 0
+    failed_days: 1
     potentially_dead: true
   Zonatmo (zonatmo.*):
     last_known_mirror: zonatmo.to
