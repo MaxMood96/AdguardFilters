@@ -8,7 +8,9 @@ sites:
     success_since: 2026-05-25
   Jmanga (jmanga.*):
     last_known_mirror: jmanga.rent
-    success_since: 2026-06-16 08:59
+    failed_since: 2026-06-19 06:41
+    failed_days: 0
+    potentially_dead: true
   iNat TV (inattv*.xyz):
     last_known_mirror: inattv1314.xyz
     success_since: 2026-06-14 08:25
@@ -43,7 +45,9 @@ sites:
     success_since: 2026-06-12 01:52
   Zonatmo (zonatmo.*):
     last_known_mirror: zonatmo.to
-    success_since: 2026-05-28 08:22
+    failed_since: 2026-06-19 06:41
+    failed_days: 0
+    potentially_dead: true
   TurkIfsa (turkifsa*.art):
     force_search_ahead: true
     last_known_mirror: turkifsa25.art
