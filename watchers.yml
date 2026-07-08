@@ -3,7 +3,7 @@ sites:
     initial_domain: https://vegamovies.hot/?re=vg
     last_known_mirror: vegamovies.navy
     failed_since: 2026-07-07 19:35
-    failed_days: 1
+    failed_days: 2
     potentially_dead: true
   Fmovies (fmovies.*):
     last_known_mirror: www.fmovies.gd
@@ -28,7 +28,7 @@ sites:
   Patronmac (patronmac*.cfd):
     last_known_mirror: patronmac96.cfd
     failed_since: 2026-07-07 19:35
-    failed_days: 1
+    failed_days: 2
     potentially_dead: true
   Piabet TV (piabettv*.live):
     force_search_ahead: true
@@ -87,19 +87,15 @@ sites:
     accept_antibot: true
     success_since: 2026-06-22 20:05
   Sadeceifsa (sadeceifsa*.lol):
-    last_known_mirror: sadeceifsa16.icu
-    failed_since: 2026-07-08 13:37
-    failed_days: 0
-    potentially_dead: true
+    last_known_mirror: sadeceifsa15.icu
+    success_since: 2026-07-08 22:57
   Hdturkifsa (hdturkifsa*.icu):
-    last_known_mirror: hdturkifsa54.cfd
-    failed_since: 2026-07-08 13:37
-    failed_days: 0
-    potentially_dead: true
+    last_known_mirror: hdturkifsa50.cfd
+    success_since: 2026-07-08 22:57
   Cimcime:
     last_known_mirror: cimcime133.live
     failed_since: 2026-07-08 13:37
-    failed_days: 0
+    failed_days: 1
     potentially_dead: true
   MaçtanMaça:
     last_known_mirror: mactanmaca512.sbs
