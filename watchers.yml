@@ -155,8 +155,8 @@ sites:
     success_since: 2026-07-16 17:02
   Askimyavas (askimyavas*.live):
     initial_domain: askimyavas.com
-    last_known_mirror: askimyavas168.live
-    success_since: 2026-07-17 09:30
+    last_known_mirror: askimyavas170.live
+    success_since: 2026-07-21 10:47
   Sultansportv (sultansportv*.com):
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
