@@ -4885,7 +4885,7 @@ turkkizlar31.com,turkkizlar32.com,turkkizlar33.com,turkkizlar34.com,turkkizlar35
 ||cimcime*.com/wp-content/uploads/*.gif
 [$domain=/cimcime\d+\.\w+$/]###ads-inside-main
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-cimcime141.live###ads-inside-main
+cimcime142.live###ads-inside-main
 !#endif
 !
 ! Frequently changed domains: dahahizli*.com
@@ -4982,8 +4982,8 @@ yavasgir136.live#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "
 [$domain=/cimcime\d+\.(com\|live)/]###ads-inside-main
 [$domain=/cimcime\d+\.(com\|live)/]#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "openPopup")
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-cimcime141.live###ads-inside-main
-cimcime141.live#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "openPopup")
+cimcime142.live###ads-inside-main
+cimcime142.live#%#//scriptlet("prevent-addEventListener", "DOMContentLoaded", "openPopup")
 !#endif
 !
 ! Frequently changed domains: askimyavas*.com
