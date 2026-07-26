@@ -17,7 +17,9 @@ sites:
     success_since: 2026-07-10 15:30
   Fmovies (fmovies.*):
     last_known_mirror: www.fmovies.gd
-    success_since: 2026-07-21 01:37
+    failed_since: 2026-07-26 09:10
+    failed_days: 0
+    potentially_dead: true
   Belestepe (belestepe*.sbs):
     last_known_mirror: belestepe615.sbs
     success_since: 2026-07-04 19:31
@@ -50,7 +52,9 @@ sites:
     probe_text:
       - /jwplayer.js
     last_known_mirror: matthewhotelscience.com
-    success_since: 2026-07-23 08:53
+    failed_since: 2026-07-26 09:10
+    failed_days: 0
+    potentially_dead: true
   PapazSports (papazsports*.pro):
     initial_domain: psgiris.pro
     accept_antibot: true
