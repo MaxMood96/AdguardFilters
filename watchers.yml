@@ -10,14 +10,14 @@ sites:
     initial_domain: nomorflix.icu
     last_known_mirror: nomorflix.cc
     failed_since: 2026-07-28 13:36
-    failed_days: 2
+    failed_days: 3
     potentially_dead: true
   Vegamovies:
     initial_domain: https://vegamovies.hot/?re=vg
     accept_antibot: true
     last_known_mirror: vegamovies.navy
     failed_since: 2026-07-28 13:36
-    failed_days: 2
+    failed_days: 3
     potentially_dead: true
   Fmovies (fmovies.*):
     last_known_mirror: www.fmovies.gd
@@ -38,9 +38,7 @@ sites:
   HDFilmCehennemi (hdfilmcehennemi*.org):
     initial_domain: t.co/3D4ep5ZtK4
     last_known_mirror: hdfilmcehennemi27.org
-    failed_since: 2026-07-30 01:37
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-07-30 15:18
   Patronmac (patronmac*.cfd):
     last_known_mirror: patronmac100.cfd
     accept_antibot: true
@@ -113,9 +111,9 @@ sites:
     last_known_mirror: hdturkifsa55.com
     success_since: 2026-07-29 01:37
   Cimcime (cimcime*.live):
-    last_known_mirror: cimcime146.live
+    last_known_mirror: cimcime147.live
     accept_antibot: true
-    success_since: 2026-07-29 13:37
+    success_since: 2026-07-30 15:18
   MaçtanMaça:
     last_known_mirror: mactanmaca512.sbs
     success_since: 2026-07-06 19:36
