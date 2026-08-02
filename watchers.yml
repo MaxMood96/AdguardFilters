@@ -64,7 +64,7 @@ sites:
   HiMovies (himovies.*):
     last_known_mirror: himovies.bz
     failed_since: 2026-07-31 01:38
-    failed_days: 2
+    failed_days: 3
     potentially_dead: true
   Zonatmo (zonatmo.*):
     last_known_mirror: zonatmo.to
