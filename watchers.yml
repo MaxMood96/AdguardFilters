@@ -2,10 +2,12 @@ sites:
   Flixer(flixer.*):
     last_known_mirror: flixer.gd
     accept_antibot: true
+    success_since: 2026-08-04 22:39
   Flixer(flixer.cx):
-  # Remove after a week if flixer.cx doesn’t redirect to a different domain.
+    # Remove after a week if flixer.cx doesn’t redirect to a different domain.
     last_known_mirror: flixer.cx
     accept_antibot: true
+    success_since: 2026-08-04 22:39
   VidFast (vidfast.*):
     last_known_mirror: vidfast.vc
     success_since: 2026-07-25 07:42
@@ -17,14 +19,16 @@ sites:
     initial_domain: nomorflix.icu
     last_known_mirror: nomorflix.cc
     failed_since: 2026-07-28 13:36
-    failed_days: 6
+    failed_days: 8
     potentially_dead: true
   Vegamovies:
     initial_domain: https://vglist.top/?re=vegamovies
     # initial_domain: https://1vegamovies.tw/?re=vg
     last_known_mirror: vegamovies.catering
     accept_antibot: true
-    success_since: 2026-07-31 13:36
+    failed_since: 2026-08-04 22:39
+    failed_days: 0
+    potentially_dead: true
   Fmovies (fmovies.*):
     last_known_mirror: www.fmovies.gd
     success_since: 2026-07-21 01:37
@@ -71,7 +75,7 @@ sites:
   HiMovies (himovies.*):
     last_known_mirror: himovies.bz
     failed_since: 2026-07-31 01:38
-    failed_days: 4
+    failed_days: 5
     potentially_dead: true
   Zonatmo (zonatmo.*):
     last_known_mirror: zonatmo.to
@@ -174,7 +178,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 0
+    failed_days: 2
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
@@ -208,7 +212,7 @@ sites:
   Livosports (livosports*.live):
     last_known_mirror: livosports30.live
     failed_since: 2026-07-30 19:33
-    failed_days: 4
+    failed_days: 6
     potentially_dead: true
   87betine (87betine*.live):
     last_known_mirror: 87betine.live
@@ -220,7 +224,7 @@ sites:
   JTV Kanal (jtvkanal*.vip):
     last_known_mirror: jtvkanal8.vip
     failed_since: 2026-07-30 19:33
-    failed_days: 4
+    failed_days: 6
     potentially_dead: true
   Ibizacanli (ibizacanli*.com):
     last_known_mirror: ibizacanli16.com
@@ -231,3 +235,4 @@ sites:
     success_since: 2026-07-31 13:36
   Bayconti TV (baycontitv*.com):
     last_known_mirror: baycontitv14.com
+    success_since: 2026-08-04 22:39
