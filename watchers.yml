@@ -2,10 +2,12 @@ sites:
   Flixer(flixer.*):
     last_known_mirror: flixer.gd
     accept_antibot: true
+    success_since: 2026-08-05 04:25
   Flixer(flixer.cx):
-  # Remove after a week if flixer.cx doesn’t redirect to a different domain.
+    # Remove after a week if flixer.cx doesn’t redirect to a different domain.
     last_known_mirror: flixer.cx
     accept_antibot: true
+    success_since: 2026-08-05 04:25
   VidFast (vidfast.*):
     last_known_mirror: vidfast.vc
     success_since: 2026-07-25 07:42
@@ -17,7 +19,7 @@ sites:
     initial_domain: nomorflix.icu
     last_known_mirror: nomorflix.cc
     failed_since: 2026-07-28 13:36
-    failed_days: 6
+    failed_days: 8
     potentially_dead: true
   Vegamovies:
     initial_domain: https://vglist.top/?re=vegamovies
@@ -71,7 +73,7 @@ sites:
   HiMovies (himovies.*):
     last_known_mirror: himovies.bz
     failed_since: 2026-07-31 01:38
-    failed_days: 4
+    failed_days: 6
     potentially_dead: true
   Zonatmo (zonatmo.*):
     last_known_mirror: zonatmo.to
@@ -113,11 +115,11 @@ sites:
     accept_antibot: true
     success_since: 2026-06-22 20:05
   Sadeceifsa (sadeceifsa*.lol):
-    last_known_mirror: sadeceifsa18.com
-    success_since: 2026-08-01 19:28
+    last_known_mirror: hdturkifsa57.com
+    success_since: 2026-08-05 04:25
   Hdturkifsa (hdturkifsa*.icu):
-    last_known_mirror: hdturkifsa56.com
-    success_since: 2026-08-01 19:28
+    last_known_mirror: hdturkifsa57.com
+    success_since: 2026-08-05 04:25
   Cimcime (cimcime*.live):
     last_known_mirror: cimcime147.live
     accept_antibot: true
@@ -174,7 +176,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 0
+    failed_days: 2
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
@@ -182,14 +184,14 @@ sites:
     force_search_ahead: true
     success_since: 2026-07-25 13:33
   Amatorifsa (amatorifsa*.com):
-    last_known_mirror: amatorifsa49.com
-    success_since: 2026-08-01 19:28
+    last_known_mirror: hdturkifsa57.com
+    success_since: 2026-08-05 04:25
   Dahahizli (dahahizli*.live):
     last_known_mirror: dahahizli137.live
     success_since: 2026-07-29 13:37
   Onlyifsa (onlyifsa*.com):
-    last_known_mirror: onlyifsa23.com
-    success_since: 2026-08-01 19:28
+    last_known_mirror: hdturkifsa57.com
+    success_since: 2026-08-05 04:25
   Hdifsaizle (hdifsaizle*.com):
     initial_domain: hdifsaizle.com
     last_known_mirror: hdifsaizle18.com
@@ -208,7 +210,7 @@ sites:
   Livosports (livosports*.live):
     last_known_mirror: livosports30.live
     failed_since: 2026-07-30 19:33
-    failed_days: 4
+    failed_days: 6
     potentially_dead: true
   87betine (87betine*.live):
     last_known_mirror: 87betine.live
@@ -220,7 +222,7 @@ sites:
   JTV Kanal (jtvkanal*.vip):
     last_known_mirror: jtvkanal8.vip
     failed_since: 2026-07-30 19:33
-    failed_days: 4
+    failed_days: 6
     potentially_dead: true
   Ibizacanli (ibizacanli*.com):
     last_known_mirror: ibizacanli16.com
@@ -231,3 +233,4 @@ sites:
     success_since: 2026-07-31 13:36
   Bayconti TV (baycontitv*.com):
     last_known_mirror: baycontitv14.com
+    success_since: 2026-08-05 04:25
