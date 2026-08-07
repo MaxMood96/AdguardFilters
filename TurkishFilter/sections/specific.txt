@@ -4544,8 +4544,8 @@ mahsunsports.xyz#%#//scriptlet('trusted-dispatch-event', 'ended', '#preroll-vide
 [$domain=/galyatv\d+\.com$/]##.pageskin-click
 [$domain=/galyatv\d+\.com$/]##.nk-nav-logo ~ ul
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-galyatv2.com##.pageskin-click
-galyatv2.com##.nk-nav-logo ~ ul
+galyatv3.com##.pageskin-click
+galyatv3.com##.nk-nav-logo ~ ul
 !#endif
 !
 ! Frequently changed domains: macvardi*.com
