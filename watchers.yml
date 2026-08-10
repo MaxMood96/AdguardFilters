@@ -19,7 +19,7 @@ sites:
     initial_domain: nomorflix.icu
     last_known_mirror: nomorflix.cc
     failed_since: 2026-07-28 13:36
-    failed_days: 12
+    failed_days: 14
     potentially_dead: true
   Vegamovies:
     initial_domain: https://vglist.top/?re=vegamovies
@@ -38,8 +38,8 @@ sites:
     last_known_mirror: turkifsaclub130.sbs
     success_since: 2026-07-04 19:31
   Jmanga (jmanga.*):
-    last_known_mirror: jmanga.loan
-    success_since: 2026-07-31 13:36
+    last_known_mirror: jmanga.farm
+    success_since: 2026-08-10 14:44
   iNat TV (inattv*.xyz):
     last_known_mirror: inattv1321.xyz
     success_since: 2026-08-01 19:28
@@ -175,7 +175,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 7
+    failed_days: 8
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
@@ -203,7 +203,7 @@ sites:
   Livosports (livosports*.live):
     last_known_mirror: livosports30.live
     failed_since: 2026-07-30 19:33
-    failed_days: 10
+    failed_days: 11
     potentially_dead: true
   87betine (87betine*.live):
     last_known_mirror: 87betine.live
@@ -211,11 +211,13 @@ sites:
       - 87betine.live
     pattern_changed: true
     non_pattern_mirror: www.google.com
-    success_since: 2026-07-30 19:33
+    failed_since: 2026-08-10 14:44
+    failed_days: 0
+    potentially_dead: true
   JTV Kanal (jtvkanal*.vip):
     last_known_mirror: jtvkanal8.vip
     failed_since: 2026-07-30 19:33
-    failed_days: 10
+    failed_days: 11
     potentially_dead: true
   Ibizacanli (ibizacanli*.com):
     last_known_mirror: ibizacanli16.com
@@ -264,9 +266,11 @@ sites:
     success_since: 2026-08-07 13:30
   Pasizle (pasizle*.com):
     last_known_mirror: pasizle858.com
-    success_since: 2026-08-07 19:23
+    failed_since: 2026-08-10 14:44
+    failed_days: 0
+    potentially_dead: true
   Justintvizle (justintvizle*.top):
     last_known_mirror: justintvizle730.top
     failed_since: 2026-08-07 19:23
-    failed_days: 2
+    failed_days: 3
     potentially_dead: true
