@@ -115,7 +115,11 @@ sites:
     success_since: 2026-06-22 20:05
   Hdturkifsa (hdturkifsa*.icu):
     last_known_mirror: hdturkifsa62.com
-    success_since: 2026-08-14 01:36
+    success_since: 2026-08-14 14:47
+    heuristic_history:
+      - hdturkifsa62.com
+    pattern_changed: true
+    non_pattern_mirror: gizlidepo.com
   Cimcime (cimcime*.live):
     last_known_mirror: cimcime151.live
     accept_antibot: true
@@ -172,7 +176,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 11
+    failed_days: 12
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
@@ -185,7 +189,11 @@ sites:
   Hdifsaizle (hdifsaizle*.com):
     initial_domain: hdifsaizle.com
     last_known_mirror: hdifsaizle18.com
-    success_since: 2026-07-29 01:37
+    success_since: 2026-08-14 14:47
+    heuristic_history:
+      - hdifsaizle18.com
+    pattern_changed: true
+    non_pattern_mirror: gizlidepo.com
   7tv (7tv*.com):
     last_known_mirror: 7tv066.com
     success_since: 2026-07-28 13:36
@@ -300,3 +308,4 @@ sites:
     success_since: 2026-08-13 14:21
   Bahisligatv (bahisligatv*.com):
     last_known_mirror: bahisligatv2.com
+    success_since: 2026-08-14 14:47
