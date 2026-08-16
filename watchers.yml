@@ -107,7 +107,9 @@ sites:
     success_since: 2026-06-17 08:47
   Mapple-1 (mapple.*):
     last_known_mirror: mapple.rip
-    success_since: 2026-06-22 14:57
+    failed_since: 2026-08-16 19:39
+    failed_days: 0
+    potentially_dead: true
   Mapple-2 (mapplee.com):
     # probably with another domain name scheme
     last_known_mirror: mapplee.com
@@ -208,7 +210,7 @@ sites:
   Livosports (livosports*.live):
     last_known_mirror: livosports30.live
     failed_since: 2026-07-30 19:33
-    failed_days: 17
+    failed_days: 18
     potentially_dead: true
   87betine (87betine*.live):
     last_known_mirror: 87betine.live
@@ -220,7 +222,7 @@ sites:
   JTV Kanal (jtvkanal*.vip):
     last_known_mirror: jtvkanal8.vip
     failed_since: 2026-07-30 19:33
-    failed_days: 17
+    failed_days: 18
     potentially_dead: true
   Ibizacanli (ibizacanli*.com):
     last_known_mirror: ibizacanli16.com
@@ -277,12 +279,12 @@ sites:
   Pasizle (pasizle*.com):
     last_known_mirror: pasizle858.com
     failed_since: 2026-08-10 19:24
-    failed_days: 6
+    failed_days: 7
     potentially_dead: true
   Justintvizle (justintvizle*.top):
     last_known_mirror: justintvizle730.top
     failed_since: 2026-08-07 19:23
-    failed_days: 9
+    failed_days: 10
     potentially_dead: true
   Turkifsalife (turkifsalife*.blog):
     last_known_mirror: turkifsalife46.blog
@@ -304,8 +306,8 @@ sites:
     last_known_mirror: taratv31.shop
     success_since: 2026-08-13 14:21
   Taraftarium24 BJK (taraftarium24bjk*.com):
-    last_known_mirror: taraftarium24bjk10.com
-    success_since: 2026-08-13 14:21
+    last_known_mirror: taraftarium24bjk11.com
+    success_since: 2026-08-16 19:39
   Bahisligatv (bahisligatv*.com):
     last_known_mirror: bahisligatv2.com
     success_since: 2026-08-14 13:31
