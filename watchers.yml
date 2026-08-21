@@ -9,7 +9,9 @@ sites:
   Cineby (cineby.*):
     initial_domain: www.cineby.app
     last_known_mirror: www.cineby.at
-    success_since: 2026-07-31 01:38
+    failed_since: 2026-08-21 15:46
+    failed_days: 0
+    potentially_dead: true
   NomorFlix (nomorflix.*):
     # initial_domain: nomorflix.icu
     last_known_mirror: nomorflix.cc
@@ -22,7 +24,9 @@ sites:
     success_since: 2026-08-18 01:32
   Fmovies (fmovies.*):
     last_known_mirror: www.fmovies.gd
-    success_since: 2026-07-21 01:37
+    failed_since: 2026-08-21 15:46
+    failed_days: 0
+    potentially_dead: true
   Belestepe (belestepe*.sbs):
     last_known_mirror: belestepe645.sbs
     success_since: 2026-08-20 07:20
@@ -48,7 +52,7 @@ sites:
     force_search_ahead: true
     last_known_mirror: piabettv18.live
     failed_since: 2026-08-19 13:21
-    failed_days: 2
+    failed_days: 3
     potentially_dead: true
   voe.sx:
     initial_domain: https://voe.sx/e/q9ed7q8sqh2d
@@ -71,7 +75,7 @@ sites:
   Zonatmo (zonatmo.*):
     last_known_mirror: zonatmo.to
     failed_since: 2026-08-21 07:20
-    failed_days: 0
+    failed_days: 1
     potentially_dead: true
   TurkIfsa (turkifsa*.art):
     force_search_ahead: true
@@ -178,7 +182,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 18
+    failed_days: 19
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
