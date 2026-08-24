@@ -41,14 +41,14 @@ sites:
     last_known_mirror: hdfilmcehennemi27.org
     success_since: 2026-07-30 07:51
   Patronmac (patronmac*.cfd):
-    last_known_mirror: patronmac100.cfd
+    last_known_mirror: patronmac101.cfd
     accept_antibot: true
-    success_since: 2026-07-11 19:27
+    success_since: 2026-08-24 15:34
   Piabet TV (piabettv*.live):
     force_search_ahead: true
     last_known_mirror: piabettv18.live
     failed_since: 2026-08-19 13:21
-    failed_days: 5
+    failed_days: 6
     potentially_dead: true
   voe.sx:
     initial_domain: https://voe.sx/e/q9ed7q8sqh2d
@@ -176,7 +176,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 21
+    failed_days: 22
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
@@ -310,11 +310,11 @@ sites:
     success_since: 2026-08-15 19:08
   Gizlidepo (gizlidepo*.com):
     last_known_mirror: gizlikasa34.com
-    success_since: 2026-08-20 01:33
+    success_since: 2026-08-24 15:34
     heuristic_history:
       - gizlikasa34.com
     pattern_changed: true
-    non_pattern_mirror: zevkdolu.com
+    non_pattern_mirror: hazdolu.com
   VIPLeague (vipleague.*):
     last_known_mirror: vipleague.vg
     success_since: 2026-08-20 13:22
@@ -326,7 +326,9 @@ sites:
     success_since: 2026-08-20 13:22
   NBABox Streams (nbabox.*):
     last_known_mirror: nbabox.co
-    success_since: 2026-08-21 13:21
+    failed_since: 2026-08-24 15:34
+    failed_days: 0
+    potentially_dead: true
   OlympicStreams (olympicweb.*):
     last_known_mirror: olympicweb.me
     success_since: 2026-08-21 13:21
