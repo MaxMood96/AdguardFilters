@@ -176,7 +176,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 23
+    failed_days: 24
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
@@ -200,7 +200,7 @@ sites:
   Livosports (livosports*.live):
     last_known_mirror: livosports30.live
     failed_since: 2026-07-30 19:33
-    failed_days: 26
+    failed_days: 27
     potentially_dead: true
   87betine (87betine*.live):
     last_known_mirror: 87betine.live
@@ -212,7 +212,7 @@ sites:
   JTV Kanal (jtvkanal*.vip):
     last_known_mirror: jtvkanal8.vip
     failed_since: 2026-07-30 19:33
-    failed_days: 26
+    failed_days: 27
     potentially_dead: true
   Ibizacanli (ibizacanli*.com):
     last_known_mirror: ibizacanli16.com
@@ -244,9 +244,9 @@ sites:
       - GalyaBet TV
     success_since: 2026-08-19 07:25
   Mahsunsports (mahsunsports*.xyz):
-    last_known_mirror: mahsunsports50.xyz
+    last_known_mirror: mahsunsports80.xyz
     force_search_ahead: true
-    success_since: 2026-08-07 01:49
+    success_since: 2026-08-26 10:48
   Fixbettv (fixbettv*.com):
     last_known_mirror: fixbettv84.com
     success_since: 2026-08-17 01:33
@@ -273,7 +273,7 @@ sites:
   Justintvizle (justintvizle*.top):
     last_known_mirror: justintvizle730.top
     failed_since: 2026-08-07 19:23
-    failed_days: 18
+    failed_days: 19
     potentially_dead: true
   Turkifsalife (turkifsalife*.blog):
     last_known_mirror: turkifsalife47.blog
