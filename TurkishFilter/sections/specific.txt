@@ -4932,10 +4932,10 @@ turk-ifsa11.com,turk-ifsa12.com,turk-ifsa13.com,turk-ifsa14.com,turk-ifsa15.com,
 [$domain=/turkifsa\d*\.com/]##.ad-banner-frame
 [$domain=/turkifsa\d*\.com/]##div[class][style^="min-height:"][style*="calc("]
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-turkifsa73.com,turkifsa74.com,turkifsa75.com,turkifsa76.com,turkifsa77.com,turkifsa78.com,turkifsa79.com,turkifsa80.com,turkifsa81.com,turkifsa82.com,turkifsa83.com##div[class]:has(> a:is([href^="https://cutt.ly/"],[href="https://denemebonusumi.com/"]))
-turkifsa73.com,turkifsa74.com,turkifsa75.com,turkifsa76.com,turkifsa77.com,turkifsa78.com,turkifsa79.com,turkifsa80.com,turkifsa81.com,turkifsa82.com,turkifsa83.com##video + div.absolute
-turkifsa73.com,turkifsa74.com,turkifsa75.com,turkifsa76.com,turkifsa77.com,turkifsa78.com,turkifsa79.com,turkifsa80.com,turkifsa81.com,turkifsa82.com,turkifsa83.com##.ad-banner-frame
-turkifsa73.com,turkifsa74.com,turkifsa75.com,turkifsa76.com,turkifsa77.com,turkifsa78.com,turkifsa79.com,turkifsa80.com,turkifsa81.com,turkifsa82.com,turkifsa83.com##div[class][style^="min-height:"][style*="calc("]
+turkifsa73.com,turkifsa74.com,turkifsa75.com,turkifsa76.com,turkifsa77.com,turkifsa78.com,turkifsa79.com,turkifsa80.com,turkifsa81.com,turkifsa82.com,turkifsa83.com,turkifsa84.com##div[class]:has(> a:is([href^="https://cutt.ly/"],[href="https://denemebonusumi.com/"]))
+turkifsa73.com,turkifsa74.com,turkifsa75.com,turkifsa76.com,turkifsa77.com,turkifsa78.com,turkifsa79.com,turkifsa80.com,turkifsa81.com,turkifsa82.com,turkifsa83.com,turkifsa84.com##video + div.absolute
+turkifsa73.com,turkifsa74.com,turkifsa75.com,turkifsa76.com,turkifsa77.com,turkifsa78.com,turkifsa79.com,turkifsa80.com,turkifsa81.com,turkifsa82.com,turkifsa83.com,turkifsa84.com##.ad-banner-frame
+turkifsa73.com,turkifsa74.com,turkifsa75.com,turkifsa76.com,turkifsa77.com,turkifsa78.com,turkifsa79.com,turkifsa80.com,turkifsa81.com,turkifsa82.com,turkifsa83.com,turkifsa84.com##div[class][style^="min-height:"][style*="calc("]
 !#endif
 !
 ! Frequently changed domains: turkifsa*.art
@@ -5786,9 +5786,9 @@ selcuksports2.com,selcuksports3.com,selcuksports4.com,selcuksports5.com,selcuksp
 taraftarium3-24.online##a[href="https://wa.me/447347044673"]
 taraftarium3-24.online,taraftariumhd61.live,taraftarium2spor.top,selcuksports.cv,taraftariumcanli2.site,justintvizle1.my,taraftarium24live.plus,taraftariumtr.cv,netspor54.buzz##.pageskin-container
 taraftarium3-24.online,taraftariumhd61.live,taraftarium2spor.top,selcuksports.cv,taraftariumcanli2.site,justintvizle1.my,taraftarium24live.plus,taraftariumtr.cv,netspor54.buzz##.player-ad-banner
-taraftarium24bjk12.com###ad-pageskin
-taraftarium24bjk12.com##.listAd
-taraftarium24bjk12.com,justintaraftarium.net#%#//scriptlet('trusted-replace-node-text', 'script', 'prerollEnabled', 'prerollEnabled:true', 'prerollEnabled:false')
+taraftarium24bjk13.com###ad-pageskin
+taraftarium24bjk13.com##.listAd
+taraftarium24bjk13.com,justintaraftarium.net#%#//scriptlet('trusted-replace-node-text', 'script', 'prerollEnabled', 'prerollEnabled:true', 'prerollEnabled:false')
 ||taraftarium24pro*.site/*.gif
 [$domain=/taraftarium24pro\d+\.site$/]##.below-player-banner
 [$domain=/taraftarium24pro\d+\.site$/]##.t24-sq-overlay
