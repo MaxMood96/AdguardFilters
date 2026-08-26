@@ -176,7 +176,7 @@ sites:
     initial_domain: sultansportv.com
     last_known_mirror: sultansportv0789.com
     failed_since: 2026-08-03 08:11
-    failed_days: 23
+    failed_days: 24
     potentially_dead: true
   Yavasgir (yavasgir*.live):
     last_known_mirror: yavasgir135.live
@@ -244,9 +244,9 @@ sites:
       - GalyaBet TV
     success_since: 2026-08-19 07:25
   Mahsunsports (mahsunsports*.xyz):
-    last_known_mirror: mahsunsports50.xyz
+    last_known_mirror: mahsunsports80.xyz
     force_search_ahead: true
-    success_since: 2026-08-07 01:49
+    success_since: 2026-08-26 10:48
   Fixbettv (fixbettv*.com):
     last_known_mirror: fixbettv84.com
     success_since: 2026-08-17 01:33
