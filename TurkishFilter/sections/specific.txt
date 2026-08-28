@@ -4978,10 +4978,10 @@ turkzzersifsa3.blog,turkzzersifsa4.blog,turkzzersifsa5.blog,turkzzersifsa6.blog,
 [$domain=/^turkifsalife\d+\.blog$/]###block-2
 [$domain=/^turkifsalife\d+\.blog$/]#%#//scriptlet('prevent-addEventListener', 'click', 'tik_sayac')
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-turkifsalife48.blog#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'app_advert')
-turkifsalife48.blog#%#//scriptlet('prevent-addEventListener', 'click', 'popUnder')
-turkifsalife48.blog###block-2
-turkifsalife48.blog#%#//scriptlet('prevent-addEventListener', 'click', 'tik_sayac')
+turkifsalife49.blog#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'app_advert')
+turkifsalife49.blog#%#//scriptlet('prevent-addEventListener', 'click', 'popUnder')
+turkifsalife49.blog###block-2
+turkifsalife49.blog#%#//scriptlet('prevent-addEventListener', 'click', 'tik_sayac')
 !#endif
 !
 ! Frequently changed domains: sotweturkifsa*.blog
@@ -5103,10 +5103,10 @@ tvakin.live,tvakin1.live,tvakin2.live,tvakin3.live,tvakin4.live,tvakin5.live,tva
 !
 ! Frequently changed domains: patronlive*.cfd
 ! Source: patronspor.is
-patrongol34.cfd,patrongol35.cfd##a[href="https://x.com/patronsporis"] ~ a[href][target="_blank"]:not(#telegram-link)
-patrongol34.cfd,patrongol35.cfd##.background-link
-patrongol34.cfd,patrongol35.cfd##.top-banner-header
-||blogger.googleusercontent.com/img/$domain=patrongol34.cfd|patrongol35.cfd
+patrongol35.cfd##a[href="https://x.com/patronsporis"] ~ a[href][target="_blank"]:not(#telegram-link)
+patrongol35.cfd##.background-link
+patrongol35.cfd##.top-banner-header
+||blogger.googleusercontent.com/img/$domain=patrongol35.cfd
 !
 ! Frequently changed domains: patronlive*.cfd; patronfutbol*.cfd
 ! Source: patronspor.is
@@ -5171,8 +5171,8 @@ turkkizlar31.com,turkkizlar32.com,turkkizlar33.com,turkkizlar34.com,turkkizlar35
 [$domain=/dahahizli\d+\.(com\|live)$/]###ads-inside-main
 [$domain=/dahahizli\d+\.(com\|live)$/]###video-player-ads
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-dahahizli143.live###ads-inside-main
-dahahizli143.live###video-player-ads
+dahahizli144.live###ads-inside-main
+dahahizli144.live###video-player-ads
 !#endif
 !
 ! Frequently changed domains: hepbetspor*.cfd
@@ -5778,9 +5778,9 @@ selcuksports2.com,selcuksports3.com,selcuksports4.com,selcuksports5.com,selcuksp
 taraftarium3-24.online##a[href="https://wa.me/447347044673"]
 taraftarium3-24.online,taraftariumhd61.live,taraftarium2spor.top,selcuksports.cv,taraftariumcanli2.site,justintvizle1.my,taraftarium24live.plus,taraftariumtr.cv,netspor54.buzz##.pageskin-container
 taraftarium3-24.online,taraftariumhd61.live,taraftarium2spor.top,selcuksports.cv,taraftariumcanli2.site,justintvizle1.my,taraftarium24live.plus,taraftariumtr.cv,netspor54.buzz##.player-ad-banner
-taraftarium24bjk13.com###ad-pageskin
-taraftarium24bjk13.com##.listAd
-taraftarium24bjk13.com,justintaraftarium.net#%#//scriptlet('trusted-replace-node-text', 'script', 'prerollEnabled', 'prerollEnabled:true', 'prerollEnabled:false')
+taraftarium24bjk14.com###ad-pageskin
+taraftarium24bjk14.com##.listAd
+taraftarium24bjk14.com,justintaraftarium.net#%#//scriptlet('trusted-replace-node-text', 'script', 'prerollEnabled', 'prerollEnabled:true', 'prerollEnabled:false')
 ||taraftarium24pro*.site/*.gif
 [$domain=/taraftarium24pro\d+\.site$/]##.below-player-banner
 [$domain=/taraftarium24pro\d+\.site$/]##.t24-sq-overlay
