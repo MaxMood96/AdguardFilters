@@ -1596,8 +1596,8 @@ firestream.to#%#//scriptlet('prevent-element-src-loading', 'script', 'googleapis
 !+ PLATFORM(ios, ext_android_cb, ext_safari)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=firestream.to
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234808
-sportsbite.org,sportsbite.*,sportsbite.lol#%#//scriptlet('prevent-fetch', '/adsbygoogle|divorceabetpiano\.com/')
-sportsbite.org,sportsbite.*#@#.ad_unit
+www.facebook.com,sportsbite.*,sportsbite.lol#%#//scriptlet('prevent-fetch', '/adsbygoogle|divorceabetpiano\.com/')
+www.facebook.com,sportsbite.*#@#.ad_unit
 ! https://github.com/AdguardTeam/AdguardFilters/issues/234736
 unicorn.asso.eu.org#%#//scriptlet('prevent-fetch', 'method:HEAD')
 unicorn.asso.eu.org#%#//scriptlet('set-constant', 'document.hidden', 'true')
