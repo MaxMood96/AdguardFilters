@@ -277,8 +277,8 @@ sites:
     heuristic_history:
       - porno28.shop
     pattern_changed: true
-    non_pattern_mirror: sikis.baby
-    success_since: 2026-09-07 13:14
+    non_pattern_mirror: sikis.buzz
+    success_since: 2026-09-08 13:10
   Rtally link (rtally.link):
     initial_domain: rtally.xyz
     last_known_mirror: www.rtally.xyz
@@ -380,9 +380,7 @@ sites:
     potentially_dead: true
   Bahiso TV (bahisotv*.com):
     last_known_mirror: bahisotv36.com
-    failed_since: 2026-09-08 01:23
-    failed_days: 0
-    potentially_dead: true
+    success_since: 2026-09-08 13:10
   Tennis Online (tennisonline.*):
     # initial_domain: http://tennisstream.me
     last_known_mirror: tennisonline.im
