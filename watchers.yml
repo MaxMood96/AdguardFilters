@@ -3,7 +3,7 @@ sites:
     force_search_ahead: true
     last_known_mirror: gmatv61.live
     failed_since: 2026-09-03 19:11
-    failed_days: 7
+    failed_days: 8
     potentially_dead: true
   Flixer(flixer.*):
     last_known_mirror: flixer.gd
@@ -62,8 +62,8 @@ sites:
     accept_antibot: true
     geoblock: TR
     force_search_ahead: true
-    last_known_mirror: www.papazsports1019.pro
-    success_since: 2026-07-19 01:37
+    last_known_mirror: www.papazsports1022.pro
+    success_since: 2026-09-10 22:13
   HiMovies (himovies.*):
     last_known_mirror: himovies.bz
     success_since: 2026-08-08 19:14
@@ -133,10 +133,10 @@ sites:
     success_since: 2026-08-28 10:34
   Inattvizle:
     initial_domain: inatgiris.com
-    last_known_mirror: www.inattvizle486.top
+    last_known_mirror: www.inattvizle488.top
     accept_antibot: true
     force_search_ahead: true
-    success_since: 2026-07-10 01:38
+    success_since: 2026-09-10 22:13
   Selcuksportshd:
     last_known_mirror: www.selcuksportshdbd813bd00f.xyz
     accept_antibot: true
@@ -194,7 +194,7 @@ sites:
   Livosports (livosports*.live):
     last_known_mirror: livosports30.live
     failed_since: 2026-07-30 19:33
-    failed_days: 42
+    failed_days: 43
     potentially_dead: true
   87betine (87betine*.live):
     last_known_mirror: 87betine.live
@@ -206,7 +206,7 @@ sites:
   JTV Kanal (jtvkanal*.vip):
     last_known_mirror: jtvkanal8.vip
     failed_since: 2026-07-30 19:33
-    failed_days: 42
+    failed_days: 43
     potentially_dead: true
   Ibizacanli (ibizacanli*.com):
     last_known_mirror: ibizacanli16.com
@@ -267,7 +267,7 @@ sites:
   Justintvizle (justintvizle*.top):
     last_known_mirror: justintvizle732.top
     failed_since: 2026-08-07 19:23
-    failed_days: 34
+    failed_days: 35
     potentially_dead: true
   Turkifsalife (turkifsalife*.blog):
     last_known_mirror: turkifsalife54.lat
@@ -327,7 +327,9 @@ sites:
     success_since: 2026-09-06 19:09
   NFLBox Streams (nflbox.*):
     last_known_mirror: nflbox.sx
-    success_since: 2026-08-25 01:32
+    failed_since: 2026-09-10 22:13
+    failed_days: 0
+    potentially_dead: true
   Rugby Streams (rugbybox.*):
     last_known_mirror: rugbybox.me
     success_since: 2026-08-25 01:32
