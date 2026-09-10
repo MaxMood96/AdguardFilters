@@ -6387,8 +6387,8 @@ inattvizle486.top##.under-vid-banner
 [$domain=/papazsports\d+\.pro/]##.dbad
 [$domain=/papazsports\d+\.pro/]##.under-vid-banner
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-www.papazsports1019.pro,papazsports1020.pro,papazsports1021.pro,papazsports1022.pro,papazsports1023.pro,papazsports1024.pro,papazsports1025.pro,papazsports1026.pro,papazsports1027.pro,papazsports1028.pro,papazsports1029.pro,papazsports1030.pro##.dbad
-www.papazsports1019.pro,papazsports1020.pro,papazsports1021.pro,papazsports1022.pro,papazsports1023.pro,papazsports1024.pro,papazsports1025.pro,papazsports1026.pro,papazsports1027.pro,papazsports1028.pro,papazsports1029.pro,papazsports1030.pro##.under-vid-banner
+www.papazsports1022.pro,www.papazsports1023.pro,www.papazsports1024.pro,www.papazsports1025.pro,www.papazsports1026.pro,www.papazsports1027.pro,www.papazsports1028.pro,www.papazsports1029.pro,www.papazsports1030.pro##.dbad
+www.papazsports1022.pro,www.papazsports1023.pro,www.papazsports1024.pro,www.papazsports1025.pro,www.papazsports1026.pro,www.papazsports1027.pro,www.papazsports1028.pro,www.papazsports1029.pro,www.papazsports1030.pro##.under-vid-banner
 !#endif
 [$domain=/papazsports\d+\.pro/]#%#//scriptlet('set-constant', 'puShown', 'true')
 [$domain=/papazsports\d+\.pro/]##.header-banner
@@ -6400,9 +6400,9 @@ www.papazsports1019.pro,papazsports1020.pro,papazsports1021.pro,papazsports1022.
 !#endif
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
 ! papazsports*.pro
-www.papazsports1019.pro,papazsports1020.pro,papazsports1021.pro,papazsports1022.pro,papazsports1023.pro,papazsports1024.pro,papazsports1025.pro,papazsports1026.pro,papazsports1027.pro,papazsports1028.pro,papazsports1029.pro,papazsports1030.pro#%#//scriptlet('adjust-setInterval', 'reklam_', '*', '0.001')
-www.papazsports1019.pro,papazsports1020.pro,papazsports1021.pro,papazsports1022.pro,papazsports1023.pro,papazsports1024.pro,papazsports1025.pro,papazsports1026.pro,papazsports1027.pro,papazsports1028.pro,papazsports1029.pro,papazsports1030.pro#%#//scriptlet('set-constant', 'puShown', 'true')
-www.papazsports1019.pro,papazsports1020.pro,papazsports1021.pro,papazsports1022.pro,papazsports1023.pro,papazsports1024.pro,papazsports1025.pro,papazsports1026.pro,papazsports1027.pro,papazsports1028.pro,papazsports1029.pro,papazsports1030.pro##.header-banner
+www.papazsports1022.pro,www.papazsports1023.pro,www.papazsports1024.pro,www.papazsports1025.pro,www.papazsports1026.pro,www.papazsports1027.pro,www.papazsports1028.pro,www.papazsports1029.pro,www.papazsports1030.pro#%#//scriptlet('adjust-setInterval', 'reklam_', '*', '0.001')
+www.papazsports1022.pro,www.papazsports1023.pro,www.papazsports1024.pro,www.papazsports1025.pro,www.papazsports1026.pro,www.papazsports1027.pro,www.papazsports1028.pro,www.papazsports1029.pro,www.papazsports1030.pro#%#//scriptlet('set-constant', 'puShown', 'true')
+www.papazsports1022.pro,www.papazsports1023.pro,www.papazsports1024.pro,www.papazsports1025.pro,www.papazsports1026.pro,www.papazsports1027.pro,www.papazsports1028.pro,www.papazsports1029.pro,www.papazsports1030.pro##.header-banner
 !#endif
 !
 ! START: Yandex
