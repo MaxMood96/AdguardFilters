@@ -4769,16 +4769,16 @@ pelitcanlitv.com##div[class^="ad-"]
 !
 ! Frequently changed domains: gunlukmola.com
 ! Source: gunlukmola.com
-.gif|$domain=afyonakhaber.com
-afyonakhaber.com##.onwin-top-wrap
-afyonakhaber.com##a[href^="/tk/siteleriniz"]
-afyonakhaber.com##a[rel="nofollow noopener noreferrer sponsored"]
-afyonakhaber.com###tg-cta-container
-afyonakhaber.com##.banner-grid-wrap
-afyonakhaber.com###hcExit
-afyonakhaber.com##.pd-adbn
-afyonakhaber.com#$##offerBox { display: none !important; }
-afyonakhaber.com#$##mainVideo { display: block !important; }
+.gif|$domain=mercanoda.com
+mercanoda.com##.onwin-top-wrap
+mercanoda.com##a[href^="/tk/siteleriniz"]
+mercanoda.com##a[rel="nofollow noopener noreferrer sponsored"]
+mercanoda.com###tg-cta-container
+mercanoda.com##.banner-grid-wrap
+mercanoda.com###hcExit
+mercanoda.com##.pd-adbn
+mercanoda.com#$##offerBox { display: none !important; }
+mercanoda.com#$##mainVideo { display: block !important; }
 !
 ! Frequently changed domains: lionlinehd*.com
 ! Source: lionlinehd165.com
@@ -6305,9 +6305,9 @@ sinefy3.com,sinefy4.com,sinefy5.com,sinefy6.com,sinefy7.com,sinefy8.com,sinefy9.
 [$domain=/sporligtv\d+\.live/]###ustbanner
 [$domain=/sporligtv\d+\.live/]###superderbi
 !#if (adguard_app_ios || adguard_ext_safari || adguard_ext_android_cb || ext_ublock)
-sporligtv628.live##div[id^="binxell"]
-sporligtv628.live###ustbanner
-sporligtv628.live###superderbi
+sporligtv629.live##div[id^="binxell"]
+sporligtv629.live###ustbanner
+sporligtv629.live###superderbi
 !#endif
 !
 ! Frequently changed domains: avrupabettv*.com
